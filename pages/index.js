@@ -19,6 +19,8 @@ export default function Home() {
           <p className={styles.description}>Canabis testing</p>
         </header>
 
+        <p> oasidfjlkamsd flkma;smd</p>
+
         <section>
           <Header />
           <About />
