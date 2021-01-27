@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import Header from '../components/index/header'
+import About from '../components/index/focus'
+import Focus from '../components/index/about'
+import Services from '../components/index/services'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,10 +20,10 @@ export default function Home() {
         </header>
 
         <section>
-          <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/services">Services</a></li>
-          </ul>
+          <Header />
+          <About />
+          <Focus />
+          <Services />
           <p>
             Content goes here
           </p>
