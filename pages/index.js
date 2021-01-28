@@ -8,28 +8,30 @@ import Services from '../components/index/services'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>CIRTATIC</title>
-      </Head>
+    <>
+      <Header />
+      <div className={styles.container}>
+        <Head>
+          <title>CIRTATIC</title>
+        </Head>
 
-      <main className={styles.main}>
-        <header>
-          <h1 className={styles.title}>CIRTATIC</h1>
-          <p className={styles.description}>Canabis testing</p>
-        </header>
+        <main className={styles.main}>
+          <header>
+            <h1 className={styles.title}>CIRTATIC</h1>
+            <p className={styles.description}>Canabis testing</p>
+          </header>
 
-        <section>
-          <Header />
-          <About />
-          <Focus />
-          <Services />
-          <p>
-            Content goes here
-          </p>
-        </section>
-      </main>
-    </div>
+          <section>
+            <About />
+            <Focus />
+            <Services />
+            <p>
+              Content goes here
+            </p>
+          </section>
+        </main>
+      </div>
+    </>
     /* <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
