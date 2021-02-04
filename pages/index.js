@@ -13,13 +13,21 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
         <Head>
-          <title>CIRTATIC</title>
+          <title>CIRTATIC - Cannabis Testing, Inspection and Certification</title>
         </Head>
 
         <main className={styles.main}>
           <header>
-            <h1 className={styles.title}>Cirta</h1>
-            <p className={styles.description}>Canabis testing</p>
+            { /* <h1 className={styles.title}>Cirta</h1>
+            <p className={styles.description}>Canabis testing</p> */ } 
+            <div className="hero-slider-caption">
+              <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
+              <span data-animation="fadeInUps" data-delay=".4s">Cannabis Testing, Inspection and Certification</span>
+            </div>
+
+            <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
+              <a className="c-btn" href="#contact">contact me</a>
+            </div>
           </header>
 
           <section>
