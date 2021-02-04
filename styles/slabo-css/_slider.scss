@@ -1,0 +1,259 @@
+/* 4. slider */
+.hero-area {
+	position: relative;
+}
+.hero-tag {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	right: 0;
+}
+.hero-tag-text {
+	text-align: center;
+	padding: 30px 0;
+    border-top: 1px solid #333;
+    & p {
+        margin: 0;
+        color: #adadad;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        @media #{$md}{
+            letter-spacing: 2px;
+        }
+        @media #{$xs}{
+            letter-spacing: 0px;
+        }
+    }
+}
+.slider-height {
+	min-height: 950px;
+    background-position: center top;
+    @media #{$laptop}{
+        min-height: 750px;
+    }
+    @media #{$lg}{
+        min-height: 700px;
+    }
+    @media #{$md}{
+        min-height: 600px;
+    }
+    @media #{$xs}{
+        min-height: 650px;
+    }
+}
+.single-slider{
+    background-position: center center;
+    background-size: cover;
+    @media #{$xs}{
+        background-position: left;
+    }
+}
+.slider-video-icon {
+    & a{
+        font-size: 16px;
+        color: $theme-color;
+        background: $white;
+        height: 128px;
+        display: inline-block;
+        width: 128px;
+        line-height: 128px;
+        text-align: center;
+        border-radius: 50%;
+        transition: .3s;
+        position: relative;
+        @media #{$lg}{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+        }
+        @media #{$md}{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+        }
+        @media #{$xs}{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+        }
+        &::before{
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            bottom: -2px;
+            right: -2px;
+            border-radius: inherit;
+            border: 1px solid $white;
+            animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+            -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+            transition: .3s;
+        }
+    }
+}
+@keyframes btnIconRipple {
+    0% { border-width: 4px;
+        -webkit-transform: scale(1);
+        transform: scale(1); }
+    80% { border-width: 1px; -webkit-transform: scale(1.35); transform: scale(1.35); }
+    100% { opacity: 0; }
+}
+@-webkit-keyframes btnIconRipple {
+    0% { border-width: 4px; -webkit-transform: scale(1); transform: scale(1); }
+    80% { border-width: 1px; -webkit-transform: scale(1.35); transform: scale(1.35); }
+    100% { opacity: 0; }
+}
+
+.hero-slider-caption {
+    h2 {
+        font-size: 70px;
+        margin-bottom: 23px;
+        font-weight: 600;
+        color: $white;
+        margin-top: 40px;
+        @media #{$lg}{
+            font-size: 50px;
+        }
+        @media #{$md}{
+            font-size: 55px;
+            margin-top: 30px;
+        }
+        @media #{$xs}{
+            font-size: 32px;
+           line-height: 1.1;
+        }
+    }
+    & span{
+        color: $white;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 58px;
+        display: inline-block;
+        @media #{$xs}{
+            font-size: 20px;
+        }
+    }
+}
+
+.slider-active {
+    & button.slick-arrow {
+        position: absolute;
+        top: 50%;
+        left: 100px;
+        transform: translateY(-50%);
+        background: none;
+        border: 0;
+        font-size: 16px;
+        padding: 0;
+        color: #10111e;
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        cursor: pointer;
+        background: $white;
+        line-height: 70px;
+        @media #{$laptop}{
+            left: 0;
+        }
+    }
+    & button.slick-next{
+        left: auto;
+        right:100px;
+        @media #{$laptop}{
+            right: 20px;
+        }
+    }
+    &:hover{
+        & button.slick-prev{
+            left: 120px;
+            @media #{$laptop}{
+                left: 20px;
+            }
+        }
+        & button.slick-next{
+            right: 120px;
+            @media #{$laptop}{
+                right: 20px;
+            }
+        }
+        & button{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.slider-active {
+    & button{
+        &:hover{
+            background: $theme-color;
+            color: $white;
+        }
+    }
+}
+// slider-light
+.slider-light{
+    & .hero-slider-caption{
+        & h3{
+            color: $black;
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 0;
+            @media #{$lg}{
+                font-size: 30px;
+            }
+            @media #{$md}{
+                font-size: 30px;
+            }
+            @media #{$xs}{
+                font-size: 25px;
+            }
+        }
+        & h2{
+            font-size: 120px;
+            color: $black;
+            line-height: 1;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 28px;
+            @media #{$lg}{
+                font-size: 70px;
+            }
+            @media #{$md}{
+                font-size: 55px;
+                margin-top: 30px;
+            }
+            @media #{$xs}{
+                font-size: 32px;
+               line-height: 1.1;
+            }
+        }
+        & span{
+            font-size: 30px;
+            color: $theme-color;
+            font-weight: 500;
+            margin-bottom: 44px;
+            @media #{$lg}{
+                font-size: 20px;
+            }
+            @media #{$md}{
+                font-size: 20px;
+            }
+            @media #{$xs}{
+                font-size: 20px;
+            }
+        }
+    }
+}
+.slider-light .hero-tag-text p {
+	color: #6a6a6a;
+}
+ .slider-light .hero-tag-text {
+	border-top: 1px solid #7c675f;
+}

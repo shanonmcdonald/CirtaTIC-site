@@ -1,0 +1,99 @@
+/* 5. portfolio */
+.button-group {
+    @media #{$xs}{
+        margin-top: 50px;
+    }
+	& ul {
+		& li {
+			border: none;
+			background: none;
+			transition: 0.3s;
+			font-size: 14px;
+			cursor: pointer;
+			outline: none;
+			color: #000a2d;
+			font-weight: 500;
+			position: relative;
+			padding: 0;
+			margin-right: 35px;
+			transition: .3s;
+			display: inline-block;
+			&:hover {
+				color: $theme-color;
+			}
+		}
+	}
+	.react-tabs__tab--selected {
+		color: $theme-color;
+	}
+}
+
+.portfolio-item {
+	& img {
+		width: 100%;
+		transition: .3s;
+	}
+}
+
+.portfolio-item {
+  position: relative;
+  & a{
+	  overflow: hidden;
+	  display: inline-block;
+	  transition: .3s;
+  }
+}
+.portfolio-item:hover img{
+	transform: scale(1.1);
+}
+.portfolio-text {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+	background: $theme-color;
+	padding: 30px;
+	transition: .3s;
+	& span {
+		color: $white;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 14px;
+	}
+	& h2 {
+		color: $white;
+		font-weight: bold;
+		margin-bottom: 0;
+		font-size: 24px;
+		transition: .3s;
+		& a{
+			transition: .3s;
+		}
+	}
+}
+.portfolio-text h2 a:hover {
+  color: $black;
+}
+.portfolio-item:hover  .portfolio-text{
+	opacity: 1;
+	visibility: visible;
+	left: -20px;
+}
+// black-soft-bg
+.black-soft-bg .button-group button {
+	color: #b5b5b5;
+	&:hover{
+		color: $theme-color;
+	}
+	&.active{
+		color: $theme-color;
+	}
+}
