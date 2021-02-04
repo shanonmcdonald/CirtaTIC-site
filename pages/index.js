@@ -18,7 +18,7 @@ export default function Home() {
 
         <main className={styles.main}>
           <header>
-            <h1 className={styles.title}>CIRTATIC</h1>
+            <h1 className={styles.title}>Cirta</h1>
             <p className={styles.description}>Canabis testing</p>
           </header>
 
