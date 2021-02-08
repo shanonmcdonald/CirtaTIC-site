@@ -20,10 +20,10 @@ export default function Home() {
           <section className={styles.hero}>
             <div class="container">
               <div class="row">
-                <div className="col-lg-8 offset-lg-4">
+                <div className="col col-xl-10 offset-xl-2">
                   <div className="hero-slider-caption">
                     <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
-                    <span data-animation="fadeInUps" data-delay=".4s">Cannabis Testing, Inspection and Certification</span>
+                    <span data-animation="fadeInUps" data-delay=".4s">&nbsp;Cannabis Testing, Inspection and Certification</span>
                   </div>
                   <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
                     <a className="c-btn" href="#contact">contact me</a>
