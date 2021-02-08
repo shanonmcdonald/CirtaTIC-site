@@ -1,4 +1,16 @@
-.container {
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 500px;
+  }
+}
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -120,3 +132,4 @@
     flex-direction: column;
   }
 }
+*/

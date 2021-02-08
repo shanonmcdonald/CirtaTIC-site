@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 import Header from '../components/index/header'
 import About from '../components/index/focus'
@@ -17,27 +17,35 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <header>
-            { /* <h1 className={styles.title}>Cirta</h1>
-            <p className={styles.description}>Canabis testing</p> */ } 
-            <div className="hero-slider-caption">
-              <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
-              <span data-animation="fadeInUps" data-delay=".4s">Cannabis Testing, Inspection and Certification</span>
+          <section className={styles.hero}>
+            <div class="container">
+              <div class="row">
+                <div className="col-lg-8 offset-lg-4">
+                  <div className="hero-slider-caption">
+                    <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
+                    <span data-animation="fadeInUps" data-delay=".4s">Cannabis Testing, Inspection and Certification</span>
+                  </div>
+                  <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
+                    <a className="c-btn" href="#contact">contact me</a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
-              <a className="c-btn" href="#contact">contact me</a>
+            <div className="hero-tag">
+              <div className="container">
+                <div className="hero-tag-text">
+                  <p>Some text here</p>
+                </div>
+              </div>
             </div>
-          </header>
+          </section>
 
           <section>
             <About />
             <Focus />
             <Services />
             <Whychooseus />
-            <p>
-              Content goes here
-            </p>
           </section>
         </main>
       </div>
