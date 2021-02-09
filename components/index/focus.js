@@ -7,14 +7,14 @@ export default function Focus () {
                         <div className="col">
                             <div className="about-wrapper mb-30 wows fadeInUps animateds" data-wows-delay="0.2s">
                                 <div className="section-title mb-40">
-                                    <h5> <span className="border-left-1"></span>Let’s Talk</h5>
+                                    <h5> <span className="border-left-1"></span>Let’s Talk<span className="border-right-1"></span></h5>
                                     <h2> <span className="heading-fill">Our</span> <span className="heading-color">FOCUS</span></h2>
                                 </div>
                                 { /* <div className="about-info">
                                     <p>We Have 25+ Years Of Experience In Design & Development</p>
                                 </div> */ }
                                 <div className="about-content d-flex">
-                                    <div class="row">
+                                    <div className="row">
                                         <div className="col-md-6">
                                             <div className="about-icon"></div>
                                             <div className="about-text">

@@ -18,8 +18,8 @@ export default function Home() {
 
         <main className={styles.main}>
           <section className={styles.hero}>
-            <div class="container">
-              <div class="row">
+            <div className="container">
+              <div className="row">
                 <div className="col col-xl-10 offset-xl-2">
                   <div className="hero-slider-caption">
                     <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
