@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faList, faCreditCard } from '@fortawesome/free-solid-svg-icons'
+
 export default function Focus () {
     return (
         <section>
@@ -13,20 +16,24 @@ export default function Focus () {
                                 { /* <div className="about-info">
                                     <p>We Have 25+ Years Of Experience In Design & Development</p>
                                 </div> */ }
-                                <div className="about-content d-flex">
+                                <div className="about-content">
                                     <div className="row">
-                                        <div className="col-md-6">
-                                            <div className="about-icon"></div>
-                                            <div className="about-text">
-                                                <h3>Cost Reduction</h3>
-                                                <p>We focus on providing customers cost reduction to their bottomline while ensuring product quality and mitigating asymmetries that would otherwise distort trade or block trade.</p>
+                                        <div className="col-lg-6 d-flex">
+                                            <div className="about-icon">
+                                                <i><FontAwesomeIcon icon={faList} /></i>
                                             </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="about-icon"></div>
                                             <div className="about-text">
                                                 <h3>Testing Certification & Compliance</h3>
                                                 <p>Our goal is to provide the highest level of testing certifications and compliance tailored to clients unique and required testing needs. We believe in the power of quality products to improve businesses and people’s lives. We pride ourselves on the ability to deploy testing services regardless of your geographical location.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 d-flex">
+                                            <div className="about-icon">
+                                                <i><FontAwesomeIcon icon={faCreditCard} /></i>
+                                            </div>
+                                            <div className="about-text">
+                                                <h3>Cost Reduction</h3>
+                                                <p>We focus on providing customers cost reduction to their bottomline while ensuring product quality and mitigating asymmetries that would otherwise distort trade or block trade.</p>
                                             </div>
                                         </div>
                                     </div>

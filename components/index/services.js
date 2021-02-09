@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBug, faLongArrowAltRight, faCertificate, faSearchPlus, faCheckSquare } from '@fortawesome/free-solid-svg-icons'
+import { faBug, faLongArrowAltRight, faSearchPlus, faCheckDouble } from '@fortawesome/free-solid-svg-icons'
 
 export default function Services () {
     return (
@@ -59,11 +59,11 @@ export default function Services () {
                         <div className="col-xl-4 col-lg-6 col-md-6">
                             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                                 <div className="services-icon">
-                                    <i><FontAwesomeIcon icon={faCheckSquare} /></i>
+                                    <i><FontAwesomeIcon icon={faCheckDouble} /></i>
                                 </div>
                                 <div className="services-text">
                                     <h3>Certification</h3>
-                                    <p>Some certificate text here</p>
+                                    <p>Some certificate text here needs to be 3-4 lines or more on large screen</p>
                                 </div>
                                 <div className="services-link">
                                     <a href="#contact"><i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
