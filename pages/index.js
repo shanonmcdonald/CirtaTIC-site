@@ -5,7 +5,7 @@ import Header from '../components/index/header'
 import About from '../components/index/focus'
 import Focus from '../components/index/about'
 import Services from '../components/index/services'
-import Whychooseus from '../components/index/Why-choose-us'
+import Whychooseus from '../components/index/why-choose-us'
 import Footer from '../components/footer'
 
 export default function Home() {
