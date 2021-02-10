@@ -1,5 +1,10 @@
 import Image from 'next/image'
 
+function alert (e) {
+    e.preventDefault();
+    window.alert('Contact us alert box');
+}
+
 export default function Header () {
     return (
         <header id="sticky-header" className="header-transparent">
@@ -24,16 +29,16 @@ export default function Header () {
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-8 col-6">
                             <div className="header-right-wrapper">
-                                <div className="menu-bar info-bar f-right">
+                                { /* <div className="menu-bar info-bar f-right">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">Log in</li>
                                     </ul>
-                                </div>
+                                </div> */ }
                                 <div className="header-icon f-right d-none d-md-block">
                                     <ul className="list-inline">
                                         <li className="list-inline-item"><a href="#about">About us</a></li>
-                                        <li className="list-inline-item"><a href="/services">Services</a></li>
-                                        <li className="list-inline-item"><a href="/services">Contact</a></li>
+                                        <li className="list-inline-item"><a href="#services">Services</a></li>
+                                        <li className="list-inline-item"><a href="#" onClick={alert}>Contact</a></li>
                                     </ul>
                                 </div>
                             </div>

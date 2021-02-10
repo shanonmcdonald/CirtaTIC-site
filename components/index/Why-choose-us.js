@@ -5,11 +5,11 @@ import { faReceipt } from '@fortawesome/free-solid-svg-icons'
 export default function WhyChooseUs () {
   return (
     <section>
-      <section id="resume" className="exp-area pt-110 pb-90" >
+      <section id="why" className="exp-area pt-110 pb-90" >
         <div className="container">
           <div className="row">
             <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
-              <div className="section-title text-center mb-75">
+              <div className="section-title text-center mb-60">
                 <h5> 
                   <span className="border-left-1"></span>our qualification <span className="border-right-1"></span>
                 </h5>
@@ -21,7 +21,7 @@ export default function WhyChooseUs () {
           </div>
 
           <div className="row">
-            <div className="col-md-6 col-lg-4 offset-lg-2">
+            <div className="col-md-6 col-lg-4 offset-lg-2 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
@@ -37,7 +37,7 @@ export default function WhyChooseUs () {
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">

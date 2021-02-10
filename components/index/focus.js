@@ -3,8 +3,8 @@ import { faList, faCreditCard } from '@fortawesome/free-solid-svg-icons'
 
 export default function Focus () {
     return (
-        <section>
-            <div id="about" className="about-area pb-90 pt-110" >
+        <section id="about">
+            <div className="about-area pb-90 pt-110" >
                 <div className="container">
                     <div className="row">
                         <div className="col">
@@ -45,7 +45,6 @@ export default function Focus () {
                     </div>
                 </div>
             </div>
-             
         </section>
     )
 }

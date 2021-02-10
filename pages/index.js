@@ -2,8 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 
 import Header from '../components/index/header'
-import About from '../components/index/focus'
-import Focus from '../components/index/about'
+import About from '../components/index/about'
+import Focus from '../components/index/focus'
 import Services from '../components/index/services'
 import Whychooseus from '../components/index/why-choose-us'
 import Footer from '../components/footer'
@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
         <Head>
-          <title>CIRTATIC - Cannabis Testing, Inspection and Certification</title>
+          <title>CirtaTIC - Cannabis Testing, Inspection and Certification</title>
         </Head>
 
         <main className={styles.main}>
@@ -43,7 +43,7 @@ export default function Home() {
           </section>
 
           <section>
-            <About />
+            { /* <About /> */ }
             <Focus />
             <Services />
             <Whychooseus />
