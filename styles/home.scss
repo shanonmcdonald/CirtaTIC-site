@@ -4,8 +4,8 @@
     h1 {
         font-size: 70px;
         margin-bottom: 23px;
+        color: white;
         font-weight: 600;
-        color: black;
         margin-top: 40px;
         @media #{$lg}{
             font-size: 50px;
@@ -21,18 +21,36 @@
     }
 
     span {
-        color: black;
+        // color: black;
     }
 }
 
-.test-wrapper {
+#why {
     background-color: $grey-soft;
 }
 
-.slider-button > .c-btn {
-    color: $black-2;
+.service-info p {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
 }
 
-.slider-button > .c-btn:hover {
-    color: $theme-color;
+.service-info p:first-child:before {
+    position: absolute;
+    height: 22px;
+    width: 4px;
+    content: "";
+    left: 0;
+    background: #fa5b0f;
+    top: 3px;
+}
+
+.about-info > .border-left-1{
+    height: 14px;
+    width: 4px;
+    background: #fa5b0f;
+    display: inline-block;
+    position: relative;
+    top: 1px;
 }
