@@ -33,7 +33,7 @@ export default function Services () {
     const serviceElms = []
 
     for (let service of services) {
-        serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6">
+        serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6" key={service.title}>
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
                     <i><FontAwesomeIcon icon={service.icon} /></i>
@@ -61,7 +61,7 @@ export default function Services () {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col col-md-8 offset-md-2">
                             <div className="service-info">
                                 <p>
                                     Our analytical Lab testing services are accredited by the highest industry standards

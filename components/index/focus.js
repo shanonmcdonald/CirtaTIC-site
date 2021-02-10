@@ -13,7 +13,7 @@ export default function Focus () {
     const stepElms = []
     
     for (let step of steps) {
-        stepElms.push(<div className="col-xl-3 col-md-3 col-6">
+        stepElms.push(<div className="col-xl-3 col-md-3 col-6" key={counter}>
             <div className="counter-wrapp text-center mb-30">
                 <div className="counter-image mb-40">
                     <span></span>
