@@ -1,10 +1,8 @@
-import styles from '../styles/Home.module.css'
-
 export default function About() {
   return (
-    <main className={styles.container}>
+    <main>
         <header>
-          <h1 className={styles.title}>About us</h1>
+          <h1>About us</h1>
         </header>
     </main>
   )
