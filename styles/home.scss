@@ -28,3 +28,11 @@
 .test-wrapper {
     background-color: $grey-soft;
 }
+
+.slider-button > .c-btn {
+    color: $black-2;
+}
+
+.slider-button > .c-btn:hover {
+    color: $theme-color;
+}
