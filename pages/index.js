@@ -5,7 +5,7 @@ import Header from '../components/index/header'
 import About from '../components/index/about'
 import Focus from '../components/index/focus'
 import Services from '../components/index/services'
-// import WhyChooseUs from '../components/index/why-choose-us'
+import Choose from '../components/index/choose'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -51,7 +51,7 @@ export default function Home() {
             { /* <About /> */ }
             <Services />
             <Focus />
-            { /*  <WhyChooseUs /> */ }
+            <Choose />
           </section>
         </main>
 

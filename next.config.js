@@ -7,6 +7,6 @@ module.exports = {
     },
     images: {
         loader: 'cloudinary',
-        path: ''
+        path: 'daapillp5'
     }
 };
