@@ -14,14 +14,14 @@ export default function Header () {
                         <div className="col-xl-5 col-lg-5 col-md-4 col-6">
                             <div className="header-top-wrapper">
                                 <div className="logo f-left">
-                                    { /* <a href="index.html">
+                                    { /* <a href="index.html"> */ }
                                         <Image
                                             src="/CirtaTIC_Logo_web.png"
                                             alt="CirtaTIC logo"
                                             width={75}
                                             height={75}
                                         />
-                                    </a> */ }
+                                    { /* </a> */ }
                                 </div>
                                 { /* <div className="header-top-info f-left d-none d-lg-block">
                                 </div> */ }
