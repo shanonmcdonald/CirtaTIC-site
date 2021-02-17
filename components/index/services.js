@@ -1,29 +1,36 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBug, faLongArrowAltRight, faSearchPlus, faCheckDouble, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+import { faBug, faLongArrowAltRight, faArrowRight, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const services = [
     {
         title: 'Microbiology Screening',
+        link: 'microbiology-screening',
         description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
         icon: faBug
     }, {
         title: 'Pesticides Screening',
+        link: 'pesticides-screening',
         description: '96 pesticides as per cannabis list with limits',
         icon: faTimes
     }, {
         title: 'Hemp Flower Potency',
+        link: 'hemp-flower-potency',
         description: 'Test for compliance DL=< 0.3%',
         icon: faCertificate
     }, {
         title: 'Aflatoxin',
+        link: 'aflatoxin',
         description: 'B1, B2, G1, G2',
         icon: faExclamationTriangle
     }, {
         title: 'Hemp Products Test',
+        link: 'hemp-products-test',
         description: 'Total THC potency test DL =< 4ppm',
         icon: faPlusSquare
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
+        link: 'total-cannabis-cannabinoid-profile',
         description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         icon: faFlask
     }
@@ -36,7 +43,9 @@ export default function Services () {
         serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6" key={service.title}>
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
-                    <i><FontAwesomeIcon icon={service.icon} /></i>
+                    <Link href={"services/" + service.link}>
+                        <i><FontAwesomeIcon icon={service.icon} /></i>
+                    </Link>
                 </div>
                 <div className="services-text">
                     <h3>{service.title}</h3>
@@ -83,6 +92,19 @@ export default function Services () {
                     </div> */ }
                     <div className="row">
                         {serviceElms}
+                    </div>
+
+                    <div className="row mt-30">
+                        <div className="col-12">
+                            <div className="sv-link-info text-center">
+                                <p>
+                                    <span></span>
+                                    <Link href="/services">
+                                        <a>View more <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
+                                    </Link>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

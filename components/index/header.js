@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 function alert (e) {
     e.preventDefault();
@@ -15,12 +16,16 @@ export default function Header () {
                             <div className="header-top-wrapper">
                                 <div className="logo f-left">
                                     { /* <a href="index.html"> */ }
-                                        <Image
-                                            src="/CirtaTIC_Logo_web.png"
-                                            alt="CirtaTIC logo"
-                                            width={75}
-                                            height={75}
-                                        />
+                                    <Link href="/">
+                                        <a>
+                                            <Image
+                                                src="/CirtaTIC_Logo_web.png"
+                                                alt="CirtaTIC logo"
+                                                width={75}
+                                                height={75}
+                                            />
+                                        </a>
+                                    </Link>
                                     { /* </a> */ }
                                 </div>
                                 { /* <div className="header-top-info f-left d-none d-lg-block">
