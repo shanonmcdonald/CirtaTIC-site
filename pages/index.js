@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
+import styles from 'styles/Home.module.scss'
 
-import Header from '../components/index/header'
-import About from '../components/index/about'
-import Focus from '../components/index/focus'
-import Services from '../components/index/services'
-import Choose from '../components/index/choose'
-import Footer from '../components/footer'
+import Header from 'components/index/header'
+import About from 'components/index/about'
+import Focus from 'components/index/focus'
+import Services from 'components/index/services'
+import Choose from 'components/index/choose'
+import Footer from 'components/footer'
 
 export default function Home() {
   return (
