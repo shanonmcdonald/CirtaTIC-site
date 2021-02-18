@@ -1,15 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList, faCreditCard } from '@fortawesome/free-solid-svg-icons'
-
-let counter = 1;
-const steps = [
-    { title: 'Schedule an appointment for a free consultation' },
-    { title: 'Reviewing your customized strategic scenario-based testing plan' },
-    { title: 'Deployment' },
-    { title: 'Results with certification approval stamps' }
-]
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faList, faCreditCard } from '@fortawesome/free-solid-svg-icons'
 
 export default function Focus () {
+    let counter = 1;
+    const steps = [
+        { title: 'Schedule an appointment for a free consultation' },
+        { title: 'Reviewing your customized strategic scenario-based testing plan' },
+        { title: 'Deployment' },
+        { title: 'Results with certification approval stamps' }
+    ]
     const stepElms = []
     
     for (let step of steps) {
