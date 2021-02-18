@@ -41,7 +41,7 @@ export default function Header () {
                                 </div> */ }
                                 <div className="header-icon f-right d-none d-md-block">
                                     <ul className="list-inline">
-                                        <li className="list-inline-item"><a href="/services">Services</a></li>
+                                        <li className="list-inline-item"><Link href="/services"><a>Services</a></Link></li>
                                         { /* <li className="list-inline-item"><a href="#about">About</a></li> */ }
                                         <li className="list-inline-item"><a href="#" onClick={alert}>Contact</a></li>
                                     </ul>

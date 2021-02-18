@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#nprogress .bar {
+  background: #fa5b0f !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #fa5b0f, 0 0 5px #fa5b0f;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #fa5b0f;
+  border-left-color: #fa5b0f;
+}
