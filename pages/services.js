@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 import Header from '../components/index/header'
-import Footer from '../components/footer'
+// import Footer from '../components/footer'
 
-export default function About() {
+export default function Services () {
   return (
     <div>
         <Head>
@@ -16,7 +16,7 @@ export default function About() {
           <h1>Services</h1>
         </main>
 
-        <Footer />
+        { /* <Footer /> */ }
     </div>
   )
 }
