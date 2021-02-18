@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Header from '../components/index/header'
-// import Footer from '../components/footer'
+import Footer from '../components/footer'
 
 export default function Services () {
   return (
@@ -16,7 +16,7 @@ export default function Services () {
           <h1>Services</h1>
         </main>
 
-        { /* <Footer /> */ }
+        <Footer />
     </div>
   )
 }
