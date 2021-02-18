@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from '../components/index/header'
 import Footer from '../components/footer'
 
-export default function Services () {
+const Services = () => {
   return (
     <div>
         <Head>
@@ -20,3 +20,5 @@ export default function Services () {
     </div>
   )
 }
+
+export default Services

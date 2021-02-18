@@ -3,7 +3,7 @@ import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons'
 
 const currentYear = new Date().getFullYear()
 
-export default function Footer () {
+const Footer = () => {
     return (
         <footer>
             <div className="footer-area pt-110 pb-80 black-bg wows fadeInUps animateds">
@@ -34,3 +34,5 @@ export default function Footer () {
         </footer>
     )
 }
+
+export default Footer

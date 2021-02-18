@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-import Header from 'components/index/header'
-import Footer from 'components/footer'
+import Header from '../../components/index/header'
+import Footer from '../../components/footer'
 
 export default function Service () {
 

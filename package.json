@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build-dynamic": "next build",
     "build": "next build && next export -o output",
-    "start": "next start"
+    "start": "next start",
+    "serve": "serve output"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
