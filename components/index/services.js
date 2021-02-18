@@ -44,7 +44,7 @@ export default function Services () {
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
                     <Link href={"services/" + service.link}>
-                        <i><FontAwesomeIcon icon={service.icon} /></i>
+                        <a><i><FontAwesomeIcon icon={service.icon} /></i></a>
                     </Link>
                 </div>
                 <div className="services-text">
