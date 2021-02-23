@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:            
     - uses: actions/checkout@v2
-    - uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Set up Node.js
       uses: actions/setup-node@v1.2.0
@@ -31,7 +28,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name cirtausawebcontent -d '$web' -s output
+            az storage blob upload-batch --account-name cirtausawebcontent --account-key ${{ secrets.AZURE_CREDENTIALS }} -d '$web' -s output
 
   # Azure logout 
     - name: logout
