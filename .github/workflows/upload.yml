@@ -23,4 +23,4 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name ${{ secret.AZURE_DESTINATION }} --account-key ${{ secrets.AZURE_CREDENTIALS }} -d '$web' -s output
+            az storage blob upload-batch --account-name ${{ secrets.AZURE_DESTINATION }} --account-key ${{ secrets.AZURE_CREDENTIALS }} -d '$web' -s output
