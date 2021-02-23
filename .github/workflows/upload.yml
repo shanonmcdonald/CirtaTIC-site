@@ -13,12 +13,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Node.js
-      uses: actions/setup-node@v1.2.0
-      with:
-        node-version: '12.x'
-
-    - name: Install dependencies
-      run: npm install --production
+      uses: bahmutov/npm-install@v1
 
     - name: Compile build
       run: npm run build
