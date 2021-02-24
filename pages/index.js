@@ -1,37 +1,63 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 import Header from '../components/index/header'
-import About from '../components/index/focus'
-import Focus from '../components/index/about'
+import About from '../components/index/about'
+import Focus from '../components/index/focus'
 import Services from '../components/index/services'
+import Choose from '../components/index/choose'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>CIRTATIC</title>
-      </Head>
+    <>
+      <Header />
+      <div className={styles.container}>
+        <Head>
+          <title>CirtaTIC - Cannabis Testing, Inspection and Certification</title>
+        </Head>
 
-      <main className={styles.main}>
-        <header>
-          <h1 className={styles.title}>CIRTATIC</h1>
-          <p className={styles.description}>Canabis testing</p>
-        </header>
+        <main className={styles.main}>
+          <section className={styles.hero}>
+            <div className="container">
+              <div className="row">
+                <div className="col col-xl-10 offset-xl-2">
+                  <div className="hero-slider-caption">
+                    <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
+                    <span data-animation="fadeInUps" data-delay=".4s">The Benchmark of cannabis testing</span>
+                  </div>
+                  <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
+                    <a className="c-btn" href="mailto:shanonmc@gmail.com">Free consultation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <p> oasidfjlkamsd flkma;smd</p>
+            <div className="hero-tag">
+              <div className="container">
+                <div className="hero-tag-text">
+                  <p>Testing Inspection and Certification</p>
+                </div>
+              </div>
+            </div>
+            <div className="hero-video">
+              <video className={styles.video_bg} autoPlay loop muted>
+                <source src="medical_cannabis_bg.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </section>
 
-        <section>
-          <Header />
-          <About />
-          <Focus />
-          <Services />
-          <p>
-            Content goes here
-          </p>
-        </section>
-      </main>
-    </div>
+          <section>
+            { /* <About /> */ }
+            <Services />
+            <Focus />
+            <Choose />
+          </section>
+        </main>
+
+        <Footer />
+      </div>
+    </>
     /* <div className={styles.container}>
       <Head>
         <title>Create Next App</title>

@@ -1,0 +1,26 @@
+name: Blob storage website CI
+
+on:
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:            
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: bahmutov/npm-install@v1
+
+    - name: Compile build
+      run: npm run build
+
+    - name: Upload to blob storage
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.0.72
+        inlineScript: |
+            az storage blob upload-batch --account-name ${{ secrets.AZURE_DESTINATION }} --account-key ${{ secrets.AZURE_CREDENTIALS }} -d '$web' -s output

@@ -1,0 +1,115 @@
+/* 15. footer */
+.footer-text {
+    & p a {
+        color: $theme-color;
+    }
+}
+.newsletters-wrapper {
+	padding: 70px;
+	background: #1b1b1b;
+	text-align: center;
+    border-bottom: 3px solid $theme-color;
+    @media #{$xs}{
+        padding: 70px 30px;
+    }
+}
+.newsletter-form {
+    & form {
+        position: relative;
+    }
+    & input {
+        width: 100%;
+        background: none;
+        border: 0;
+        border-bottom: 3px solid #414141;
+        padding: 14px 25px;
+        color: $white;
+    }
+    & button {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        border: 2px solid $theme-color;
+        height: 40px;
+        width: 40px;
+        background: none;
+        border-radius: 50px;
+        color: $theme-color;
+    }
+}
+.newsletter-form input::-moz-placeholder {
+	color: $white;
+	font-size: 14px;
+	opacity: .6;
+}
+.newsletter-form input ::placeholder {
+	color: $white;
+	font-size: 14px;
+	opacity: .6;
+}
+.newsletter-form button{
+    &  i {
+        transform: translateX(-17px);
+        font-size: 26px;
+        display: inline-block;
+    }
+}
+.newsletter-form {
+    & h2 {
+        color: $white;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+}
+.footer-social-icons {
+    & a {
+        height: 45px;
+        width: 45px;
+        border: 2px solid #292929;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 44px;
+        text-align: center;
+        font-size: 14px;
+        margin: 0 2px;
+        &:hover {
+            border-color: $theme-color;
+            color: $theme-color;
+        }
+    }
+}
+// light-footer
+.light-footer .newsletters-wrapper {
+	background: $grey-soft;
+}
+.light-footer .newsletter-form h2 {
+	color: $black;
+}
+.light-footer .newsletter-form input {
+	border-bottom: 3px solid #e0e0e0;
+	color: #7b7b7b;
+}
+.light-footer .newsletter-form input::-moz-placeholder {
+	color: #7b7b7b;
+}
+.light-footer .footer-social-icons a {
+    border: 2px solid #e3e3e3;
+    color: #a1a1a1;
+    transition: .3s;
+    &:hover{
+        color: $theme-color;
+        border-color: $theme-color;
+    }
+}
+
+
+
+#scrollToTop {
+	background: $theme-color;
+	color: $white;
+	width: 80px;
+	height: 80px;
+	line-height: 70px;
+	font-size: 27px;
+	border-radius: 0;
+}

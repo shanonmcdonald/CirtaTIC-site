@@ -1,0 +1,61 @@
+/* 9. counter */
+.line-bar {
+	border-top: 2px solid #eeeeee;
+	transform: translateY(12px);
+}
+.counter-image {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+    background: $white;
+    & span {
+        background: #eeeeee;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 30px;
+        position: relative;
+        transition: .3s;
+        &::before {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border: 3px solid #eeeeee;
+            content: "";
+            left: -15px;
+            border-radius: 50%;
+            top: -15px;
+            transition: .3s;
+        }
+    }
+}
+.counter-wrapp:hover .counter-image span{
+    background: $theme-color;
+}
+.counter-wrapp:hover .counter-image span::before{
+    border-color: $theme-color;
+}
+.counter-content {
+    & h1 {
+	    font-size: 50px;
+        font-weight: 700;
+    }
+    & span {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+// black-soft-bg
+.black-soft-bg .line-bar {
+	border-top: 2px solid #353535;
+}
+.black-soft-bg .counter-content h1 {
+	color: $white;
+}
+.black-soft-bg .counter-content span {
+	color: #acacac;
+}
+.black-soft-bg .counter-image {
+	background: $black-soft;
+}

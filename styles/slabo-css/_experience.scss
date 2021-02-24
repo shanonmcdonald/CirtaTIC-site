@@ -1,0 +1,46 @@
+/* 11. experience */
+.working-icon {
+	width: 119px;
+	float: left;
+	margin-right: 12px;
+	position: relative;
+    text-align: right;
+    & img {
+        margin-top: 50px;
+    }
+    & h1 {
+	font-size: 80px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        line-height: 1;
+        opacity: .1;
+        font-weight: 600;
+    }
+}
+.work-title {
+	overflow: hidden;
+    padding-left: 15px;
+    & h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    & h4 {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 15px;
+        color: $theme-color;
+    }
+}
+// black-soft-bg
+.black-soft-bg .working-icon h1 {
+    color: $white;
+}
+.black-soft-bg .work-title h2 {
+	color: $white;
+}
+.black-soft-bg .work-title P{
+    color: $white;
+}

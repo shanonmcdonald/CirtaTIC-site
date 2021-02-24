@@ -1,18 +1,24 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
-export default function About() {
+import Header from '../components/index/header'
+import Footer from '../components/footer'
+
+const Services = () => {
   return (
     <div>
         <Head>
-            <title>Services - Cirtatic</title>
+          <title>Services - Cirtatic</title>
         </Head>
+
+        <Header />
         
-        <main className={styles.container}>
-            <header>
-                <h1 className={styles.title}>Services</h1>
-            </header>
+        <main className="services">
+          <h1>Services Page</h1>
         </main>
+
+        <Footer />
     </div>
   )
 }
+
+export default Services

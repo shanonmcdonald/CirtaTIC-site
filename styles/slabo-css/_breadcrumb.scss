@@ -1,0 +1,82 @@
+/* 16. breadcrumb */
+.breadcrumb-area{
+    background-size: cover;
+    background-position: center center;
+}
+.breadcrumb-pb{
+    padding-top: 300px;
+    padding-bottom: 235px;
+    @media #{$lg}{
+    padding-top: 270px;
+    padding-bottom: 205px;
+    }
+    @media #{$md}{
+    padding-top: 230px;
+    padding-bottom: 155px;
+    }
+    @media #{$xs}{
+    padding-top: 220px;
+    padding-bottom: 145px;
+    }
+}
+  .breadcrumb-text{
+      & h1{
+          color: $white;
+          font-size: 95px;
+          font-weight: 600;
+          margin-bottom: 30px;
+          text-transform: capitalize;
+          @media #{$lg}{
+            font-size: 80px;
+            }
+          @media #{$md}{
+            font-size: 60px;
+            }
+          @media #{$xs}{
+            font-size: 38px;
+            }
+      }
+  }
+  
+  .breadcrumb-menu{
+        & li{
+            display: inline-block;
+            position: relative;
+            padding: 0 25px;
+            &::before {
+                content: "\f105";
+                display: inline-block;
+                padding-bottom: 0;
+                position: absolute;
+                top: 2px;
+                left: -8px;
+                font-family: "Font Awesome 5 Pro";
+                color: $white;
+                font-size: 30px;
+                @media #{$xs}{
+                    font-size: 20px;
+                }
+            }
+            &:first-child::before {
+                display: none; }
+            & a{
+                color: $white;
+                font-size: 30px;
+                text-transform: capitalize;
+                transition: all 0.3s ease 0s;
+                font-weight: 400; 
+                @media #{$xs}{
+                    font-size: 20px;
+                }
+            }
+            & span{
+                color: $white;
+                font-size: 30px;
+                text-transform: capitalize;
+                font-weight: 400;  
+                @media #{$xs}{
+                    font-size: 20px;
+                }
+            }
+        }
+    }

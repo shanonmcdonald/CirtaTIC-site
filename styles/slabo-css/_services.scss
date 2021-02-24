@@ -1,0 +1,117 @@
+/* 8. services */
+.services-wrapper{
+    background: $white;
+    padding: 50px 48px 40px 50px;
+    margin-left: 30px;
+    @media #{$md}{
+        padding: 50px 30px 40px 30px;
+    }
+    @media #{$xs}{
+        padding: 50px 30px 40px 30px;
+    }
+}
+.services-icon {
+    margin-left: -80px;
+    transition: .3s;
+    @media #{$xs}{
+        margin-left: -60px;
+    }
+    & i{
+        font-size: 60px;
+        height: 150px;
+        width: 150px;
+        line-height: 150px;
+        background: $black;
+        color: $white;
+        text-align: center;
+        transition: .3s;
+        display: inline-block;
+    }
+}
+.services-wrapper:hover .services-icon{margin-left: -48px}
+.services-wrapper:hover .services-icon i{background: $theme-color;}
+.services-text{
+    & h3{
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 11px;
+    }
+    & p{
+        margin-bottom: 0;
+    }
+}
+.services-link {
+	position: absolute;
+	top: 85px;
+    right: 65px;
+    @media #{$xs}{
+        right: 20px;
+    }
+    & a{
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border:2px solid #e7e7e7;
+        font-size: 50px;
+        color: #bfbfbf;
+        display: inline-block;
+        border-radius: 50%;
+        transition: .3s;
+        & i{
+            transform: translateX(-15px);
+            display: inline-block;
+            color: #bfbfbf;
+        }
+        &:hover{
+            color: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+}
+
+
+.sv-link-info {
+    & p a {
+        color: $theme-color;
+        border-bottom: 2px solid;
+    }
+}
+.sv-link-info.text-center {
+    & p > span {
+        background: $theme-color;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 30px;
+        margin-right: 15px;
+        position: relative;
+    }
+}
+.sv-link-info.text-center {
+    & p > span::before {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border: 2px solid $theme-color;
+        content: "";
+        left: -10px;
+        border-radius: 50%;
+        top: -9px;
+    }
+}
+// black-bg
+.black-bg .services-wrapper {
+	background: $black-soft;
+}
+.black-bg .services-icon i {
+	background: #363636;
+}
+.black-bg .services-text h3 {
+	color: $white;
+}
+.black-bg .services-text p {
+	color: $white;
+}
+.black-bg .sv-link-info p{
+    color: $white;
+}

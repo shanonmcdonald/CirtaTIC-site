@@ -1,0 +1,37 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+
+// Font Family
+$rubik: 'Rubik', sans-serif;
+$abril: 'AbrilTitlingW04';
+
+// Colors ---------------
+$white: #ffffff;
+$black: #111111;
+$black-soft: #222222;
+$black-2: #202020;
+$green-bg:#C5F4E0; 
+$blue: #234969;
+$blue-soft: #005376;
+$grey:#747474;
+$grey-soft:#eef2f5;
+$yellow:#070706;
+$orange:#FF9E2D;
+$theme-color: #fa5b0f;
+$body-text-color: #7b7b7b;
+$hr-border-color:#eceff8;
+
+// Heading Color
+$heading-color: #111111;
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';

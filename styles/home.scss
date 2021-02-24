@@ -1,0 +1,62 @@
+.hero-slider-caption {
+    // border: 1px solid $theme-color;
+    
+    h1 {
+        font-size: 70px;
+        margin-bottom: 23px;
+        color: white;
+        font-weight: 600;
+        margin-top: 40px;
+        @media #{$lg}{
+            font-size: 50px;
+        }
+        @media #{$md}{
+            font-size: 55px;
+            margin-top: 30px;
+        }
+        @media #{$xs}{
+            font-size: 32px;
+            line-height: 1.1;
+        }
+    }
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: black;
+}
+
+#why {
+    background-color: $grey-soft;
+}
+
+.service-info p {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+}
+
+.service-info p:first-child:before {
+    position: absolute;
+    height: 22px;
+    width: 4px;
+    content: "";
+    left: 0;
+    background: #fa5b0f;
+    top: 3px;
+}
+
+.about-info > .border-left-1{
+    height: 14px;
+    width: 4px;
+    background: #fa5b0f;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
