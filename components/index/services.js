@@ -100,7 +100,7 @@ export default function Services () {
                                 <p>
                                     <span></span>
                                     <Link href="/services">
-                                        <a>View more <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
+                                        <a>View All Services <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
                                     </Link>
                                 </p>
                             </div>
