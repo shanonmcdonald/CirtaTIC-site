@@ -16,6 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Always run:
 ```sh
+# cd your computer's terminal to the directory that has the project
 # see if there's an update
 git fetch 
 # if there's an update on master
@@ -26,4 +27,14 @@ git pull
 git checkout [branch_name]
 # merge changes
 git merge master
+```
+
+After some changes are made
+```sh
+# to see all the changes that has been made
+git status
+# to add changes into staged state
+git add -p
+git commit -m "your own message"
+git push
 ```
