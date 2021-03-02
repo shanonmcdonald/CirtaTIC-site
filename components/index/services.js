@@ -6,8 +6,8 @@ const services = [
     {
         title: 'Microbiology Screening',
         link: 'microbiology-screening',
-        //description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
-        description:"",
+        description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+        //description:"",
         icon: faBug
     }, {
         title: 'Pesticides Screening',
