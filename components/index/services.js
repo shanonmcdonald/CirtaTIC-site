@@ -6,32 +6,38 @@ const services = [
     {
         title: 'Microbiology Screening',
         link: 'microbiology-screening',
-        description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+        //description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+        description:"",
         icon: faBug
     }, {
         title: 'Pesticides Screening',
         link: 'pesticides-screening',
-        description: '96 pesticides as per cannabis list with limits',
+        //description: '96 pesticides as per cannabis list with limits',
+        description:"",
         icon: faTimes
     }, {
         title: 'Hemp Flower Potency',
         link: 'hemp-flower-potency',
-        description: 'Test for compliance DL=< 0.3%',
+        //description: 'Test for compliance DL=< 0.3%',
+        description:"",
         icon: faCertificate
     }, {
         title: 'Aflatoxin',
         link: 'aflatoxin',
-        description: 'B1, B2, G1, G2',
+        //description: 'B1, B2, G1, G2',
+        description:"",
         icon: faExclamationTriangle
     }, {
         title: 'Hemp Products Test',
         link: 'hemp-products-test',
-        description: 'Total THC potency test DL =< 4ppm',
+        //description: 'Total THC potency test DL =< 4ppm',
+        description:"",
         icon: faPlusSquare
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',
-        description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
+        //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
+        description:"",
         icon: faFlask
     }
 ]
@@ -58,7 +64,7 @@ export default function Services () {
         </div>)
     }
 
-    return (
+    return ( 
         <section id="services">
             <div className="services-area grey-soft-bg pt-110 pb-95">
                 <div className="container">
@@ -81,7 +87,7 @@ export default function Services () {
                             </div>
                         </div>
                     </div>
-                    { /* <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <p>
                                 We provide solutions through our testing, inspection and certification services we ensure to businesses, growers, processors, manufacturer, distributors and retailers with navigating legal compliance and opening barriers to global business opportunities.  Through our testing, inspection and certification services we ensure clients meet all legal requirements while maximizing quality assurance and minimizing risk.
@@ -89,7 +95,8 @@ export default function Services () {
                                 We comply with complex global compliance legislation in accordance with the FDA, EU GMP, Federal Regulations, state regulations, and Health Canada. We develop systems and quality assurance programs to provide an accelerated approach to incorporating (GMPs) good manufacturing practices to fit your specific business needs.
                             </p>
                         </div>
-                    </div> */ }
+                    </div> */}
+
                     <div className="row">
                         {serviceElms}
                     </div>

@@ -11,32 +11,38 @@ const servicesData = [
   {
       title: 'Microbiology Screening',
       link: 'microbiology-screening',
-      description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+     // description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+      description:"",
       icon: faBug
   }, {
       title: 'Pesticides Screening',
       link: 'pesticides-screening',
-      description: '96 pesticides as per cannabis list with limits',
+      //description: '96 pesticides as per cannabis list with limits',
+      description:"",
       icon: faTimes
   }, {
       title: 'Hemp Flower Potency',
       link: 'hemp-flower-potency',
-      description: 'Test for compliance DL=< 0.3%',
+      //description: 'Test for compliance DL=< 0.3%',
+      description:"",
       icon: faCertificate
   }, {
       title: 'Aflatoxin',
       link: 'aflatoxin',
-      description: 'B1, B2, G1, G2',
+      //description: 'B1, B2, G1, G2',
+      description:"",
       icon: faExclamationTriangle
   }, {
       title: 'Hemp Products Test',
       link: 'hemp-products-test',
-      description: 'Total THC potency test DL =< 4ppm',
+      //description: 'Total THC potency test DL =< 4ppm',
+      description:"",
       icon: faPlusSquare
   }, {
       title: 'Total Cannabis Cannabinoid Profile',
       link: 'total-cannabis-cannabinoid-profile',
-      description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
+      //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
+      description:"",
       icon: faFlask
   }
 ]
@@ -44,7 +50,7 @@ const servicesData = [
 const Services = () => {
   const serviceElms = []
 
-  for (let service of servicesData) {
+  /*for (let service of servicesData) {
       serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6" key={service.title}>
           <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
               <div className="services-icon">
@@ -61,7 +67,7 @@ const Services = () => {
               </div>
           </div>
       </div>)
-  }
+  }*/
 
   return (
     <div>
