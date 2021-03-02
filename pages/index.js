@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
         <Head>
-          <title>CirtaTIC - Cannabis Testing, Inspection and Certification</title>
+          <title>Cirta - Cannabis Testing, Inspection and Certification</title>
         </Head>
 
         <main className={styles.main}>

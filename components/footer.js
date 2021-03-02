@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="row align-items-lg-center justify-content-center text-center">
                         <div className="footer-text">
                             <p>
-                                <a href="#">CirtaTIC</a>
+                                <a href="#">Cirta</a>
                                 <br />
                                 &#169; {currentYear} All Rights Reserved 
                             </p>
