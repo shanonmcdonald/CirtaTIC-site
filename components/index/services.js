@@ -49,13 +49,12 @@ export default function Services () {
         serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6" key={service.title}>
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
-                    <Link href={"services/" + service.link}>
+                    <Link href={"gmp-mandatory-testing#" + service.link}>
                         <a><i><FontAwesomeIcon icon={service.icon} /></i></a>
                     </Link>
                 </div>
                 <div className="services-text">
                     <h3>{service.title}</h3>
-                    <p>{service.description}</p>
                 </div>
                 <div className="services-link">
                     <a href="#contact"><i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
