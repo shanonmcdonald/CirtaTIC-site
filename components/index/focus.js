@@ -4,13 +4,13 @@
 export default function Focus () {
     let counter = 1;
     const steps = [
-        { title: 'Schedule an appointment for a free consultation' },
-        { title: 'Reviewing your customized strategic scenario-based testing plan' },
-        { title: 'Deployment' },
-        { title: 'Results with certification approval stamps' }
+        { title: 'Register to our client portal' },
+        { title: 'Select and review your testing schema' },
+        { title: 'Select a date for sample pick up' },
+        { title: 'Log back in to view your test results and product certification' }
     ]
     const stepElms = []
-    
+
     for (let step of steps) {
         stepElms.push(<div className="col-xl-3 col-md-3 col-6" key={counter}>
             <div className="counter-wrapp text-center mb-30">
@@ -42,9 +42,9 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            Our passion is to welcome the rapidly growing cannabis industry into our world of testing, inspection, certification and verification
+                                            Our mission is to foster the rapidly growing cannabis industry with in the global society of testing inspection certification and verification
                                             <br /><br />
-                                            We provide the highest level of testing certifications and compliance tailored to clients unique and required testing needs. We believe in the power of quality products to improve businesses and people’s lives. We pride ourselves on the ability to deploy testing services regardless of your geographical location.
+                                            We provide the highest technological laboratory services and compliance solutions tailored to your unique requirements offering you an excellent quality digital testing platform to manage and deploy all your testing services regardless of your geographic location. We believe in superior testing services as a critical driving force for innovation and company growth.
                                             </p>
                                         </div>
                                         { /* <div className="col-lg-6 d-flex">

@@ -12,10 +12,15 @@ const Services = () => {
         </Head>
 
         <Header />
-        
-        <main className="services">
-          <h1>Services Page</h1>
 
+        <main className="services">
+          <h1>All services and testing schemas</h1>
+          <ul>
+          <li> Reducing barriers to complex compliance regulations with our digitial compliance platform to monitor and manage testing services, security, product certification and beyond</li>
+          <li> We ensure your testing services align with current good manufacturing practices requirements and expectations</li>
+          <li> Our team's expertise helps you stay ahead of changing complex compliance regulations and accelerated market technologoy</li>
+          <li> We verify your brand and provide you a competetive edge by comfirming claims, allowing you to better communicate with you clients</li>
+          </ul>
           <section id="services">
             <div className="services-area grey-soft-bg pt-110 pb-95">
                 <div className="container">

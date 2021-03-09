@@ -63,7 +63,7 @@ export default function Services () {
         </div>)
     }
 
-    return ( 
+    return (
         <section id="services">
             <div className="services-area grey-soft-bg pt-110 pb-95">
                 <div className="container">
@@ -78,10 +78,11 @@ export default function Services () {
                         <div className="col col-md-8 offset-md-2">
                             <div className="service-info">
                                 <p>
-                                    Our analytical Lab testing services are accredited by the highest industry standards
+                              Our state of the art analytical lab testing facilities are accredited by the highest US and global regulatory governing bodies
+
                                 </p>
                                 <p>
-                                    Insuring every quantifiable step in your schema is executed to the highest level of competence and technicality
+                                    We ensure every quantifiable step in your testing schema is executed at the highest level of scientific processes to the industry's "Gold Standard" of certifications
                                 </p>
                             </div>
                         </div>
