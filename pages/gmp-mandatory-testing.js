@@ -1,6 +1,5 @@
 import Head from 'next/head'
 
-
 import Header from '../components/index/header'
 import Footer from '../components/footer'
 import { faBug, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
@@ -56,6 +55,7 @@ const Services = () => {
         )
     })
 }
+
 const Testing = () => {
     return (
         <>
