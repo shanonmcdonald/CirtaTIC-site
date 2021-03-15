@@ -67,6 +67,30 @@ export default function Choose () {
 
           </div>
 
+          <div className="row">
+            <div id="marquee">
+              <div className="photobanner">
+                <div className="img-wrapper">
+                  <img src="/effci_logo.jpeg" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/ctpat_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/who_gmp_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/fda_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/fsa_logo.jpeg" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/fsma_logo.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </section>
