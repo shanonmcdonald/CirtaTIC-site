@@ -73,3 +73,39 @@
 .test-text > p{
     color: #444444;
 }
+
+.services-wrapper:hover {
+    box-shadow: 0px 0px 2px 2px $theme-color;
+}
+
+.service-icon {
+    width: 125px;
+    height: 125px;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+}
+
+.service-icon.service-icon--micro {
+    background-image: url('../public/lab-certified.png');
+}
+
+.service-icon.service-icon--pesticide {
+    background-image: url('../public/herbicide.png');
+}
+
+.service-icon.service-icon--hemp-flowery-test {
+    background-image: url('../public/marijuana.png');
+}
+
+.service-icon.service-icon--aflatoxin {
+    background-image: url('../public/nano-amplified.png');
+}
+
+.service-icon.service-icon--hemp-product-test {
+    background-image: url('../public/ratio.png');
+}
+
+.service-icon.service-icon--profile {
+    background-image: url('../public/lab-report.png');
+}

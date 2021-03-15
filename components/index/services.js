@@ -1,56 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBug, faLongArrowAltRight, faArrowRight, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+
+// import Shipping from '../../public/shipping.png'
+
 import Link from 'next/link'
 
-const services = [
-    {
-        title: 'Microbiology Screening',
-        link: 'microbiology-screening',
-        description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
-        //description:"",
-        icon: faBug
-    }, {
-        title: 'Pesticides Screening',
-        link: 'pesticides-screening',
-        //description: '96 pesticides as per cannabis list with limits',
-        description:"",
-        icon: faTimes
-    }, {
-        title: 'Hemp Flower Potency',
-        link: 'hemp-flower-potency',
-        //description: 'Test for compliance DL=< 0.3%',
-        description:"",
-        icon: faCertificate
-    }, {
-        title: 'Aflatoxin',
-        link: 'aflatoxin',
-        //description: 'B1, B2, G1, G2',
-        description:"",
-        icon: faExclamationTriangle
-    }, {
-        title: 'Hemp Products Test',
-        link: 'hemp-products-test',
-        //description: 'Total THC potency test DL =< 4ppm',
-        description:"",
-        icon: faPlusSquare
-    }, {
-        title: 'Total Cannabis Cannabinoid Profile',
-        link: 'total-cannabis-cannabinoid-profile',
-        //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
-        description:"",
-        icon: faFlask
-    }
-]
-
-export default function Services () {
-    const serviceElms = []
-
-    for (let service of services) {
-        serviceElms.push(<div className="col-xl-4 col-lg-6 col-md-6" key={service.title}>
+function ServiceElements ({ service }) {
+    return (
+        <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
                     <Link href={"gmp-mandatory-testing#" + service.link}>
-                        <a><i><FontAwesomeIcon icon={service.icon} /></i></a>
+                        <a class={'service-icon service-icon--' + service.icon}></a>
                     </Link>
                 </div>
                 <div className="services-text">
@@ -60,8 +21,51 @@ export default function Services () {
                     <a href="#contact"><i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
                 </div>
             </div>
-        </div>)
-    }
+        </div>
+    )
+}
+
+export default function Services () {
+
+    const services = [
+        {
+            title: 'Microbiology Screening',
+            link: 'microbiology-screening',
+            description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
+            //description:"",
+            icon: 'micro'
+        }, {
+            title: 'Pesticides Screening',
+            link: 'pesticides-screening',
+            //description: '96 pesticides as per cannabis list with limits',
+            description:"",
+            icon: 'pesticide'
+        }, {
+            title: 'Hemp Flower Potency',
+            link: 'hemp-flower-potency',
+            //description: 'Test for compliance DL=< 0.3%',
+            description:"",
+            icon: 'hemp-flowery-test'
+        }, {
+            title: 'Aflatoxin',
+            link: 'aflatoxin',
+            //description: 'B1, B2, G1, G2',
+            description:"",
+            icon: 'aflatoxin'
+        }, {
+            title: 'Hemp Products Test',
+            link: 'hemp-products-test',
+            //description: 'Total THC potency test DL =< 4ppm',
+            description:"",
+            icon: 'hemp-product-test'
+        }, {
+            title: 'Total Cannabis Cannabinoid Profile',
+            link: 'total-cannabis-cannabinoid-profile',
+            //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
+            description:"",
+            icon: 'profile'
+        }
+    ]
 
     return (
         <section id="services">
@@ -98,7 +102,7 @@ export default function Services () {
                     </div> */}
 
                     <div className="row">
-                        {serviceElms}
+                        { services.map(service => <ServiceElements service={service} key={service.title} />) }
                     </div>
 
                     <div className="row mt-30">
