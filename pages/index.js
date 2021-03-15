@@ -27,7 +27,7 @@ export default function Home() {
                     <span data-animation="fadeInUps" data-delay=".4s">The Benchmark of cannabis testing</span>
                   </div>
                   <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
-                    <a className="c-btn" href="mailto:shanonmc@gmail.com">Free consultation</a>
+                    <a className="c-btn" href="mailto:shanonmc@gmail.com">Register Now</a>
                   </div>
                 </div>
               </div>

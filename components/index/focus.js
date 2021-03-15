@@ -42,9 +42,9 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            Our mission is to foster the rapidly growing cannabis industry with in the global society of testing inspection certification and verification
+                                            Our mission is to help mature and legitimize the rapidly growing cannabis industry with in the overall scientific global society of testing inspection certification and verification
                                             <br /><br />
-                                            We provide the highest technological laboratory services and compliance solutions tailored to your unique requirements offering you an excellent quality digital testing platform to manage and deploy all your testing services regardless of your geographic location. We believe in superior testing services as a critical driving force for innovation and company growth.
+                                            We provide the highest technological laboratory services utilizing the highest industry certifications tailored to your cannabis testing requirements while all managed and deployed with our digital cloud compliance platform. We believe in superior testing services as a critical driving force for innovation and market segment growth.
                                             </p>
                                         </div>
                                         { /* <div className="col-lg-6 d-flex">

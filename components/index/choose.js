@@ -18,7 +18,7 @@ export default function Choose () {
           </div>
 
           <div className="row">
-            <div className="col-md-6 col-lg-4 offset-lg-2 pt-20">
+            <div className="col-md-4 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
@@ -29,27 +29,44 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We strive to build a trusting, collaborative and efficient relationship with our clients to create creative innovative work space for compliance and testing.</p>
+                  <p>We strive to build a trusting, collaborative and efficient relationships with our clients worldwide creating innovative testing solutions for every phase of the cannabis production cycle while supporting you and your products within the global compliance network</p>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-4 pt-20">
+            <div className="col-md-4 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
                     <i><FontAwesomeIcon icon={faReceipt}/></i>
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4>Regulations & Standards</h4>
+                    <h4> World class standards</h4>
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>Using current highest standards we help clients adapt and comply with complex cannabis regulations while simutaniously reducing cost and improving product quality</p>
+                  <p>Using the highest regulatory standards and "best practice" certifcations, technologies and methodologies extensively used in established industries from pharmaceuticals, food, agriculture to nutraceuticals which we implemented into the cannabis market segment</p>
                 </div>
               </div>
             </div>
-          </div>                        
+            <div className="col-md-4 col-lg-4 pt-20">
+              <div className="test-wrapper">
+                <div className="clientsay-name d-flex">
+                  <div className="client-say-icon">
+                    <i><FontAwesomeIcon icon={faReceipt}/></i>
+                  </div>
+                  <div className="client-say-content align-self-center">
+                    <h4> Technologies and laboratories</h4>
+                  </div>
+                </div>
+                <div className="test-text">
+                  <p>We offer an unrivaled cannabis testing experience. Using the latest technologies in digitalization and latest laboritory equipement we aim to ensuring clients get the most leverage from our testing services to thrive in the growing increasingly competitive and global cannabis marketplace </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </section>
     </section>

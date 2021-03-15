@@ -66,9 +66,9 @@ const Testing = () => {
             <Header />
 
             <main className="main">
-                <h1>cGMP mandatory release lab testing</h1>
+                <h1>cGMP mandatory release lab testing services</h1>
 
-                <p> GMP mandatory release regulates the quality control of pharmaceuticals, medical plants and their derivatives to meet the “current best practiced standards” to meet domestic and global quality standards.  With our GMP accredited facilities and accredited procedures in pharmaceuticals to food safety testing, our services exceed expectations which guarantee consistency, traceability, integrity, quality and reliability.  </p>
+                <p> GMP mandatory release regulates the quality control of pharmaceuticals, medical plants and their derivatives to meet the “current best practiced standards” to meet domestic and global quality standards.  With our GMP accredited facilities and accredited procedures in pharmaceuticals to food safety testing, our services exceed expectations which guarantee consistency, traceability, integrity, quality and reliability. </p>
 
                 <Services />
             </main>
