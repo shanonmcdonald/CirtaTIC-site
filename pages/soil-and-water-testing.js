@@ -15,7 +15,18 @@ const Testing = () => {
             <main className="main">
                 <h1>Soil and Water Testing services</h1>
 
-                <p>Content goes here</p>
+                <p></p>
+                <p></p>
+
+                <h3>Soil classification</h3>
+                <p> were making history </p>
+                <h3>Plant tissue testing</h3>
+                <p> </p>
+                <h3>Fertilizer testing</h3>
+                <p> </p>
+                <h3>Water testing</h3>
+                <p> </p>
+
             </main>
 
             <Footer />

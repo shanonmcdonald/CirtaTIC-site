@@ -1,3 +1,4 @@
+import React from "react"
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -16,21 +17,23 @@ const Services = () => {
 
         <main className="services">
           <h1>All services and testing schemas</h1>
-          <ul>
+          <ol>
             <li> Reducing barriers to complex compliance regulations with our digitial compliance platform to monitor and manage testing services, security, product certification and beyond</li>
             <li> We ensure your testing services align with current good manufacturing practices requirements and expectations</li>
             <li> Our team's expertise helps you stay ahead of changing complex compliance regulations and accelerated market technologoy</li>
             <li> We verify your brand and provide you a competetive edge by comfirming claims, allowing you to better communicate with you clients</li>
-          </ul>
+          </ol>
 
 
-          <Link href="/seed-testing">
-            <a>Seed Testing</a>
-          </Link>
-          &nbsp;
+          
+            <a href="/seed-testing">Seed Testing</a>
+            <p></p>
+         
+      
           <Link href="/soil-and-water-testing">
             <a>Soil and Water Testing</a>
           </Link>
+            <p></p>
           &nbsp;
           <Link href="/gmp-mandatory-testing">
             <a>GMP Mandatory Testing</a>
