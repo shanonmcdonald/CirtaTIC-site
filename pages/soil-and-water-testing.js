@@ -15,6 +15,7 @@ const Testing = () => {
             <main className="main">
                 <h1>Soil and Water Testing services</h1>
 
+<<<<<<< Updated upstream
                 <p></p>
                 <p></p>
 
