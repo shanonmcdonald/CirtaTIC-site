@@ -29,19 +29,19 @@ export default function Services () {
 
     const services = [
         {
-            title: 'Microbiology Screening',
+            title: 'Microbiology screening',
             link: 'microbiology-screening',
             description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
             //description:"",
             icon: 'micro'
         }, {
-            title: 'Pesticides Screening',
+            title: 'Pesticides screening',
             link: 'pesticides-screening',
             //description: '96 pesticides as per cannabis list with limits',
             description:"",
             icon: 'pesticide'
         }, {
-            title: 'Hemp Flower Potency',
+            title: 'Hemp flower potency',
             link: 'hemp-flower-potency',
             //description: 'Test for compliance DL=< 0.3%',
             description:"",
@@ -53,13 +53,13 @@ export default function Services () {
             description:"",
             icon: 'aflatoxin'
         }, {
-            title: 'Hemp Products Test',
+            title: 'Hemp products test',
             link: 'hemp-products-test',
             //description: 'Total THC potency test DL =< 4ppm',
             description:"",
             icon: 'hemp-product-test'
         }, {
-            title: 'Total Cannabis Cannabinoid Profile',
+            title: 'Total cannabinoid profile',
             link: 'total-cannabis-cannabinoid-profile',
             //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
             description:"",

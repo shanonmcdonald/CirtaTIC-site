@@ -15,8 +15,16 @@ const Testing = () => {
             <main className="main">
                 <h1>Seed Testing services</h1>
 
-                <p>Content goes here</p>
-            </main>
+                <p> content</p>
+
+                <h3> seed test 1 </h3>
+                <p> content</p>
+                <h3> seed test 2</h3>
+                <p> content</p>
+                <h3> seed test 2</h3>
+                <p> content </p>
+                <h3> seed test 3 </h3>
+        </main>
 
             <Footer />
         </>
