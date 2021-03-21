@@ -86,7 +86,7 @@ export default function Services () {
 
                                 </p>
                                 <p>
-                                    We ensure every step in your testing schema is executed at the highest level of scientific processes to the industry's "Gold Standard" of certifications
+                                    We ensure every step in your testing schema is executed at the highest level of scientific processes to the industry's "gold standard" of certifications
                                 </p>
                             </div>
                         </div>

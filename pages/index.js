@@ -24,10 +24,10 @@ export default function Home() {
                 <div className="col col-xl-10 offset-xl-2">
                   <div className="hero-slider-caption">
                     <h1 data-animation="fadeInUps" data-delay=".3s">Cirta</h1>
-                    <span data-animation="fadeInUps" data-delay=".4s">The Benchmark of cannabis testing</span>
+                    <span data-animation="fadeInUps" data-delay=".4s">The benchmark of cannabis testing</span>
                   </div>
                   <div className="slider-button" data-animation="fadeInUps" data-delay=".5s">
-                    <a className="c-btn" href="mailto:shanonmc@gmail.com">Register Now</a>
+                    <a className="c-btn" href="mailto:shanonmc@gmail.com">register </a>
                   </div>
                 </div>
               </div>

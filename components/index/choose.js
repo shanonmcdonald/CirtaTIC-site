@@ -29,7 +29,7 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We strive to build a trusting, collaborative and efficient relationships with our clients worldwide creating innovative testing solutions for every phase of the cannabis production cycle while supporting you and your products within the global compliance network</p>
+                  <p>We strive to build a trusting, collaborative and efficient relationships with our clients creating innovative testing solutions for every phase of the cannabis production cycle while you in the most cost effective methods without sacrificing quality </p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We offer an unrivaled cannabis testing experience. Using the latest technologies in digitalization and latest laboritory equipement we aim to ensuring clients get the most leverage from our testing services to thrive in the growing increasingly competitive and global cannabis marketplace </p>
+                  <p>We offer an unrivaled testing experience. Utilizing latest technologies in equipement and software we ensure that clients get the most leverage from our testing services to thrive in the growing increasingly competitive and global cannabis marketplace </p>
                 </div>
               </div>
             </div>

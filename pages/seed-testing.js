@@ -16,7 +16,6 @@ const Testing = () => {
                 <h1>Seed Testing services</h1>
 
                 <p> content</p>
-
                 <h3> seed test 1 </h3>
                 <p> content</p>
                 <h3> seed test 2</h3>
