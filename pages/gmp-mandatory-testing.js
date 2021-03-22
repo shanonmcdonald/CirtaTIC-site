@@ -19,7 +19,8 @@ const testingServices = [
         Enterbacterial count = <USP> ch. 2021
         S. aureus = <USP> ch. 2022`,
         //description:"",
-        icon: faBug
+        icon: faBug,
+        bg: ['/microbiology_bg.jpg']
     }, {
         title: 'Pesticides Screening',
         link: 'pesticides-screening',
@@ -28,7 +29,8 @@ const testingServices = [
         Pesticides test of (96 pesticides)
         Organisation: Food and Drug Administration
         Methodology: GMP cannabis mandatory release cannabis pesticides limits list`,
-        icon: faTimes
+        icon: faTimes,
+        bg: ['/pesticide_bg.jpg']
     }, {
         title: 'Hemp flower compliance test',
         link: 'hemp-flower-potency',
@@ -38,7 +40,8 @@ const testingServices = [
         Organisation: Association of Official Agricultural Chemists (International)
         Methodology: AFVAN-SLMF-0029
         Instrumentation: Gas Chromatography (GC)`,
-        icon: faCertificate
+        icon: faCertificate,
+        bg: ['/gc_bg.jpg']
     }, {
         title: 'Aflatoxin',
         link: 'aflatoxin',
@@ -48,7 +51,8 @@ const testingServices = [
         Organisation: Association of Official Agricultural Chemists (International)
         Methodology: AFVAN-SLMF-0030
         Instrumentation: Liquid Chromatography + Mass spectrometry`,
-        icon: faExclamationTriangle
+        icon: faExclamationTriangle,
+        bg: ['/lc_bg.jpg', '/mc_bg.jpg']
     }, {
         title: 'Hemp products compliance test',
         link: 'hemp-products-test',
@@ -59,7 +63,8 @@ const testingServices = [
         Methodology = AFVAN-SMF-0027
         Instrumentation = Gas Chromatography + Mass spectrometry
         `,
-        icon: faPlusSquare
+        icon: faPlusSquare,
+        bg: [] // TODO SHANON: put image name here
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',
@@ -72,7 +77,8 @@ const testingServices = [
         Instrumentation: Liquid Chromatography
         `,
 
-        icon: faFlask
+        icon: faFlask,
+        bg: [] // TODO SHANON: put image name here
     },
     {
         title: 'Heavy metals',
@@ -84,7 +90,7 @@ const testingServices = [
         Methodology: AFVAN-SLMF-0022 + <USP> ch. 232
         Instrumentation: Inductively coupled plasma mass spectrometry
         `,
-
+        bg: [] // TODO SHANON: put image name here
         //icon: faFlask
     },
     {
@@ -95,6 +101,7 @@ const testingServices = [
         Organisation: Association of Official Agricultural Chemists (International)
         Methodology: AFVAN-SLMF-0013
         Instrumentation: Scientific air oven`,
+        bg: [] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     }
 ]
@@ -103,8 +110,29 @@ const Services = () => {
     return testingServices.map(service => {
         return (
           <>
-            <h3 style={{'margin': '200px 0'}} key={service.link} id={service.link}>{service.title}</h3>
-            <p className="service--description">{service.description}</p>
+            <div className="container mx60">
+                <div className="row">
+                    <div className="col">
+                            <h3 style={{'margin': '50px 0'}} key={service.link} id={service.link}>{service.title}</h3>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-5 offset-md-1">
+                        <p className="service--description">{service.description}</p>
+                    </div>
+                    <div className="col-md-6 text-center">
+                        <div className="row">
+                            {service.bg.map(b => {
+                                return (
+                                    <div className="col">
+                                        <img src={b} className="service__img" />
+                                    </div>
+                                )}
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </div>
           </>
         )
     })
@@ -119,15 +147,34 @@ const Testing = () => {
 
             <Header />
 
-            <main className="main">
-                <h1>cGMP mandated cannabis testing services</h1>
+            <main className="main gmp__testing">
+                <section className="">
+                    <div className="section-title text-center pt-60 mb-60 wows fadeInUps animateds">
+                        <h1>cGMP mandated cannabis testing services</h1>
+                    </div>
 
-                <p> cGMP mandates the systems of quality control standards in pharmaceuticals,
-                medical plants and their derivatives to meet the current best and most referenced industry practices to ensure global quality assurance.
-                 Our testing facilities are fully GMP compliant and accredited to proform tasks in every cannabis related industry from pharmaceuticals to food safety testing.
-                 Our services exceed expectations guaranteeing consistency traceability integrity quality and reliability.</p>
-
-                <Services />
+                    <div className="">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-5">
+                                    <img src="/service_bg.jpg" />
+                                </div>
+                                <div className="col-md-5 offset-md-1">
+                                    <p>
+                                        cGMP mandates the systems of quality control standards in pharmaceuticals, medical plants and their derivatives to meet the current best and most referenced industry practices to ensure global quality assurance.
+                                        <br /><br />
+                                        Our testing facilities are fully GMP compliant and accredited to proform tasks in every cannabis related industry from pharmaceuticals to food safety testing.
+                                        <br /><br />
+                                        Our services exceed expectations guaranteeing consistency traceability integrity quality and reliability.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Services />
+                </section>
             </main>
 
             <Footer />
