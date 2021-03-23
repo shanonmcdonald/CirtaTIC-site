@@ -18,10 +18,10 @@ export default function Header () {
                                     { /* <a href="index.html"> */ }
                                     <Link href="/">
                                         <a>
-                                            <Image
-                                                src="/CirtaTIC_Logo_web.png"
-                                                alt="CirtaTIC logo"
-                                                width={75}
+                                            <img
+                                                src="Cirta-logo-final.png"
+                                                alt="Cirta_logo"
+                                                width={65}
                                                 height={75}
                                             />
                                         </a>
@@ -34,6 +34,7 @@ export default function Header () {
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-8 col-6">
                             <div className="header-right-wrapper">
+                            
                                 { /* <div className="menu-bar info-bar f-right">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">Log in</li>

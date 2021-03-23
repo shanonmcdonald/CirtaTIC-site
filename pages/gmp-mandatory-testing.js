@@ -28,7 +28,8 @@ const testingServices = [
         description:`
         Pesticides test of (96 pesticides)
         Organisation: Food and Drug Administration
-        Methodology: GMP cannabis mandatory release cannabis pesticides limits list`,
+        Methodology: GMP cannabis mandatory release cannabis
+        pesticides limits list`,
         icon: faTimes,
         bg: ['/pesticide_bg.jpg']
     }, {
@@ -36,8 +37,10 @@ const testingServices = [
         link: 'hemp-flower-potency',
         //description: 'Test for compliance DL=< 0.3%',
         description:`
-        Hemp plant total THC potency test for compliance DL =<  0.3%
-        Organisation: Association of Official Agricultural Chemists (International)
+        Hemp plant total THC potency test for compliance DL =<
+        0.3%
+        Organisation: Association of Official Agricultural Chemists
+        (International)
         Methodology: AFVAN-SLMF-0029
         Instrumentation: Gas Chromatography (GC)`,
         icon: faCertificate,
@@ -48,9 +51,11 @@ const testingServices = [
         //description: 'B1, B2, G1, G2',
         description:`
         Aflatoxin test for (B1) (B2) (G1) (G2)
-        Organisation: Association of Official Agricultural Chemists (International)
+        Organisation: Association of Official Agricultural Chemists
+        (International)
         Methodology: AFVAN-SLMF-0030
-        Instrumentation: Liquid Chromatography + Mass spectrometry`,
+        Instrumentation: Liquid Chromatography + Mass
+        spectrometry`,
         icon: faExclamationTriangle,
         bg: ['/lc_bg.jpg', '/mc_bg.jpg']
     }, {
@@ -58,27 +63,32 @@ const testingServices = [
         link: 'hemp-products-test',
         //description: 'Total THC potency test DL =< 4ppm',
         description:`
-        Hemp products total THC potency test for compliance DL = 4ppm
-        Organisation: Association of Official Agricultural Chemists (International)
+        Hemp products total THC potency test for compliance DL =
+        4ppm
+        Organisation: Association of Official Agricultural Chemists
+        (International)
         Methodology = AFVAN-SMF-0027
-        Instrumentation = Gas Chromatography + Mass spectrometry
+        Instrumentation = Gas Chromatography + Mass
+        spectrometry
         `,
         icon: faPlusSquare,
-        bg: [] // TODO SHANON: put image name here
+        bg: ['/gc_bg.jpg', '/mc_bg.jpg'] // TODO SHANON: put image name here
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Cannabinoid profile of:
-        (THC delta 8, 9) (OH-THC CBD) (CBG) (CBN) (CBL) (CBC) (CBCA) (CBDA) (CBDV) (CBDVA) (CBGA) (CBNA) (THCA-A) (THCV) (THCVA)
+        (THC delta 8, 9) (OH-THC CBD) (CBG) (CBN) (CBL) (CBC)
+        (CBCA) (CBDA) (CBDV) (CBDVA) (CBGA) (CBNA) (THCA-A)
+        (THCV) (THCVA)
         Organisation: SGS
         Methodology: SGS proprietary method
         Instrumentation: Liquid Chromatography
         `,
 
         icon: faFlask,
-        bg: [] // TODO SHANON: put image name here
+        bg: ['/canna-anal_bg.jpg'] // TODO SHANON: put image name here
     },
     {
         title: 'Heavy metals',
@@ -86,11 +96,13 @@ const testingServices = [
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Heavy metals testing for (Hg) (As) (Cd) (Pb)
-        Organisation: Association of Official Agricultural Chemists (International) + United States Pharmacopeia
+        Organisation: Association of Official Agricultural Chemists
+        (International) + United States Pharmacopeia
         Methodology: AFVAN-SLMF-0022 + <USP> ch. 232
-        Instrumentation: Inductively coupled plasma mass spectrometry
+        Instrumentation: Inductively coupled plasma mass
+        spectrometry
         `,
-        bg: [] // TODO SHANON: put image name here
+        bg: ['/plasma_bg.jpg'] // TODO SHANON: put image name here
         //icon: faFlask
     },
     {
@@ -98,10 +110,11 @@ const testingServices = [
         //link: 'aflatoxin',
         description:`
         Moister content for plant
-        Organisation: Association of Official Agricultural Chemists (International)
+        Organisation: Association of Official Agricultural Chemists
+        (International)
         Methodology: AFVAN-SLMF-0013
         Instrumentation: Scientific air oven`,
-        bg: [] // TODO SHANON: put image name here
+        bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     }
 ]

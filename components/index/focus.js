@@ -33,7 +33,7 @@ export default function Focus () {
                         <div className="col">
                             <div className="about-wrapper mb-30 wows fadeInUps animateds" data-wows-delay="0.2s">
                                 <div className="section-title mb-40">
-                                    <h2> <span className="heading-fill">What We</span> <span className="heading-color">Do</span></h2>
+                                    <h2> <span className="heading-fill">What we</span> <span className="heading-color">do</span></h2>
                                 </div>
                                 { /* <div className="about-info">
                                     <p>We Have 25+ Years Of Experience In Design & Development</p>

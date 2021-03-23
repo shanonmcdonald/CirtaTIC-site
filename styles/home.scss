@@ -1,6 +1,6 @@
 .hero-slider-caption {
     // border: 1px solid $theme-color;
-    
+
     h1 {
         font-size: 70px;
         margin-bottom: 23px;
@@ -139,16 +139,16 @@
     width: 100%;
     position:relative;
     overflow:hidden;
-    background-color: white;
+    background-color: transparent;
 }
-  
+
 .photobanner {
     position:absolute;
     top:0px;
     left:0px;
     overflow:hidden;
     white-space: nowrap;
-    animation: bannermove 5s linear infinite;
+    animation: bannermove 30s linear infinite;
     display: flex;
     flex-direction: row;
 }
@@ -184,9 +184,10 @@
 
 @keyframes bannermove {
     0% {
-        transform: translate(0, 0);
+        margin-left: 0px;
     }
     100% {
-        transform: translate(-100%, 0);
+        margin-left: -3000px;
     }
+
 }

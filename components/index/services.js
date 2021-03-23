@@ -41,7 +41,7 @@ export default function Services () {
             description:"",
             icon: 'pesticide'
         }, {
-            title: 'Hemp flower potency',
+            title: 'Hemp flower compliance test',
             link: 'hemp-flower-potency',
             //description: 'Test for compliance DL=< 0.3%',
             description:"",
@@ -53,7 +53,7 @@ export default function Services () {
             description:"",
             icon: 'aflatoxin'
         }, {
-            title: 'Hemp products test',
+            title: 'Hemp products compliance test',
             link: 'hemp-products-test',
             //description: 'Total THC potency test DL =< 4ppm',
             description:"",
@@ -74,7 +74,7 @@ export default function Services () {
                     <div className="row">
                         <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-60 wows fadeInUps animateds" data-wows-delay="0.2s">
-                                <h2> <span className="heading-fill">Our Analytical</span> <span className="heading-color">Services</span> </h2>
+                                <h2> <span className="heading-fill">Our analytical</span> <span className="heading-color">services</span> </h2>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ export default function Services () {
                                 <p>
                                     <span></span>
                                     <Link href="/services">
-                                        <a>View All Services <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
+                                        <a>View all services <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i></a>
                                     </Link>
                                 </p>
                             </div>

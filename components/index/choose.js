@@ -71,24 +71,70 @@ export default function Choose () {
             <div id="marquee">
               <div className="photobanner">
                 <div className="img-wrapper">
-                  <img src="/effci_logo.jpeg" alt="" />
-                </div>
-                <div className="img-wrapper">
                   <img src="/ctpat_logo.png" alt="" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/who_gmp_logo.png" alt="" />
+                  <img src="/usp_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/who_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/iso9001_logo.png" alt="" />
                 </div>
                 <div className="img-wrapper">
                   <img src="/fda_logo.png" alt="" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/fsa_logo.jpeg" alt="" />
+                  <img src="/aoac_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/healthcanada_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/ISO45001_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/glp_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/fsa_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/dea_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                  <img src="/ psci_logo.png" alt="" />
                 </div>
                 <div className="img-wrapper">
                   <img src="/fsma_logo.png" alt="" />
                 </div>
+                <div className="img-wrapper">
+                  <img src="/govcloud_logo.png" alt="" />
+                </div>
+                <div className="img-wrapper">
+                <img src="/gmp_logo.png" alt="" />
               </div>
+              <div className="img-wrapper">
+                <img src="/HACCP_logo.png" alt="" />
+              </div>
+              <div className="img-wrapper">
+                <img src="/globalgap_logo.png" alt="" />
+              </div>
+
+              <div className="img-wrapper">
+                <img src="/gfsi_logo.png" alt="" />
+              </div>
+              <div className="img-wrapper">
+                <img src="/iso17025_logo.png" alt="" />
+              </div>
+              <div className="img-wrapper">
+                <img src="/iso28000_logo.png" alt="" />
+              </div>
+              <div className="img-wrapper">
+                <img src="/iso45001_logo.png" alt="" />
+              </div>
+            </div>
             </div>
           </div>
         </div>
