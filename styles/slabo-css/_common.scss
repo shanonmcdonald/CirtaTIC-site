@@ -37,6 +37,11 @@ body {
 	color:$body-text-color;
 	overflow-x: hidden;
 }
+
+body {
+	color: $new-body-text-color
+
+}
 #instame-main body {
 	font-family: $rubik;
 }

@@ -24,22 +24,66 @@ const Services = () => {
             <li> We verify your brand and provide you a competetive edge by comfirming claims, allowing you to better communicate with you clients</li>
           </ol>
 
-
+          <br/> <br/>
           
-            <a href="/seed-testing">Seed Testing</a>
+            <h3><a href="/seed-testing">Seed Testing</a></h3>
+
+            <p>
+              <button className="service__btn">askjdnasjd</button>
+            </p>
             <p></p>
-         
+          <br/> <br/> <br/>
       
           <Link href="/soil-and-water-testing">
-            <a>Soil and Water Testing</a>
+           <h3> <a>Soil and Water Testing</a> </h3>
           </Link>
-            <p></p>
-          &nbsp;
+            <div className="container-fluid">
+            <div className="row">
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+            </div>
+          </div>
+             <br/> <br/> <br/>
+          {/*&nbsp;*/}
           <Link href="/gmp-mandatory-testing">
-            <a>GMP Mandatory Testing</a>
+           <h3> <a>GMP Mandatory Testing</a> </h3>
           </Link>
-
-          <section id="services">
+          
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">link</button>
+                <button className="service__btn">link</button>
+              </div>
+            </div>
+          </div>
+      
+          {/*<section id="services">
             <div className="services-area grey-soft-bg pt-110 pb-95">
                 <div className="container">
                     { /* <div className="row">
@@ -53,10 +97,10 @@ const Services = () => {
                     </div>
                     <div className="row">
                         {serviceElms}
-                    </div> */ }
+                    </div> 
                 </div>
             </div>
-          </section>
+          </section> */}
         </main>
 
         <Footer />

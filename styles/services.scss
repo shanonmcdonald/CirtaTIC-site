@@ -19,3 +19,26 @@
 .service__img {
   max-height: 300px;
 }
+
+.service__btn {
+	padding: 29px 30px;
+    border: 3px solid $theme-color;
+    // width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $theme-color;
+    background: none;
+    line-height: 1;
+    transition: .3s;
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    &:hover {
+	    // border-color: #fff;
+    	background: $theme-color;
+    	color: #fff;
+    }
+}
