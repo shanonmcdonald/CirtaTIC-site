@@ -110,95 +110,121 @@ import Footer from '../components/footer'
 
 const testingServices = [
     {
-        title: 'Microbiology Screening',
-        link: 'microbiology-screening',
+        title: 'Gold profile package for soil and water tests',
+        //link: 'microbiology-screening',
         description:`
-        Microbiology screening for: Total aerobic plate count
-        Organization: United States Pharmacopeia
-        Methodology: <USP> chapter 2021-2022-(62)
-        Total yeast = <USP> ch. 2021
-        E. coli = <USP> ch. 2022
-        Salmonella spp. = <USP> ch. 2022
-        Enterbacterial count = <USP> ch. 2021
-        S. aureus = <USP> ch. 2022`,
+        ⦿ Water pH              ⦿ Organic matter
+        ⦿ Buffer pH             ⦿ Cation exchange capacity
+                                           ⦿ Percent saturation
+        ⦿ Phosphorus
+        ⦿ Potassium
+        ⦿ Calcium
+        ⦿ Magnesium
+        ⦿ Zinc
+        ⦿ Manganese
+        ⦿ Sulfur Boron
+        ⦿ Iron
+        ⦿ Copper
+        ⦿ Sodium
+
+
+        `,
         //description:"",
         //icon: faBug,
         //bg: ['/microbiology_bg.jpg']
     }, {
-        title: 'Pesticides Screening',
-        link: 'pesticides-screening',
+        title: 'Silver profile package for soil and water tests',
+        //link: 'pesticides-screening',
         //description: '96 pesticides as per cannabis list with limits',
         description:`
-        Pesticides test of (96 pesticides)
-        Organisation: Food and Drug Administration
-        Methodology: GMP cannabis mandatory release cannabis
-        pesticides limits list`,
+        ⦿ Water pH                  ⦿ Organic matter
+        ⦿ Buffer pH                 ⦿ Cation exchange capacity
+                                                ⦿ Percent saturation
+        ⦿ Phosphorus
+        ⦿ Potassium
+        ⦿ Calcium
+        ⦿ Magnesium
+          `,
         //icon: faTimes,
         //bg: ['/pesticide_bg.jpg']
     }, {
-        title: 'Hemp flower compliance test',
-        link: 'hemp-flower-potency',
+        title: 'Bronze profile package for soil and water tests',
+        //link: 'hemp-flower-potency',
         //description: 'Test for compliance DL=< 0.3%',
         description:`
-        Hemp plant total THC potency test for compliance DL =<
-        0.3%
-        Organisation: Association of Official Agricultural Chemists
-        (International)
-        Methodology: AFVAN-SLMF-0029
-        Instrumentation: Gas Chromatography (GC)`,
+        ⦿ Water pH                   ⦿ Organic matter
+
+        ⦿ Phosphorus
+        ⦿ Potassium
+        `,
         //icon: faCertificate,
         //bg: ['/gc_bg.jpg']
-    }, {
-        title: 'Aflatoxin',
-        link: 'aflatoxin',
+    },{
+        title: 'Multi-elemental profile in (oils)',
+        //link: 'hemp-flower-potency',
+        //description: 'Test for compliance DL=< 0.3%',
+        description:`
+        ⦿ Calcium (Ca)
+        ⦿ Copper (Cu)
+        ⦿ Potassium (K)
+        ⦿ Sodium (Na)
+        ⦿ Iron (Fe)
+        ⦿ Magnesium (Mg)
+        ⦿ Manganese (Mn)
+        ⦿ Zinc (Zn)
+        `,
+        //icon: faCertificate,
+        //bg: ['/gc_bg.jpg']
+    },
+     {
+        title: 'Micro-nutrient composite tests',
+        //link: 'aflatoxin',
         //description: 'B1, B2, G1, G2',
         description:`
-        Aflatoxin test for (B1) (B2) (G1) (G2)
-        Organisation: Association of Official Agricultural Chemists
-        (International)
-        Methodology: AFVAN-SLMF-0030
-        Instrumentation: Liquid Chromatography + Mass
-        spectrometry`,
-        //icon: faExclamationTriangle,
+        ⦿ Zinc
+        ⦿ Manganese
+        ⦿ Sulfur
+        ⦿ Boron
+        ⦿ Iron
+        ⦿ Copper
+        ⦿ Sodium
+      `,
+
+      //icon: faExclamationTriangle,
         //bg: ['/lc_bg.jpg', '/mc_bg.jpg']
     }, {
-        title: 'Hemp products compliance test',
-        link: 'hemp-products-test',
+        title: 'Gold package plant/soil pesticides testing',
+        //link: 'hemp-products-test',
         //description: 'Total THC potency test DL =< 4ppm',
         description:`
-        Hemp products total THC potency test for compliance DL =
-        4ppm
-        Organisation: Association of Official Agricultural Chemists
-        (International)
-        Methodology = AFVAN-SMF-0027
-        Instrumentation = Gas Chromatography + Mass
+        Plant tissue and soil pesticide test for 270 pesticides
+        Organisation: GlobalGAP
+        Methology:
+        Intrumentation: Liquid chromatography + tandem mass
         spectrometry
         `,
         //icon: faPlusSquare,
         //bg: ['/gc_bg.jpg', '/mc_bg.jpg'] // TODO SHANON: put image name here
     }, {
-        title: 'Total Cannabis Cannabinoid Profile',
-        link: 'total-cannabis-cannabinoid-profile',
+        title: 'Silver package plant/soil pesticide testing',
+        //link: 'total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
-        Cannabinoid profile of:
-        (THC delta 8, 9) (OH-THC CBD) (CBG) (CBN) (CBL) (CBC)
-        (CBCA) (CBDA) (CBDV) (CBDVA) (CBGA) (CBNA) (THCA-A)
-        (THCV) (THCVA)
-        Organisation: SGS
-        Methodology: SGS proprietary method
-        Instrumentation: Liquid Chromatography
+        Plant tissue and soil pesticide test for 140 Pesticides
+        Organisation: GlobalGAP
+        Methology:
+        Intrumentation: Gas chromatography + triple quadrupole mass spectrometer
         `,
 
         //icon: faFlask,
         //bg: ['/canna-anal_bg.jpg'] // TODO SHANON: put image name here
     },
     {
-        title: 'Heavy metals',
+        title: 'Plant/soil heavy metal screening',
         //link: 'total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
-        Heavy metals testing for (Hg) (As) (Cd) (Pb)
+        Heavy metals testing for mercury(Hg) arsenic(As) cadmium(Cd) lead(Pb)
         Organisation: Association of Official Agricultural Chemists
         (International) + United States Pharmacopeia
         Methodology: AFVAN-SLMF-0022 + <USP> ch. 232
@@ -209,17 +235,98 @@ const testingServices = [
         //icon: faFlask
     },
     {
-        title: 'Moister content',
+        title: 'Quaternary ammouium herbicides',
         //link: 'aflatoxin',
         description:`
-        Moister content for plant
+        Tests for:
+        ⦿ Chromequat
+        ⦿ Mepiquat
+        ⦿ Diquat
+        ⦿ Paraquat
+
+        Organisation: GlobalGAP
+        Methology:
+        Intrumentation: Liquid chromatography + tandem mass
+        spectrometry
+
+        `,
+       // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+        //icon: faExclamationTriangle
+    },
+    {
+        title: 'Radiation test',
+        //link: 'aflatoxin',
+        description:`
+        Radiation test for plant tissue, soil and water
         Organisation: Association of Official Agricultural Chemists
         (International)
-        Methodology: AFVAN-SLMF-0013
-        Instrumentation: Scientific air oven`,
+        Methodology: AOAC section 973.67
+        Instrumentation: Gamma-ray spectroscopic`,
+       // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+        //icon: faExclamationTriangle
+    },
+    {
+        title: 'Specialty testing services',
+        //link: 'aflatoxin',
+        description:`
+        ⦿ Phosphurus (P2 - Strong Bray)
+        ⦿ Phosphurus (Sodium Bicarbonate, Olsen P)
+        ⦿ Loss on Ignition (LOI)
+        ⦿ Sodium absorption rate (SAR)
+        ⦿ Bio assay
+
+        Fertilizer analysis:
+        ⦿ Total nitrogen, phosphorus and potassium
+        ⦿ Total nitrogen, phosphate, poly-phosphate and pH
+        ⦿ Total nitrogen, phosphate and potassium
+        ⦿ Specific gravity
+        ⦿ Sulfur and zinc
+        ⦿ Urea
+        ⦿ pH
+
+        Limestone analysis
+        ⦿ Sieve analysis (8,30,60 mesh screen scores)+percent
+        calcium carbonate equivelent
+        ⦿ Calcium and magnesium in limestone
+        ⦿ Calcium and magnesium in limestone
+        ⦿ % calcium and magnesium in limestone
+        ⦿ Gypsum (calcium and sulfur)
+
+        Soil nitrogen:
+        ⦿ Nitrate-nitrogen (bench method)
+        ⦿ Amino sugar nitrogen-ISNT
+        ⦿ Ammonium
+
+        Manure analysis package profile test:
+        ⦿ Total nitrogen
+        ⦿ Ammonia nitrogen
+        ⦿ Phosphorus
+        ⦿ Potassium
+        ⦿ Total sulfur
+        ⦿ Calcium
+        ⦿ Magnesium
+        ⦿ Sodium
+        ⦿ Iron
+        ⦿ Aluminum
+        ⦿ Manganese
+        ⦿ Copper
+        ⦿ Zinc
+        ⦿ Boron
+        ⦿ % solid
+        ⦿ % water pH
+
+
+
+
+
+
+
+
+        `,
        // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     }
+
 ]
 
 const Services = () => {
@@ -264,7 +371,7 @@ const Testing = () => {
             <main className="main gmp__testing">
                 <section className="">
                     <div className="section-title text-center pt-60 mb-60 wows fadeInUps animateds">
-                        <h1>cGMP mandated cannabis testing services</h1>
+                        <h1>Best practices soil and water testing services</h1>
                     </div>
 
                     <div className="">
@@ -275,11 +382,7 @@ const Testing = () => {
                                 </div>*/}
                                 <div className="col-md-5 offset-md-1">
                                     <p>
-                                        cGMP mandates the systems of quality control standards in pharmaceuticals, medical plants and their derivatives to meet the current best and most referenced industry practices to ensure global quality assurance.
-                                        <br /><br />
-                                        Our testing facilities are fully GMP compliant and accredited to proform tasks in every cannabis related industry from pharmaceuticals to food safety testing.
-                                        <br /><br />
-                                        Our services exceed expectations guaranteeing consistency traceability integrity quality and reliability.
+                                    As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services. Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying. Soil dives into more of a complex systems interacting with water nutritions systems, converting nutrients from water to soil and beneficial organisms living within. Having a healthy soil systems protects your soil from being more susceptible to pests and parasites
                                     </p>
                                 </div>
                             </div>
@@ -297,4 +400,3 @@ const Testing = () => {
 }
 
 export default Testing
-
