@@ -18,7 +18,7 @@ export default function Choose () {
           </div>
 
           <div className="row">
-            <div className="col-md-4 col-lg-4 pt-20">
+            <div className="col-md-6 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
@@ -33,8 +33,7 @@ export default function Choose () {
                 </div>
               </div>
             </div>
-
-            <div className="col-md-4 col-lg-4 pt-20">
+            <div className="col-md-6 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
@@ -49,7 +48,7 @@ export default function Choose () {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4 pt-20">
+            <div className="offset-md-3 col-md-6 offset-lg-0 col-lg-4 pt-20">
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
