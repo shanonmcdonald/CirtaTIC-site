@@ -106,7 +106,7 @@ const testingServices = [
         //icon: faFlask
     },
     {
-        title: 'Moister content',
+        title: 'Moisture content',
         //link: 'aflatoxin',
         description:`
         Moister content for plant
