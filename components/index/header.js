@@ -34,6 +34,21 @@ export default function Header () {
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-8 col-6">
                             <div className="header-right-wrapper">
+
+                            <div className="logo f-left">
+                                    { /* <a href="index.html"> */ }
+                                    <Link href="/">
+                                        <a>
+                                            <img
+                                                src="americanflag_logo.png"
+                                                alt="Cirta_logo"
+                                                width={95}
+                                                height={60}
+                                            />
+                                        </a>
+                                    </Link>
+                                    { /* </a> */ }
+                                </div>
                             
                                 { /* <div className="menu-bar info-bar f-right">
                                     <ul className="list-inline">
