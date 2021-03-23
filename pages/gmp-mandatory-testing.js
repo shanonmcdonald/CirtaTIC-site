@@ -122,8 +122,7 @@ const testingServices = [
 const Services = () => {
     return testingServices.map(service => {
         return (
-          <>
-            <div className="container mx60">
+            <div className="container mx60" key={service.title}>
                 <div className="row">
                     <div className="col">
                             <h3 style={{'margin': '50px 0'}} key={service.link} id={service.link}>{service.title}</h3>
@@ -137,7 +136,7 @@ const Services = () => {
                         <div className="row">
                             {service.bg.map(b => {
                                 return (
-                                    <div className="col">
+                                    <div className="col" key={b}>
                                         <img src={b} className="service__img" />
                                     </div>
                                 )}
@@ -146,7 +145,6 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-          </>
         )
     })
 }
