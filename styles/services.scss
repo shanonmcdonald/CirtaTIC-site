@@ -42,3 +42,22 @@
     	color: #fff;
     }
 }
+
+.service__btn.service__btn--blue {
+    border: 3px solid #0facf7;
+    color: #0facf7;
+
+    &:hover {
+      background-color: #0facf7;
+      color: white;
+    }
+}
+    .service__btn.service__btn--black {
+        border: 3px solid #000000;
+        color: #000000;
+
+        &:hover {
+          background-color: #000000;
+          color: white;
+        }
+}

@@ -262,7 +262,7 @@ const testingServices = [
         (International)
         Methodology: AOAC section 973.67
         Instrumentation: Gamma-ray spectroscopic`,
-       // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+       //bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     },
     {
@@ -377,9 +377,9 @@ const Testing = () => {
                     <div className="">
                         <div className="container">
                             <div className="row">
-                                {/*<div className="col-md-5">
-                                    <img src="/service_bg.jpg" />
-                                </div>*/}
+                                {<div className="col-md-5">
+                                    <img src="/soilseedpage_logo.jpg" />
+                                </div>}
                                 <div className="col-md-5 offset-md-1">
                                     <p>
                                     As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services. Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying. Soil dives into more of a complex systems interacting with water nutritions systems, converting nutrients from water to soil and beneficial organisms living within. Having a healthy soil systems protects your soil from being more susceptible to pests and parasites

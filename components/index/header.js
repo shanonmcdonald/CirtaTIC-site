@@ -34,7 +34,7 @@ export default function Header () {
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-8 col-6">
                             <div className="header-right-wrapper">
-                            
+
                                 { /* <div className="menu-bar info-bar f-right">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">Log in</li>
@@ -54,8 +54,8 @@ export default function Header () {
                                             <img
                                                 src="americanflag_logo.png"
                                                 alt="Cirta_logo"
-                                                width={95}
-                                                height={70}
+                                                width={90}
+                                                height={65}
                                             />
                                         </a>
                                     </Link>

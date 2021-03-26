@@ -41,8 +41,8 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-video">
-              <video className={styles.video_bg} autoPlay loop muted>
-                <source src="medical_cannabis_bg.mp4" type="video/mp4" />
+              <video className={styles.video_bg} autoPlay loop muted playsInline>
+                <source src="medical_cannabis_bg.mp4" type="video/mp4"/>
               </video>
             </div>
           </section>

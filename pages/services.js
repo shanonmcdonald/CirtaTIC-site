@@ -25,64 +25,66 @@ const Services = () => {
           </ol>
 
           <br/> <br/>
-          
-            <h3><a href="/seed-testing">Seed Testing</a></h3>
 
-            <p>
-              <button className="service__btn">askjdnasjd</button>
-            </p>
-            <p></p>
+          {/*&nbsp;*/}
+          <Link href="/gmp-mandatory-testing">
+           <h3> <a>GMP Mandatory Testing</a> </h3>
+          </Link>
+
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col">
+                <button className="service__btn">Microbiology screening</button>
+                <button className="service__btn">Pesticides screening</button>
+                <button className="service__btn">Hemp flower compliance test</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">Aflatoxin</button>
+                <button className="service__btn">Hemp products compliance test</button>
+                <button className="service__btn">Total cannabis profile</button>
+              </div>
+              <div className="col">
+                <button className="service__btn">Heavy metals</button>
+                <button className="service__btn">Moisture content</button>
+              </div>
+            </div>
+          </div>
           <br/> <br/> <br/>
-      
+
           <Link href="/soil-and-water-testing">
            <h3> <a>Soil and Water Testing</a> </h3>
           </Link>
             <div className="container-fluid">
             <div className="row">
               <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
+                <button className="service__btn service__btn--blue">Gold package for soil and water</button>
+                <button className="service__btn service__btn--blue">Silver package for soil and water</button>
+                <button className="service__btn service__btn--blue">Bronze package for soil and water</button>
+                <button className="service__btn service__btn--blue">Multi-elemental profile in (oils)</button>
               </div>
               <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
+                <button className="service__btn service__btn--blue">Micro-nutrient composite test</button>
+                <button className="service__btn service__btn--blue">Gold package plant/soil pesticides test</button>
+                <button className="service__btn service__btn--blue">Silver package plant/soil pesticide test</button>
+                <button className="service__btn service__btn--blue">PLant/soil heavy metal screening</button>
               </div>
               <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
+                <button className="service__btn service__btn--blue">Quaternary ammouium herbicides</button>
+                <button className="service__btn service__btn--blue">Radiation test</button>
+                <button className="service__btn service__btn--blue">Specialty testing services</button>
               </div>
             </div>
           </div>
              <br/> <br/> <br/>
-          {/*&nbsp;*/}
-          <Link href="/gmp-mandatory-testing">
-           <h3> <a>GMP Mandatory Testing</a> </h3>
-          </Link>
-          
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-              </div>
-              <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-              </div>
-              <div className="col">
-                <button className="service__btn">link</button>
-                <button className="service__btn">link</button>
-              </div>
-            </div>
-          </div>
-      
+
+            <h3><a href="/seed-testing">Seed Testing</a></h3>
+
+            <p>
+              <button className="service__btn service__btn--black">Coming soon</button>
+            </p>
+            <p></p>
+          <br/> <br/> <br/>
+
           {/*<section id="services">
             <div className="services-area grey-soft-bg pt-110 pb-95">
                 <div className="container">
@@ -97,7 +99,7 @@ const Services = () => {
                     </div>
                     <div className="row">
                         {serviceElms}
-                    </div> 
+                    </div>
                 </div>
             </div>
           </section> */}

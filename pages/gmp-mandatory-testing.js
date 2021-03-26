@@ -57,7 +57,7 @@ const testingServices = [
         Instrumentation: Liquid Chromatography + Mass
         spectrometry`,
         icon: faExclamationTriangle,
-        bg: ['/lc_bg.jpg', '/mc_bg.jpg']
+        bg: ['/lc_bg.jpg', '/ms_logo.png']
     }, {
         title: 'Hemp products compliance test',
         link: 'hemp-products-test',
@@ -72,7 +72,7 @@ const testingServices = [
         spectrometry
         `,
         icon: faPlusSquare,
-        bg: ['/gc_bg.jpg', '/mc_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/gc_bg.jpg', '/ms_logo.png'] // TODO SHANON: put image name here
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',
@@ -88,7 +88,7 @@ const testingServices = [
         `,
 
         icon: faFlask,
-        bg: ['/canna-anal_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/canna-anal_bg.jpg','/cannaresults_logo.png'] // TODO SHANON: put image name here
     },
     {
         title: 'Heavy metals',
