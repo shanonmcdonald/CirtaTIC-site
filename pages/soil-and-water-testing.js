@@ -1,112 +1,7 @@
-{/*import Head from 'next/head'
-
-import Header from '../components/index/header'
-import Footer from '../components/footer'
-
-const Testing = () => {
-    return (
-        <>
-            <Head>
-              <title>Soil and Water Testing - Cirta</title>
-            </Head>
-
-            <Header />
-
-            <main className="main">
-                <h1>Soil and Water Testing services</h1>
-                <br/> <br/>
-
-                <h3>Soil carbon to nitrogen ratio test</h3><br/>
-                <ol>
-                <li>SHSCN: C:N Ratio </li><br/>
-                <li>Carbon to nitrogen ratio is the ratio of the molecular mass of
-                carbon to the molecular mass of nitrogen in soil or compost</li>
-                <li>Provides you with the contents of organic matter, which indicates information about
-                the egology, climate and nutritions circlating within the soil</li>
-                </ol>
-
-                <br/> <br/>
-                <h3>Soil texture test</h3><br/>
-                <ol>
-                <li> SHSTEXT: Texture </li><br/>
-                <li> Testing for relative proportions of mineral particles
-                of various soil fractions such as sand, slit and clay expressed in a percentage of overall sample</li>
-                <li>Knowing the soil fraction content provides soil information of
-                nutritional holding capacity, water retention, soil stability, drainage, aeration</li>
-                </ol>
-
-                <br/> <br/>
-                <h3>Soil nitrogen level and different NH4(+) -N/NO3(-) -N ratios</h3><br/>
-                <ol>
-                <li>SHSTEXT2: NO3-N & NH4C.a </li><br/>
-                <li>fertilizer nitrogen testing</li>
-                <li>Nitrogen forms on nitrogen metabolism and main chemical composition of the soil</li>
-                </ol>
-                <br/> <br/>
-                <h3>Soil health test</h3><br/>
-                <ol>
-                <li> A complete panel for testing the overall health of your soil</li>
-                <li> OM, pH, BpH, P, K, Mg, Ca, Na, S, B, Cu, Mn, Fe, Zn, Al, CEC, % saturation of cations,
-                 K:MG, EC, %P, %AL, Cl, Solvita CO2-C, PMN, Active C, Soil Health Index, NO3-N</li>
-                </ol>
-                 <br/> <br/>
-                <h3>Physico-chemical analysis for tank water and irrigation</h3><br/>
-                <ol>
-                <li> Physico-chemical analysis rely on a wide variety of analysis techniques to know the intrinsic properties of molecules or atoms,
-                 or their ability to react with specific reagents or when under defined stress</li>
-                <li>Physico-chemical analysis rely on a wide variety of analysis techniques to know the intrinsic properties of molecules or atoms,
-                 or their ability to react with specific reagents or when under defined stress</li>
-                </ol>
-
-            </main>
-
-            <Footer />
-        </>
-    )
-}
-
-export default Testing
-*/}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import Head from 'next/head'
 
 import Header from '../components/index/header'
 import Footer from '../components/footer'
-//import { faBug, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
-
 
 const testingServices = [
     {
@@ -115,7 +10,7 @@ const testingServices = [
         description:`
         ⦿ Water pH              ⦿ Organic matter
         ⦿ Buffer pH             ⦿ Cation exchange capacity
-                                           ⦿ Percent saturation
+        ⦿ Percent saturation
         ⦿ Phosphorus
         ⦿ Potassium
         ⦿ Calcium
@@ -126,12 +21,10 @@ const testingServices = [
         ⦿ Iron
         ⦿ Copper
         ⦿ Sodium
-
-
         `,
         //description:"",
         //icon: faBug,
-        //bg: ['/microbiology_bg.jpg']
+        bg: ['/microbiology_bg.jpg']
     }, {
         title: 'Silver profile package for soil and water tests',
         //link: 'pesticides-screening',
@@ -158,7 +51,7 @@ const testingServices = [
         ⦿ Potassium
         `,
         //icon: faCertificate,
-        //bg: ['/gc_bg.jpg']
+        bg: ['/gc_bg.jpg']
     },{
         title: 'Multi-elemental profile in (oils)',
         //link: 'hemp-flower-potency',
@@ -174,7 +67,7 @@ const testingServices = [
         ⦿ Zinc (Zn)
         `,
         //icon: faCertificate,
-        //bg: ['/gc_bg.jpg']
+        bg: ['/gc_bg.jpg']
     },
      {
         title: 'Micro-nutrient composite tests',
@@ -191,7 +84,7 @@ const testingServices = [
       `,
 
       //icon: faExclamationTriangle,
-        //bg: ['/lc_bg.jpg', '/mc_bg.jpg']
+        bg: ['/lc_bg.jpg', '/mc_bg.jpg']
     }, {
         title: 'Gold package plant/soil pesticides testing',
         //link: 'hemp-products-test',
@@ -335,7 +228,7 @@ const Services = () => {
             <div className="container mx60" key={service.title}>
                 <div className="row">
                     <div className="col">
-                            <h3 style={{'margin': '50px 0'}} key={service.link} id={service.link}>{service.title}</h3>
+                        <h3 style={{'margin': '50px 0'}} key={service.link} id={service.link}>{service.title}</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -344,13 +237,13 @@ const Services = () => {
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="row">
-                           {/* {service.bg.map(b => {
+                           {service.bg && service.bg.map(b => {
                                 return (
                                     <div className="col" key={b}>
                                         <img src={b} className="service__img" />
                                     </div>
                                 )}
-                            )}*/}
+                            )}
                         </div>
                     </div>
                 </div>
@@ -369,26 +262,28 @@ const Testing = () => {
             <Header />
 
             <main className="main gmp__testing">
-                <section className="">
-                    <div className="section-title text-center pt-60 mb-60 wows fadeInUps animateds">
-                        <h1>Best practices soil and water testing services</h1>
-                    </div>
+                <div className="section-title text-center pt-60 mb-60 wows fadeInUps animateds">
+                    <h1>Best practices soil and water testing services</h1>
+                </div>
 
-                    <div className="">
-                        <div className="container">
+                <div className="">
+                    <div className="container">
                             <div className="row">
-                                {<div className="col-md-5">
-                                    <img src="/soilseedpage_logo.jpg" />
+                                {<div className="offset-md-1 col-md-5">
+                                    <img src="/soilseedpage_logo.jpg" alt="Soil and Seed Testing" />
                                 </div>}
-                                <div className="col-md-5 offset-md-1">
+                                <div className="col-md-5">
                                     <p>
-                                    As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services. Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying. Soil dives into more of a complex systems interacting with water nutritions systems, converting nutrients from water to soil and beneficial organisms living within. Having a healthy soil systems protects your soil from being more susceptible to pests and parasites
+                                    As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services. 
+                                    <br />
+                                    Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying. 
+                                    <br />
+                                    Soil dives into more of a complex systems interacting with water nutritions systems, converting nutrients from water to soil and beneficial organisms living within. Having a healthy soil systems protects your soil from being more susceptible to pests and parasites
                                     </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                </div>
                 <section>
                     <Services />
                 </section>

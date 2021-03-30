@@ -8,20 +8,20 @@
 }
 
 .service--description {
-  white-space: pre-wrap;
+    white-space: pre-wrap;
 }
 
 
 .gmp__testing p {
-  color: black;
+    color: black;
 }
 
 .service__img {
-  max-height: 300px;
+   max-height: 300px;
 }
 
 .service__btn {
-	padding: 29px 30px;
+	  padding: 29px 30px;
     border: 3px solid $theme-color;
     // width: 100%;
     font-size: 15px;
@@ -35,7 +35,8 @@
     display: block;
     margin-top: 15px;
     margin-bottom: 15px;
-
+    width: 100%;
+    min-height: 100px;
     &:hover {
 	    // border-color: #fff;
     	background: $theme-color;
@@ -60,4 +61,9 @@
           background-color: #000000;
           color: white;
         }
+}
+
+.service__title {
+    color: black;
+    font-size: 20px;
 }

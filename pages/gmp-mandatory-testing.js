@@ -4,7 +4,6 @@ import Header from '../components/index/header'
 import Footer from '../components/footer'
 import { faBug, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 
-
 const testingServices = [
     {
         title: 'Microbiology Screening',
