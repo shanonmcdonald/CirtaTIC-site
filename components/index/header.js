@@ -15,7 +15,6 @@ export default function Header () {
                         <div className="col-xl-5 col-lg-5 col-md-4 col-6">
                             <div className="header-top-wrapper">
                                 <div className="logo f-left">
-                                    { /* <a href="index.html"> */ }
                                     <Link href="/">
                                         <a>
                                             <img
@@ -26,10 +25,7 @@ export default function Header () {
                                             />
                                         </a>
                                     </Link>
-                                    { /* </a> */ }
                                 </div>
-                                { /* <div className="header-top-info f-left d-none d-lg-block">
-                                </div> */ }
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-8 col-6">
@@ -42,7 +38,10 @@ export default function Header () {
                                 </div> */ }
                                 <div className="header-icon f-right d-none d-md-block">
                                     <ul className="list-inline">
-                                        <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank"><a>Login</a></a></li>
+
+                                        <li className="list-inline-item">
+                                            <a href="https://portal.cirtausa.com" target="_blank">Login</a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="logo f-right pt-1">
