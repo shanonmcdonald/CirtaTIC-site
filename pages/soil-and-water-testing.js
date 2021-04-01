@@ -24,7 +24,7 @@ const testingServices = [
         `,
         //description:"",
         //icon: faBug,
-        bg: ['/microbiology_bg.jpg']
+        bg: ['/goldseal_logo.png']
     }, {
         title: 'Silver profile package for soil and water tests',
         //link: 'pesticides-screening',
@@ -39,7 +39,7 @@ const testingServices = [
         ⦿ Magnesium
           `,
         //icon: faTimes,
-        //bg: ['/pesticide_bg.jpg']
+        bg: ['/silverseal_logo.png']
     }, {
         title: 'Bronze profile package for soil and water tests',
         //link: 'hemp-flower-potency',
@@ -51,7 +51,7 @@ const testingServices = [
         ⦿ Potassium
         `,
         //icon: faCertificate,
-        bg: ['/gc_bg.jpg']
+        bg: ['/bronzeseal_logo.png']
     },{
         title: 'Multi-elemental profile in (oils)',
         //link: 'hemp-flower-potency',
@@ -67,7 +67,7 @@ const testingServices = [
         ⦿ Zinc (Zn)
         `,
         //icon: faCertificate,
-        bg: ['/gc_bg.jpg']
+        bg: ['/multielement_logo.png']
     },
      {
         title: 'Micro-nutrient composite tests',
@@ -84,7 +84,7 @@ const testingServices = [
       `,
 
       //icon: faExclamationTriangle,
-        bg: ['/lc_bg.jpg', '/mc_bg.jpg']
+        bg: ['/micronutrient_logo.png']
     }, {
         title: 'Gold package plant/soil pesticides testing',
         //link: 'hemp-products-test',
@@ -97,7 +97,7 @@ const testingServices = [
         spectrometry
         `,
         //icon: faPlusSquare,
-        //bg: ['/gc_bg.jpg', '/mc_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/goldpesticide_logo.png'] // TODO SHANON: put image name here
     }, {
         title: 'Silver package plant/soil pesticide testing',
         //link: 'total-cannabis-cannabinoid-profile',
@@ -110,7 +110,7 @@ const testingServices = [
         `,
 
         //icon: faFlask,
-        //bg: ['/canna-anal_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/silverpesticide_logo.png'] // TODO SHANON: put image name here
     },
     {
         title: 'Plant/soil heavy metal screening',
@@ -124,7 +124,7 @@ const testingServices = [
         Instrumentation: Inductively coupled plasma mass
         spectrometry
         `,
-        //bg: ['/plasma_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/plasma_bg.jpg'] // TODO SHANON: put image name here
         //icon: faFlask
     },
     {
@@ -143,7 +143,7 @@ const testingServices = [
         spectrometry
 
         `,
-       // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+       bg: ['/Quaternary2_logo.png','/Quaternary1_logo.png'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     },
     {
@@ -155,7 +155,7 @@ const testingServices = [
         (International)
         Methodology: AOAC section 973.67
         Instrumentation: Gamma-ray spectroscopic`,
-       //bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+       bg: ['/radiation_logo.png'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     },
     {
@@ -216,7 +216,7 @@ const testingServices = [
 
 
         `,
-       // bg: ['/airoven_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/speciality_logo.png'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     }
 
@@ -274,9 +274,9 @@ const Testing = () => {
                                 </div>}
                                 <div className="col-md-5">
                                     <p>
-                                    As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services. 
+                                    As we know soil and water is the frontier to cannabis farming and is arguably the most important aspect of cannabis production. Most farmers and cannabis producer are passionate about their soil and water content so we match their passion for soil and water through our testing services.
                                     <br />
-                                    Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying. 
+                                    Soil is made up of complex living organisms and a single sample of soil contains billions of microorganisms which are feed, digestion, breath, being born and dying.
                                     <br />
                                     Soil dives into more of a complex systems interacting with water nutritions systems, converting nutrients from water to soil and beneficial organisms living within. Having a healthy soil systems protects your soil from being more susceptible to pests and parasites
                                     </p>
