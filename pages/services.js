@@ -64,7 +64,7 @@ const Services = () => {
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col">
-                      <button className="service__btn service__btn--blue">Gold package for soil and water</button>
+                      <button className="service__btn service__btn--blue"><Link href="/soil-and-water-testing#gold-profile-package-for-soil-and-water-tests">Gold package for soil and water</Link></button>
                       <button className="service__btn service__btn--blue">Silver package for soil and water</button>
                       <button className="service__btn service__btn--blue">Bronze package for soil and water</button>
                       <button className="service__btn service__btn--blue">Multi-elemental profile in (oils)</button>

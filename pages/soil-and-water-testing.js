@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 const testingServices = [
     {
         title: 'Gold profile package for soil and water tests',
-        //link: 'microbiology-screening',
+        link: 'gold-profile-package-for-soil-and-water-tests',
         description:`
         ⦿ Water pH              ⦿ Organic matter
         ⦿ Buffer pH             ⦿ Cation exchange capacity
