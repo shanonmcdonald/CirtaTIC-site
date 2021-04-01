@@ -40,18 +40,18 @@ const Services = () => {
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col">
-                      <button className="service__btn">Microbiology screening</button>
-                      <button className="service__btn">Pesticides screening</button>
-                      <button className="service__btn">Hemp flower compliance test</button>
+                      <Link href="/gmp-mandatory-testing#microbiology-screening"><button className="service__btn">Microbiology screening</button></Link>
+                      <Link href="/gmp-mandatory-testing#pesticides-screening"><button className="service__btn">Pesticides screening</button></Link>
+                      <Link href="/gmp-mandatory-testing#hemp-flower-potency"><button className="service__btn">Hemp flower compliance test</button></Link>
                     </div>
                     <div className="col">
-                      <button className="service__btn">Aflatoxin</button>
-                      <button className="service__btn">Hemp products compliance test</button>
-                      <button className="service__btn">Total cannabis profile</button>
+                      <Link href="/gmp-mandatory-testing#aflatoxin"><button className="service__btn">Aflatoxin</button></Link>
+                      <Link href="/gmp-mandatory-testing#hemp-products-test"><button className="service__btn">Hemp products compliance test</button></Link>
+                      <Link href="/gmp-mandatory-testing#total-cannabis-cannabinoid-profile"><button className="service__btn">Total cannabis profile</button></Link>
                     </div>
                     <div className="col">
-                      <button className="service__btn">Heavy metals</button>
-                      <button className="service__btn">Moisture content</button>
+                      <Link href="/gmp-mandatory-testing#heavy-metals"><button className="service__btn">Heavy metals</button></Link>
+                      <Link href="/gmp-mandatory-testing#moisture-content"><button className="service__btn">Moisture content</button></Link>
                     </div>
                   </div>
                 </div>
@@ -64,21 +64,21 @@ const Services = () => {
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col">
-                      <button className="service__btn service__btn--blue"><Link href="/soil-and-water-testing#gold-profile-package-for-soil-and-water-tests">Gold package for soil and water</Link></button>
-                      <button className="service__btn service__btn--blue">Silver package for soil and water</button>
-                      <button className="service__btn service__btn--blue">Bronze package for soil and water</button>
-                      <button className="service__btn service__btn--blue">Multi-elemental profile in (oils)</button>
+                      <Link href="/soil-and-water-testing#gold-profile-package-for-soil-and-water-tests"><button className="service__btn service__btn--blue">Gold package for soil and water</button></Link>
+                      <Link href="/soil-and-water-testing#silver-profile-package-for-soil-and-water-tests"><button className="service__btn service__btn--blue">Silver package for soil and water</button></Link>
+                      <Link href="/soil-and-water-testing#bronze-profile-package-for-soil-and-water-tests"><button className="service__btn service__btn--blue">Bronze package for soil and water</button></Link>
+                      <Link href="/soil-and-water-testing#multi-elemental-profile-in-oils"><button className="service__btn service__btn--blue">Multi-elemental profile in (oils)</button></Link>
                     </div>
                     <div className="col">
-                      <button className="service__btn service__btn--blue">Micro-nutrient composite test</button>
-                      <button className="service__btn service__btn--blue">Gold package plant/soil pesticides test</button>
-                      <button className="service__btn service__btn--blue">Silver package plant/soil pesticide test</button>
-                      <button className="service__btn service__btn--blue">PLant/soil heavy metal screening</button>
+                      <Link href="/soil-and-water-testing#micro-nutrient-composite-tests"><button className="service__btn service__btn--blue">Micro-nutrient composite test</button></Link>
+                      <Link href="/soil-and-water-testing#gold-package-plant-soil-pesticides-testing"><button className="service__btn service__btn--blue">Gold package plant/soil pesticides test</button></Link>
+                      <Link href="/soil-and-water-testing#silver-package-plant-soil-pesticide-testing"><button className="service__btn service__btn--blue">Silver package plant/soil pesticide test</button></Link>
+                      <Link href="/soil-and-water-testing#plant-soil-heavy-metal-screening"><button className="service__btn service__btn--blue">PLant/soil heavy metal screening</button></Link>
                     </div>
                     <div className="col">
-                      <button className="service__btn service__btn--blue">Quaternary ammouium herbicides</button>
-                      <button className="service__btn service__btn--blue">Radiation test</button>
-                      <button className="service__btn service__btn--blue">Specialty testing services</button>
+                      <Link href="/soil-and-water-testing#quaternary-ammouium-herbicides"><button className="service__btn service__btn--blue">Quaternary ammouium herbicides</button></Link>
+                      <Link href="/soil-and-water-testing#radiation-test"><button className="service__btn service__btn--blue">Radiation test</button></Link>
+                      <Link href="/soil-and-water-testing#specialty-testing-services"><button className="service__btn service__btn--blue">Specialty testing services</button></Link>
                     </div>
                   </div>
                 </div>

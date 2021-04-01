@@ -27,7 +27,7 @@ const testingServices = [
         bg: ['/microbiology_bg.jpg']
     }, {
         title: 'Silver profile package for soil and water tests',
-        //link: 'pesticides-screening',
+        link: 'silver-profile-package-for-soil-and-water-tests',
         //description: '96 pesticides as per cannabis list with limits',
         description:`
         ⦿ Water pH                  ⦿ Organic matter
@@ -42,7 +42,7 @@ const testingServices = [
         //bg: ['/pesticide_bg.jpg']
     }, {
         title: 'Bronze profile package for soil and water tests',
-        //link: 'hemp-flower-potency',
+        link: 'bronze-profile-package-for-soil-and-water-tests',
         //description: 'Test for compliance DL=< 0.3%',
         description:`
         ⦿ Water pH                   ⦿ Organic matter
@@ -54,7 +54,7 @@ const testingServices = [
         bg: ['/gc_bg.jpg']
     },{
         title: 'Multi-elemental profile in (oils)',
-        //link: 'hemp-flower-potency',
+        link: 'multi-elemental-profile-in-oils',
         //description: 'Test for compliance DL=< 0.3%',
         description:`
         ⦿ Calcium (Ca)
@@ -71,7 +71,7 @@ const testingServices = [
     },
      {
         title: 'Micro-nutrient composite tests',
-        //link: 'aflatoxin',
+        link:  'micro-nutrient-composite-tests',
         //description: 'B1, B2, G1, G2',
         description:`
         ⦿ Zinc
@@ -87,7 +87,7 @@ const testingServices = [
         bg: ['/lc_bg.jpg', '/mc_bg.jpg']
     }, {
         title: 'Gold package plant/soil pesticides testing',
-        //link: 'hemp-products-test',
+        link:  'gold-package-plant-soil-pesticides-testing',
         //description: 'Total THC potency test DL =< 4ppm',
         description:`
         Plant tissue and soil pesticide test for 270 pesticides
@@ -100,7 +100,7 @@ const testingServices = [
         //bg: ['/gc_bg.jpg', '/mc_bg.jpg'] // TODO SHANON: put image name here
     }, {
         title: 'Silver package plant/soil pesticide testing',
-        //link: 'total-cannabis-cannabinoid-profile',
+        link:  'silver-package-plant-soil-pesticide-testing',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Plant tissue and soil pesticide test for 140 Pesticides
@@ -114,7 +114,7 @@ const testingServices = [
     },
     {
         title: 'Plant/soil heavy metal screening',
-        //link: 'total-cannabis-cannabinoid-profile',
+        link:  'plant-soil-heavy-metal-screening',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Heavy metals testing for mercury(Hg) arsenic(As) cadmium(Cd) lead(Pb)
@@ -129,7 +129,7 @@ const testingServices = [
     },
     {
         title: 'Quaternary ammouium herbicides',
-        //link: 'aflatoxin',
+        link:  'quaternary-ammouium-herbicides',
         description:`
         Tests for:
         ⦿ Chromequat
@@ -148,7 +148,7 @@ const testingServices = [
     },
     {
         title: 'Radiation test',
-        //link: 'aflatoxin',
+        link:  'radiation-test',
         description:`
         Radiation test for plant tissue, soil and water
         Organisation: Association of Official Agricultural Chemists
@@ -160,7 +160,7 @@ const testingServices = [
     },
     {
         title: 'Specialty testing services',
-        //link: 'aflatoxin',
+        link:  'specialty-testing-services',
         description:`
         ⦿ Phosphurus (P2 - Strong Bray)
         ⦿ Phosphurus (Sodium Bicarbonate, Olsen P)
