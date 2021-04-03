@@ -20,7 +20,7 @@ const Services = () => {
             <div className="row">
               <div className="col">
                 <h1 className="my-4">All services and testing schemas</h1>
-                <p>
+                <p className="about-info">
                   Reducing barriers to complex compliance regulations with our digitial compliance platform to monitor and manage testing services, security, product certification and beyond<br />
                   We ensure your testing services align with current good manufacturing practices requirements and expectations<br />
                   Our team's expertise helps you stay ahead of changing complex compliance regulations and accelerated market technology<br />

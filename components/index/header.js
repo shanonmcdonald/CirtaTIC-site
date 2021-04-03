@@ -23,7 +23,6 @@ export default function Header () {
                             <div className="col-xl-5 col-lg-5 col-md-4 col-6">
                                 <div className="header-top-wrapper">
                                     <div className="logo f-left">
-                                        { /* <a href="index.html"> */ }
                                         <Link href="/">
                                             <a>
                                                 <img
@@ -52,7 +51,7 @@ export default function Header () {
                                             <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">Cirta client portal</a></li>
                                         </ul>
                                     </div>
-                                    <div className="logo f-right pt-1">
+                                    <div className="logo f-right pt-1 flag-vertical-middle">
                                         <Link href="/">
                                             <a>
                                                 <img
