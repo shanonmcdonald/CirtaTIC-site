@@ -204,14 +204,15 @@
 
 }
 
-
 // menu
 .menu-close {
     cursor: pointer;
     color: $theme-color;
 }
 
-
-.flag-vertical-middle {
-    vertical-align: middle;
+.flag-icon {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }

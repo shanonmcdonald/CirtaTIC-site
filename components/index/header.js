@@ -6,11 +6,6 @@ import Sidebar from '../sidebar'
 
 import Link from 'next/link'
 
-function alert (e) {
-    e.preventDefault();
-    window.alert('Contact us alert box');
-}
-
 export default function Header () {
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
@@ -51,7 +46,7 @@ export default function Header () {
                                             <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">Cirta client portal</a></li>
                                         </ul>
                                     </div>
-                                    <div className="logo f-right pt-1 flag-vertical-middle">
+                                    <div className="flag-icon">
                                         <Link href="/">
                                             <a>
                                                 <img
