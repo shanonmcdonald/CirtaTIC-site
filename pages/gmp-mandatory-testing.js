@@ -91,7 +91,7 @@ const testingServices = [
     },
     {
         title: 'Heavy metals',
-        //link: 'total-cannabis-cannabinoid-profile',
+        link: 'heavy-metals',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Heavy metals testing for (Hg) (As) (Cd) (Pb)
@@ -106,7 +106,7 @@ const testingServices = [
     },
     {
         title: 'Moisture content',
-        //link: 'aflatoxin',
+        link: 'moisture-content',
         description:`
         Moister content for plant
         Organisation: Association of Official Agricultural Chemists
