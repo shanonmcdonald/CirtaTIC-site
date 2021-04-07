@@ -78,7 +78,7 @@ export default function Focus () {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                        <div className="line-bar d-none d-md-block"></div>
+                            <div className="line-bar d-none d-md-block"></div>
                         </div>
                     </div>
                     <div className="row">
