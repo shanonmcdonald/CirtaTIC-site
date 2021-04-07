@@ -26,8 +26,8 @@ export default function Focus () {
         counter++;
     }
     return (
-        <section id="about" className="pb-90">
-            <div className="about-area pt-110" >
+        <section id="about" className="">
+            <div className="about-area pt-110 pb-110" >
                 <div className="container">
                     <div className="row">
                         <div className="col">
@@ -74,7 +74,7 @@ export default function Focus () {
                     </div>
                 </div>
             </div>
-            <section className="counter-area pt-40 wows fadeInUps animateds" data-wows-delay="0.3s">
+            <section className="counter-area pt-90 pb-90 wows fadeInUps animateds black-soft-bg" data-wows-delay="0.3s">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

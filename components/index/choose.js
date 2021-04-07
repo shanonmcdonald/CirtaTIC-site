@@ -66,7 +66,7 @@ export default function Choose () {
 
           </div>
 
-          <div className="row">
+          <div className="row mt-60">
             <div id="marquee">
               <div className="photobanner">
                 <div className="img-wrapper">
