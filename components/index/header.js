@@ -43,7 +43,7 @@ export default function Header () {
                                     </div>
                                     <div className="header-icon f-right d-none d-md-block">
                                         <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">Cirta client portal</a></li>
+                                            <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">Client Portal</a></li>
                                         </ul>
                                     </div>
                                     <div className="flag-icon">
@@ -52,8 +52,8 @@ export default function Header () {
                                                 <img
                                                     src="americanflag_logo.png"
                                                     alt="Cirta_logo"
-                                                    width={60}
-                                                    height={35}
+                                                    width={70}
+                                                    height={45}
                                                 />
                                             </a>
                                         </Link>
