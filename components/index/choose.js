@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScrewdriver } from '@fortawesome/free-solid-svg-icons';
 import { faReceipt } from '@fortawesome/free-solid-svg-icons'
+// import RelationshipImg from '../../public/collab-relationship.png'
 
 export default function Choose () {
   return (
@@ -22,7 +23,7 @@ export default function Choose () {
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
-                    <i><FontAwesomeIcon icon={faScrewdriver}/></i>
+                    <img src="/collab-relationship.png" alt="Collaborative Relationship Icon"/>
                   </div>
                   <div className="client-say-content align-self-center">
                     <h4>Collaborative Relationship</h4>
@@ -37,10 +38,10 @@ export default function Choose () {
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
-                    <i><FontAwesomeIcon icon={faReceipt}/></i>
+                    <img src="/world-standards.png" alt="World Class Standards Icon" />
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4> World class standards</h4>
+                    <h4>World class standards</h4>
                   </div>
                 </div>
                 <div className="test-text">
@@ -52,10 +53,11 @@ export default function Choose () {
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
-                    <i><FontAwesomeIcon icon={faReceipt}/></i>
+                    { /* <i><FontAwesomeIcon icon={faReceipt}/></i> */ }
+                    <img src="/tech-lab.png" alt="Technologies and Laboratories Icon" />
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4> Technologies and laboratories</h4>
+                    <h4>Technologies and laboratories</h4>
                   </div>
                 </div>
                 <div className="test-text">
