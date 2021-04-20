@@ -207,14 +207,6 @@ const testingServices = [
         ⦿ Boron
         ⦿ % solid
         ⦿ % water pH
-
-
-
-
-
-
-
-
         `,
         bg: ['/speciality_logo.png'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
@@ -225,10 +217,10 @@ const testingServices = [
 const Services = () => {
     return testingServices.map(service => {
         return (
-            <div className="container mx60 py20" key={service.title}>
+            <div className="container mt-4 py20" key={service.title}>
                 <div className="row">
                     <div className="col">
-                        <h3 key={service.link} id={service.link}>{service.title}</h3>
+                        <h3 style={{'margin': '50px 0'}} id={service.link}>{service.title}</h3>
                     </div>
                 </div>
                 <div className="row">
