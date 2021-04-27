@@ -86,7 +86,7 @@ export default function Services () {
                         <div className="col col-md-8 offset-md-2">
                             <div className="service-info">
                                 <p>Our state of the art pharmaceutical grade lab testing facilities are accredited by the highest global regulatory governing bodies</p>
-                                <p>Ensuring every step in your testing schema is executed at the highest level of analytical processes in accordance with global industry's leading 🌟gold standard🌟 certifications</p>
+                                <p>Ensuring every step in your testing schema is executed at the highest level of analytical processes in accordance with global industry's 🌟gold standard🌟 leading certifications</p>
                             </div>
                         </div>
                     </div>
