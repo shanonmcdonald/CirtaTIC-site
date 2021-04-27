@@ -19,12 +19,12 @@ const Services = () => {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h1 className="my-4">All services and testing schemas</h1>
+                <h1 className="my-4">All analytical testing services</h1>
                 <p className="about-info">
-                  Reducing barriers to complex compliance regulations with our digitial compliance platform to monitor and manage testing services, security, product certification and beyond<br />
-                  We ensure your testing services align with current good manufacturing practices requirements and expectations<br />
-                  Our team's expertise helps you stay ahead of changing complex compliance regulations and accelerated market technology<br />
-                  We verify your brand and provide you a competetive edge by comfirming claims, allowing you to better communicate with you clients
+                  ✅ Reducing barriers to complex compliance regulations with our digitial compliance platform to monitor and manage testing services, security, product certification and beyond<br />
+                  ✅ We ensure your testing services align with current good manufacturing practices requirements and expectations<br />
+                  ✅ Our team's expertise helps you stay ahead of changing complex compliance regulations and accelerated market technology<br />
+                  ✅ We verify your brand and provide you a competetive edge by comfirming claims, allowing you to better communicate with you clients
                 </p>
               </div>
             </div>
@@ -55,8 +55,8 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                
-                <h3 className="my-4"> 
+
+                <h3 className="my-4">
                   <Link href="/soil-and-water-testing">
                    <a className="c-btn service__title">Soil and Water Testing</a>
                   </Link>
@@ -87,7 +87,7 @@ const Services = () => {
                   <a className="c-btn service__title" href="/seed-testing">Seed Testing</a>
                 </h3>
 
-                
+
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-4">

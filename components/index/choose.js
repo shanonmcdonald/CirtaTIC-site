@@ -30,7 +30,7 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We strive to build a trusting, collaborative and efficient relationships with our clients creating innovative testing solutions for every phase of the cannabis production cycle while you in the most cost effective methods without sacrificing quality </p>
+                  <p>We strive to build a trusting, collaborative and efficient relationship with our clients creating innovative testing solutions for every phase of your cannabis production cycle while maintaining the most cost & time effective methods </p>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>Using the highest regulatory standards and "best practice" certifcations, technologies and methodologies extensively used in established industries from pharmaceuticals, food, agriculture to nutraceuticals which we implemented into the cannabis market segment</p>
+                  <p>We act in accordance to industries highest regulatory standards and certifications. Utilizing cGMP methodologies used in established industries suchlike pharmaceuticals, food, agriculture and nutraceuticals while delivering a superior end-to-end cannabis workflow</p>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We offer an unrivaled testing experience. Utilizing latest technologies in equipement and software we ensure that clients get the most leverage from our testing services to thrive in the growing increasingly competitive and global cannabis marketplace </p>
+                  <p>We offer an unrivaled testing service. Combining the latest analytical technologies, eMethods, automation and cloud computing technologies to optimize the most leverage from our services for you to thrive in the competitive global cannabis marketplace </p>
                 </div>
               </div>
             </div>

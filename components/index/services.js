@@ -78,7 +78,7 @@ export default function Services () {
                     <div className="row">
                         <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-60 wows fadeInUps animateds" data-wows-delay="0.2s">
-                                <h2> <span className="heading-fill">Our analytical</span> <span className="heading-color">services</span> </h2>
+                                <h2> <span className="heading-fill">Our testing</span> <span className="heading-color">services</span> </h2>
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,11 @@ export default function Services () {
                         <div className="col col-md-8 offset-md-2">
                             <div className="service-info">
                                 <p>Our state of the art pharmaceutical grade lab testing facilities are accredited by the highest global regulatory governing bodies</p>
-                                <p>We ensure every step in your testing schema is executed at the highest level of scientific processes to the industry's "gold standard" of certifications</p>
+                                <p>Ensuring every step in your testing schema is executed at the highest level of analytical processes in accordance with global industry's leading 🌟gold standard🌟 certifications</p>
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div className="row">
                         { services.map((service, index) => <ServiceElements service={service} key={index} />) }

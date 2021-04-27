@@ -14,10 +14,10 @@ const Sidebar = ({sidebarOpen, setSidebarOpen}) => {
                 </div>
                 <nav className="primary-nav">
                     <ul>
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/services">Services</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
-                        <li><a href="https://portal.cirtausa.com">Login</a></li>
+                        <li><Link href="/">🏡 Home</Link></li>
+                        <li><Link href="/services">🧑🏻‍🔬 Services</Link></li>
+                        <li><Link href="/contact">📇 Contact</Link></li>
+                        <li><a href="https://portal.cirtausa.com">🖥️ Login/Sign up</a></li>
                     </ul>
                 </nav>
                 <div className="company-info">

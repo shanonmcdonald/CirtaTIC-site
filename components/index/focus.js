@@ -4,10 +4,10 @@
 export default function Focus () {
     let counter = 1;
     const steps = [
-        { title: 'Register to our client portal' },
-        { title: 'Select and review your testing schema' },
-        { title: 'Select a date for sample pick up' },
-        { title: 'Log back in to view your test results and product certification' }
+        { title: 'Sign-in to Cirta portals' },
+        { title: 'Create your testing schema' },
+        { title: 'We pick up your sample free of charge' },
+        { title: 'View your results on Cirta portals' }
     ]
     const stepElms = []
 
@@ -42,9 +42,9 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            Our mission is to help mature and legitimize the rapidly growing cannabis industry with in the overall scientific global society of testing inspection certification and verification
+                                            Our mission is to facilitate the legitimacy of the rapidly growing cannabis industry in conformity with scientific global societies of testing inspection certification and verification
                                             <br /><br />
-                                            We provide the highest technological laboratory services utilizing the highest industry certifications tailored to your cannabis testing requirements while all managed and deployed with our digital cloud compliance platform. We believe in superior testing services as a critical driving force for innovation and market segment growth.
+                                            We deliver the highest analytical technologies available for our testing services while simultaneously utilizing the industries highest global certifications and standards tailored with precision for all our clients unique cannabis testing needs all implemented using the best eMehtods with-in our automated cloud platform. We unfalterly believe in superior testing services and methodologies as the key driving forces for innovation and market segment growth
                                             </p>
                                         </div>
                                         { /* <div className="col-lg-6 d-flex">

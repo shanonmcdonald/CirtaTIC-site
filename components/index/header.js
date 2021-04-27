@@ -43,7 +43,7 @@ export default function Header () {
                                     </div>
                                     <div className="header-icon f-right d-none d-md-block">
                                         <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">Client Portal</a></li>
+                                            <li className="list-inline-item"><a href="https://portal.cirtausa.com" target="_blank">☁ Client portal ☁</a></li>
                                         </ul>
                                     </div>
                                     <div className="flag-icon">
