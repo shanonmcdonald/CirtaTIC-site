@@ -55,7 +55,7 @@
 
         background-size: 360px;
         //background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
 }
 
 
@@ -74,7 +74,8 @@
     background-color: $grey-soft;
 }
 
-.client-say-icon {
+.client-say-icon 
+{
     width: 85px;
     max-height: 55px;
 
