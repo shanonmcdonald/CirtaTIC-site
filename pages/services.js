@@ -21,7 +21,7 @@ const Services = () => {
               <div className="col">
                 <h1 className="my-4">All analytical testing services</h1>
                 <p className="about-info">
-                  ✅ Our complete suite of cannabis related analytical testing services are fully in compliance and accredited to the highest relating industry standards<br />
+                  ✅ Our complete suite of cannabis related analytical testing services are fully compliant to regulations and is accredited to the highest relating industry standards<br />
                   ✅ We manage and employ your testing business processes, data management, data analytics, logistics and global complex cannabis legal regulations while streamlining your testing workflow by increasing business credibility, increasing productivity and maximizing profitability no matter the volume  <br />
                   ✅ Our robust ePlatform features a secure in-house cloud hosted portal automated to accerate your lab testing schema implementations providing digital solutions to all your testing administrative needs with 24/7 support by our team of expert scientists and engineers  <br />
                   ✅ We verify your busniness and products offering a competetive edge in quality assurance and brand protection, keeping you ahead of the competition

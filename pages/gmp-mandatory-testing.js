@@ -10,15 +10,16 @@ const testingServices = [
         title: 'Microbiology Screening',
         link: 'microbiology-screening',
         description:`
-        Microbiology screening for: Total aerobic plate count
+        Full panel microbiology screening
         Organization: United States Pharmacopeia
         Methodology: <USP> chapter 2021-2022-(62)
         Total yeast = <USP> ch. 2021
+        Total aerobic plate count = <USP> ch. 2021
         E. coli = <USP> ch. 2022
         Salmonella spp. = <USP> ch. 2022
         Enterbacterial count = <USP> ch. 2021
         S. aureus = <USP> ch. 2022`,
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'GMP monitors certain microbes such as E. coli and Salmonella to be dangerous pathogens in cannabis flower, extracts and in a variety of infused products. Our GMP lab facility utilizes a GMP guidlined micro suitability pour plate method to detect unique DNA sequences of the harmful pathogens ',
         icon: faBug,
         bg: ['/microbiology_bg.jpg']
     }, {
@@ -28,30 +29,32 @@ const testingServices = [
         description:`
         Pesticides test of (96 pesticides)
         Organisation: Food and Drug Administration
-        Methodology: GMP cannabis mandatory release cannabis
+        Methodology:(LC/MS/MS and GC/MS/MS)-GMP cannabis
+        mandatory release cannabis
         pesticides limits list`,
         icon: faTimes,
         bg: ['/pesticide_bg.jpg'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'GMP internationally regulates the complex matrix of cannabis pesticides limits. We achieve this GMP standard by utilizing a certified dual platform method using a triple quadrupole mass spectrometry coupled to both liquid and gas chromatography ensuring cannabis products are compliant to GMP limits and are safe to public health and consumers.',
     }, {
         title: 'Hemp flower compliance test',
         link: 'hemp-flower-potency',
         //description: 'Test for compliance DL=< 0.3%',
         description:`
-        Hemp plant total THC potency test for compliance DL =< 0.3%
+        Hemp plant total THC potency test for compliance DL =<
+        0.3%
         Organisation: Association of Official Agricultural Chemists
         (International)
         Methodology: AFVAN-SLMF-0029
         Instrumentation: Gas Chromatography (GC)`,
         icon: faCertificate,
         bg: ['/gc_bg.jpg'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'Utilizing the latest (GC) analytical tools we verify that your hemp flower/buds are below the GMP hemp technical manual required limit of less than 0.3% THC content ',
     }, {
         title: 'Aflatoxin',
         link: 'aflatoxin',
         //description: 'B1, B2, G1, G2',
         description:`
-        Aflatoxin test for (B1) (B2) (G1) (G2)
+        Aflatoxin screening for (B1) (B2) (G1) (G2)
         Organisation: Association of Official Agricultural Chemists
         (International)
         Methodology: AFVAN-SLMF-0030
@@ -59,13 +62,14 @@ const testingServices = [
         spectrometry`,
         icon: faExclamationTriangle,
         bg: ['/lc_bg.jpg', '/ms_logo.png'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'Aflaxtoxins are a type of mycotoxins which acts as potent carcinogens and even a small doses of exposure can be life threatening. We detect aflatoxins using GMP methologies and limits utilizing a complex combination of liquid chromatography with mass spectrometry to accurately detect amounts down to the parts per billion ',
     }, {
         title: 'Hemp products compliance test',
         link: 'hemp-products-test',
         //description: 'Total THC potency test DL =< 4ppm',
         description:`
-        Hemp products total THC potency test for compliance DL = 4ppm
+        Hemp products total THC potency test for compliance DL =
+        4ppm
         Organisation: Association of Official Agricultural Chemists
         (International)
         Methodology = AFVAN-SMF-0027
@@ -74,29 +78,43 @@ const testingServices = [
         `,
         icon: faPlusSquare,
         bg: ['/gc_bg.jpg', '/ms_logo.png'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'Utilizing the latest (GC) in tangent with (MS) analytical tools we verify that your hemp product is below the GMP hemp technical manual required limit of no more than 4ppm in THC content ',
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
         Cannabinoid profile of:
-        (THC delta 8, 9) (OH-THC CBD) (CBG) (CBN) (CBL) (CBC)
-        (CBCA) (CBDA) (CBDV) (CBDVA) (CBGA) (CBNA) (THCA-A)
-        (THCV) (THCVA)
+        🔬tetrahydrocannabinol (THC delta-8-&-9)
+        🔬11-hydroxy-tetrahydrocannabinol(OH-THC)
+        🔬cannabidiol(CBD)
+        🔬cannabigerol(CBG)
+        🔬cannabinol(CBN)
+        🔬cannabicyclol(CBL)
+        🔬cannabichromene(CBC)
+        🔬cannabichromenic acid(CBCA)
+        🔬cannabidiolic acid(CBDA)
+        🔬cannabidivarin(CBDV)
+        🔬cannabidivarinic acid(CBDVA)
+        🔬cannabigerolic acid(CBGA)
+        🔬cannabinol acid(CBNA)
+        🔬tetrahydrocannabinolic acid(THCA-A)
+        🔬tetrahydrocannabivarin(THCV)
+        🔬tetrahydrocannabivarin acid(THCVA)
         Organisation: SGS
         Methodology: SGS proprietary method
-        Instrumentation: Liquid Chromatography
+        Instrumentation: Ultra-performance Liquid Chromatography
         `,
         bg: ['/canna-anal_bg.jpg','/cannaresults_logo.png'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'There are more than 60 cannabinoids compounds unique to the cannabis plant. We use an in house SGS proprietary (UPLC) method to chemically seperate, identify and quantify each cannabinoid compenent with in the sample mixture ',
     },
     {
         title: 'Heavy metals',
         link: 'heavy-metals',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:`
-        Heavy metals testing for (Hg) (As) (Cd) (Pb)
+        Heavy metals testing for Mercury(Hg) Arsenic(As)
+        Cadmium(Cd) Lead(Pb)
         Organisation: Association of Official Agricultural Chemists
         (International) + United States Pharmacopeia
         Methodology: AFVAN-SLMF-0022 + <USP> ch. 232
@@ -104,7 +122,7 @@ const testingServices = [
         spectrometry
         `,
         bg: ['/plasma_bg.jpg'],
-        read: 'Let\'s go to a little walk and shit baby',
+        read: 'GMP guidlines dictate limits to exposure of harmful heavy metals including lead, arsenic, mercury and cadmium to pose a serious safety risk and require heavy metals screening prior to cannabis products reaching commercial markets ',
     },
     {
         title: 'Moisture content',
@@ -116,7 +134,7 @@ const testingServices = [
         Methodology: AFVAN-SLMF-0013
         Instrumentation: Scientific air oven`,
         bg: ['/airoven_bg.jpg'],
-        read: 'Let\'s go to a little walk and shit baby haha school teaccher baby hoe hoe',
+        read: 'GMP limits moisture content for cannabis flowers/buds. Using our scientific infrared air oven we can detect the smallest measurements of plant moisture content up-to 4-plate analytical readouts',
     }
 ]
 
@@ -175,7 +193,7 @@ const Testing = () => {
             <main className="main gmp__testing">
                 <section className="">
                     <div className="section-title text-center pt-60 mb-60 wows fadeInUps animateds">
-                        <h1>cGMP mandated cannabis testing services</h1>
+                        <h1>cGMP mandatory release cannabis testing services</h1>
                     </div>
 
                     <div className="">
@@ -186,11 +204,10 @@ const Testing = () => {
                                 </div>
                                 <div className="col-md-5 offset-md-1">
                                     <p>
-                                        cGMP mandates the systems of quality control standards in pharmaceuticals, medical plants and their derivatives to meet the current best and most referenced industry practices to ensure global quality assurance.
+                                        Our testing services and lab facilities are fully GMP compliant and accredited by international and domestic governing bodies. At Cirta, we are certified to provide our clients with an all-in-one cannabis testing suite that is approved and compliant with GMP cannabis regulations.
                                         <br /><br />
-                                        Our testing facilities are fully GMP compliant and accredited to proform tasks in every cannabis related industry from pharmaceuticals to food safety testing.
-                                        <br /><br />
-                                        Our services exceed expectations guaranteeing consistency traceability integrity quality and reliability.
+                                        In order for cannabis products to be considered high quality or for medical purposes it must satisfy the stringent pharmaceutical quality standards guaranteeing consistency, traceability, integrity and quality assurance. Good Manufacturing Practices(GMP) are guidlines and practices released by the World Health Organization(WHO) in order to conform with international pharmaceutical regulators and international industry segment regulators which are deliberatly harmanized with government regulatory agencies and the International Organization for Standards(ISO) achieving a total quality systems of standards and regulations.
+
                                     </p>
                                 </div>
                             </div>
