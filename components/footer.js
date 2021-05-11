@@ -15,7 +15,7 @@ const Footer = () => {
                                 <br />
                                 <span className="white-color">📱 (201) 328 7539 </span>
                                 <br/>
-                                <a href="mailto:cirta@cirtausa.com" className="footer__a">📩 cirta@cirtausa.com</a>
+                                <a href="mailto:cirta@cirtausa.com" className="footer__a">📩 sales@cirtausa.com</a>
                                 <br/>
                                 <span>&#169; {currentYear} All Rights Reserved</span>
                             </p>
