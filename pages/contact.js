@@ -11,7 +11,10 @@ export default function Contact () {
     return (
         <>
         <Head >
-              <title>Contact - Cirta</title>
+            <title>Contact - Cirta</title>
+            <meta name="description" content="GMP Cannabis Testing" />
+
+            <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ce5ca488-8b2e-45fd-bdad-474184244d32"> </script>
         </Head>
 
         <Header />

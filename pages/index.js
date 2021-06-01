@@ -15,6 +15,10 @@ export default function Home() {
       <div className={styles.container}>
         <Head>
           <title>Cirta - Cannabis Testing, Inspection and Certification</title>
+
+          <meta name="description" content="GMP Cannabis Testing" />
+
+          <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ce5ca488-8b2e-45fd-bdad-474184244d32"> </script>
         </Head>
 
         <main className={styles.main}>
