@@ -35,6 +35,30 @@ const Services = () => {
             <div className="row">
               <div className="col">
                 <h3 className="my-5">
+                  <Link href="/preharvest-and-compliance-testing">
+                    <a className="c-btn service__title">Preharvest & Compliance Testing</a>
+                  </Link>
+                </h3>
+
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col">
+                      <Link href="/preharvest-and-compliance-testing#preharvest-test"><button className="service__btn service__btn--green">Preharvest test</button></Link>
+                    </div>
+                    <div className="col">
+                      <Link href="/preharvest-and-compliance-testing#hemp-flower-compliance"><button className="service__btn service__btn--green">Hemp flower compliance test</button></Link>
+                    </div>
+                    <div className="col">
+                      <Link href="/preharvest-and-compliance-testing#hemp-products-compliance"><button className="service__btn service__btn--green">Hemp products compliance test</button></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <h3 className="my-5">
                   <Link href="/gmp-mandatory-testing">
                     <a className="c-btn service__title">GMP Mandatory Testing</a>
                   </Link>
@@ -45,11 +69,9 @@ const Services = () => {
                     <div className="col">
                       <Link href="/gmp-mandatory-testing#microbiology-screening"><button className="service__btn">Microbiology screening</button></Link>
                       <Link href="/gmp-mandatory-testing#pesticides-screening"><button className="service__btn">Pesticides screening</button></Link>
-                      <Link href="/gmp-mandatory-testing#hemp-flower-potency"><button className="service__btn">Hemp flower compliance test</button></Link>
                     </div>
                     <div className="col">
                       <Link href="/gmp-mandatory-testing#aflatoxin"><button className="service__btn">Aflatoxin</button></Link>
-                      <Link href="/gmp-mandatory-testing#hemp-products-test"><button className="service__btn">Hemp products compliance test</button></Link>
                       <Link href="/gmp-mandatory-testing#total-cannabis-cannabinoid-profile"><button className="service__btn">Total cannabis profile</button></Link>
                     </div>
                     <div className="col">
@@ -102,24 +124,6 @@ const Services = () => {
                 </div>
             </div>
           </div>
-          {/*<section id="services">
-            <div className="services-area grey-soft-bg pt-110 pb-95">
-                <div className="container">
-                    { /* <div className="row">
-                        <div className="col-lg-8 offset-lg-2">
-                            <p>
-                                We provide solutions through our testing, inspection and certification services we ensure to businesses, growers, processors, manufacturer, distributors and retailers with navigating legal compliance and opening barriers to global business opportunities.  Through our testing, inspection and certification services we ensure clients meet all legal requirements while maximizing quality assurance and minimizing risk.
-                                <br /><br />
-                                We comply with complex global compliance legislation in accordance with the FDA, EU GMP, Federal Regulations, state regulations, and Health Canada. We develop systems and quality assurance programs to provide an accelerated approach to incorporating (GMPs) good manufacturing practices to fit your specific business needs.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        {serviceElms}
-                    </div>
-                </div>
-            </div>
-          </section> */}
         </main>
 
         <Footer />

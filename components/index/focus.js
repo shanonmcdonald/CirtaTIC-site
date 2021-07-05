@@ -47,26 +47,37 @@ export default function Focus () {
                                             We employ & develop the best analytical testing technologies while simultaneously utilizing the industries highest global & domestic certifications tailored to our clients unique cannabis testing needs all housed & delivered on our automated cloud platform. We believe in superior testing services as the key driving forces for cannabis innovation and market segment growth
                                             </p>
                                         </div>
-                                        { /* <div className="col-lg-6 d-flex">
-                                            <div className="about-icon">
-                                                <i><FontAwesomeIcon icon={faList} /></i>
-                                            </div>
-                                            <div className="about-text">
-                                                <h3>Testing Certification & Compliance</h3>
-                                                <p>Our goal is to provide the highest level of testing certifications and compliance tailored to clients unique and required testing needs. We believe in the power of quality products to improve businesses and people’s lives. We pride ourselves on the ability to deploy testing services regardless of your geographical location.</p>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 d-flex">
-                                            <div className="about-icon">
-                                                <i><FontAwesomeIcon icon={faCreditCard} /></i>
-                                            </div>
-                                            <div className="about-text">
-                                                <h3>Cost Reduction</h3>
-                                                <p>We focus on providing customers cost reduction to their bottomline while ensuring product quality and mitigating asymmetries that would otherwise distort trade or block trade.</p>
-                                            </div>
-                                        </div> */ }
                                     </div>
-                                    <div className="about-social-icon">
+
+                                    <div className="row mt-4">
+                                        <div className="col">
+                                            <div className="mb-3">
+                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                            </div>
+                                            <h5>column 1</h5>
+                                            <p>description 1</p>
+                                        </div>
+                                        <div className="col">
+                                            <div className="mb-3">
+                                                <img src="/service-design.svg" class="img-fluid" alt="Alt text" />
+                                            </div>
+                                            <h5>column 1</h5>
+                                            <p>description 1</p>
+                                        </div>
+                                        <div className="col">
+                                            <div className="mb-3">
+                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                            </div>
+                                            <h5>column 1</h5>
+                                            <p>description 1</p>
+                                        </div>
+                                        <div className="col">
+                                            <div className="mb-3">
+                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                            </div>
+                                            <h5>column 1</h5>
+                                            <p>description 1</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

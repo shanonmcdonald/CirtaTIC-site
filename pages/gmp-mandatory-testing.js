@@ -5,7 +5,7 @@ import Header from '../components/index/header'
 import Footer from '../components/footer'
 import Scripts from '../components/headScripts'
 
-import { faBug, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+import { faBug, faTimes, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
 
 const testingServices = [
     {
@@ -38,20 +38,6 @@ const testingServices = [
         bg: ['/pesticide_bg.jpg'],
         read: 'GMP internationally regulates the complex matrix of cannabis pesticides limits. We achieve this GMP standard by utilizing a certified dual platform method using a triple quadrupole mass spectrometry coupled to both liquid and gas chromatography ensuring cannabis products are compliant to GMP limits and are safe to public health and consumers.',
     }, {
-        title: 'Hemp flower compliance test',
-        link: 'hemp-flower-potency',
-        //description: 'Test for compliance DL=< 0.3%',
-        description:`
-        Hemp plant total THC potency test for compliance DL =<
-        0.3%
-        Organisation: Association of Official Agricultural Chemists
-        (International)
-        Methodology: AFVAN-SLMF-0029
-        Instrumentation: Gas Chromatography (GC)`,
-        icon: faCertificate,
-        bg: ['/gc_bg.jpg'],
-        read: 'Utilizing the latest (GC) analytical tools we verify that your hemp flower/buds are below the GMP hemp technical manual required limit of less than 0.3% THC content ',
-    }, {
         title: 'Aflatoxin',
         link: 'aflatoxin',
         //description: 'B1, B2, G1, G2',
@@ -65,22 +51,6 @@ const testingServices = [
         icon: faExclamationTriangle,
         bg: ['/lc_bg.jpg', '/ms_logo.png'],
         read: 'Aflaxtoxins are a type of mycotoxins which acts as potent carcinogens and even a small doses of exposure can be life threatening. We detect aflatoxins using GMP methologies and limits utilizing a complex combination of liquid chromatography with mass spectrometry to accurately detect amounts down to the parts per billion ',
-    }, {
-        title: 'Hemp products compliance test',
-        link: 'hemp-products-test',
-        //description: 'Total THC potency test DL =< 4ppm',
-        description:`
-        Hemp products total THC potency test for compliance DL =
-        4ppm
-        Organisation: Association of Official Agricultural Chemists
-        (International)
-        Methodology = AFVAN-SMF-0027
-        Instrumentation = Gas Chromatography + Mass
-        spectrometry
-        `,
-        icon: faPlusSquare,
-        bg: ['/gc_bg.jpg', '/ms_logo.png'],
-        read: 'Utilizing the latest (GC) in tangent with (MS) analytical tools we verify that your hemp product is below the GMP hemp technical manual required limit of no more than 4ppm in THC content ',
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
         link: 'total-cannabis-cannabinoid-profile',

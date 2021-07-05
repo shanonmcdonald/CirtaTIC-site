@@ -9,37 +9,37 @@ import Link from 'next/link'
 const services = [
     {
         title: 'Microbiology screening',
-        link: 'microbiology-screening',
+        link: '/gmp-mandatory-testing#microbiology-screening',
         description: 'Total aerobic plate count, total yeast and molds, E. coli, samonella spp., enterbacterial count, S. aureus, P. aueroginosa',
         //description:"",
         icon: 'micro'
     }, {
         title: 'Pesticides screening',
-        link: 'pesticides-screening',
+        link: '/gmp-mandatory-testing#pesticides-screening',
         //description: '96 pesticides as per cannabis list with limits',
         description:"",
         icon: 'pesticide'
     }, {
-        title: 'Hemp flower compliance test',
-        link: 'hemp-flower-potency',
+        title: 'GMP',
+        link: '/gmp-mandatory-testing',
         //description: 'Test for compliance DL=< 0.3%',
         description:"",
         icon: 'hemp-flowery-test'
     }, {
         title: 'Aflatoxin',
-        link: 'aflatoxin',
+        link: '/gmp-mandatory-testing#aflatoxin',
         //description: 'B1, B2, G1, G2',
         description:"",
         icon: 'aflatoxin'
     }, {
-        title: 'Hemp products compliance test',
-        link: 'hemp-products-test',
+        title: 'Preharvest',
+        link: '/preharvest-and-compliance-testing',
         //description: 'Total THC potency test DL =< 4ppm',
         description:"",
         icon: 'hemp-product-test'
     }, {
         title: 'Total cannabinoid profile',
-        link: 'total-cannabis-cannabinoid-profile',
+        link: '/gmp-mandatory-testing#total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:"",
         icon: 'profile'
@@ -51,7 +51,7 @@ function ServiceElements ({ service }) {
         <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="services-wrapper pos-rel mb-30 wows fadeInUps animateds" data-wows-delay="0.3s">
                 <div className="services-icon">
-                    <Link href={"/gmp-mandatory-testing#" + service.link}>
+                    <Link href={service.link}>
                         <a className={'service-icon service-icon--' + service.icon}></a>
                     </Link>
                 </div>
@@ -59,7 +59,7 @@ function ServiceElements ({ service }) {
                     <h3>{service.title}</h3>
                 </div>
                 <div className="services-link">
-                    <Link href={"/gmp-mandatory-testing#" + service.link}>
+                    <Link href={service.link}>
                         <a>
                             <i><FontAwesomeIcon icon={faLongArrowAltRight} /></i>
                         </a>

@@ -53,14 +53,23 @@
       color: white;
     }
 }
-    .service__btn.service__btn--black {
-        border: 3px solid #000000;
-        color: #000000;
+.service__btn.service__btn--black {
+    border: 3px solid #000000;
+    color: #000000;
 
-        &:hover {
-          background-color: #000000;
-          color: white;
-        }
+    &:hover {
+        background-color: #000000;
+        color: white;
+    }
+}
+.service__btn.service__btn--green {
+    border: 3px solid #099C39;
+    color: #099C39;
+
+    &:hover {
+        background-color: #099C39;
+        color: white;
+    }
 }
 
 .service__title {
