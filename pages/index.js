@@ -2,11 +2,12 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 
 import Header from '../components/index/header'
-import About from '../components/index/about'
+// import About from '../components/index/about'
 import Focus from '../components/index/focus'
 import Services from '../components/index/services'
 import Choose from '../components/index/choose'
 import Footer from '../components/footer'
+import Scripts from '../components/headScripts'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
 
           <meta name="description" content="GMP Cannabis Testing" />
 
-          <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ce5ca488-8b2e-45fd-bdad-474184244d32"> </script>
+          <Scripts />
         </Head>
 
         <main className={styles.main}>

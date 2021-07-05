@@ -3,6 +3,8 @@ import Head from 'next/head'
 
 import Header from '../components/index/header'
 import Footer from '../components/footer'
+import Scripts from '../components/headScripts'
+
 import { faBug, faCertificate, faFlask, faTimes, faExclamationTriangle, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 
 const testingServices = [
@@ -189,7 +191,7 @@ const Testing = () => {
 
                 <meta name="description" content="GMP Cannabis Testing" />
 
-                <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ce5ca488-8b2e-45fd-bdad-474184244d32"> </script>
+                <Scripts />
             </Head>
 
             <Header />

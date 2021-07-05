@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import Header from '../components/index/header'
 import Footer from '../components/footer'
+import Scripts from '../components/headScripts'
 
 const Services = () => {
 
@@ -12,8 +13,7 @@ const Services = () => {
         <Head>
           <title>Services - Cirtatic</title>
           <meta name="description" content="GMP Cannabis Testing" />
-
-          <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ce5ca488-8b2e-45fd-bdad-474184244d32"> </script>
+          <Scripts />
         </Head>
 
         <Header />
@@ -22,7 +22,7 @@ const Services = () => {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h1 className="my-4">All analytical testing services</h1>
+                <h1 className="my-5">All analytical testing services</h1>
                 <p className="about-info">
                   ✅ Welcome to our all-in-one suite of cannabis testing & certification services - from seed to soil/water to pre-harvest testing to full GMP cannabis mandatory release testing certification <br />
                   ✅ All our facilities & services are accedited by a recognized acceditation agency in comformity with all government bodies & international regulatatory agencies <br />
@@ -34,7 +34,7 @@ const Services = () => {
 
             <div className="row">
               <div className="col">
-                <h3 className="my-4">
+                <h3 className="my-5">
                   <Link href="/gmp-mandatory-testing">
                     <a className="c-btn service__title">GMP Mandatory Testing</a>
                   </Link>
@@ -59,7 +59,7 @@ const Services = () => {
                   </div>
                 </div>
 
-                <h3 className="my-4">
+                <h3 className="my-5">
                   <Link href="/soil-and-water-testing">
                    <a className="c-btn service__title">Soil and Water Testing</a>
                   </Link>
@@ -86,7 +86,7 @@ const Services = () => {
                   </div>
                 </div>
 
-                <h3 className="my-4">
+                <h3 className="my-5">
                   <a className="c-btn service__title" href="/seed-testing">Seed Testing</a>
                 </h3>
 
