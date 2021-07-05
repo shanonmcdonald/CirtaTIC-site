@@ -208,9 +208,9 @@ const Testing = () => {
                                 </div>
                                 <div className="col-md-5 offset-md-1">
                                     <p>
-                                        Our testing services and lab facilities are fully GMP compliant and accredited by international and domestic governing bodies. At Cirta, we are certified to provide our clients with an all-in-one cannabis testing suite that is approved and compliant with GMP cannabis regulations.
+                                        Our testing services and lab facilities are fully GMP compliant and accredited by international and domestic governing bodies. At Cirta, we are certified to provide our clients the full GMP cannabis testing certification.
                                         <br /><br />
-                                        In order for cannabis products to be considered high quality or for medical purposes it must satisfy the stringent pharmaceutical quality standards guaranteeing consistency, traceability, integrity and quality assurance. Good Manufacturing Practices(GMP) are guidlines and practices released by the World Health Organization(WHO) in order to conform with international pharmaceutical regulators and international industry segment regulators which are deliberatly harmanized with government regulatory agencies and the International Organization for Standards(ISO) achieving a total quality systems of standards and regulations.
+                                        In order for cannabis and its derivatives to be considered safe for public consumption it must satisfy the stringent pharmaceutical testing for quality standards guaranteeing consistency, traceability, integrity and quality assurance. Good Manufacturing Practices(GMP) are guidlines and practices released and regulated by the World Health Organization(WHO) in order to conform with international regulations. 
 
                                     </p>
                                 </div>

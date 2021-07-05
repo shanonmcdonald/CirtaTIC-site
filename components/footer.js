@@ -13,7 +13,7 @@ const Footer = () => {
                             <p>
                                 <a href="#">Cirta</a>
                                 <br />
-                                <span className="white-color">📱 (201) 328 7539 </span>
+                                <span className="white-color">📱 +1-844-412-1435 </span>
                                 <br/>
                                 <a href="mailto:cirta@cirtausa.com" className="footer__a">📩 sales@cirtausa.com</a>
                                 <br/>

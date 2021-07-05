@@ -4,9 +4,9 @@
 export default function Focus () {
     let counter = 1;
     const steps = [
-        { title: 'Sign-in to Cirta portals' },
-        { title: 'Create your testing schema' },
-        { title: 'We pick up your sample free of charge' },
+        { title: 'Create an account on Cirta portals' },
+        { title: 'Select or create your testing schema' },
+        { title: 'We pick up samples from your door step' },
         { title: 'View your results on Cirta portals' }
     ]
     const stepElms = []
@@ -42,9 +42,9 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            Our mission is to facilitate the legitimacy of the rapidly growing cannabis industry in conformity with scientific global societies of testing inspection certification and verification
+                                            Our mission- facilitating the legitimacy of the rapidly growing cannabis industry in conformity with scientific global societies in testing inspection certification and verification
                                             <br /><br />
-                                            We deliver the highest analytical technologies available for our testing services while simultaneously utilizing the industries highest global certifications and standards tailored with precision for all our clients unique cannabis testing needs all implemented using the best eMehtods with-in our automated cloud platform. We unfalterly believe in superior testing services and methodologies as the key driving forces for innovation and market segment growth
+                                            We employ & develop the best analytical testing technologies while simultaneously utilizing the industries highest global & domestic certifications tailored to our clients unique cannabis testing needs all housed & delivered on our automated cloud platform. We believe in superior testing services as the key driving forces for cannabis innovation and market segment growth
                                             </p>
                                         </div>
                                         { /* <div className="col-lg-6 d-flex">

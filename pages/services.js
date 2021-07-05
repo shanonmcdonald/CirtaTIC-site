@@ -24,10 +24,10 @@ const Services = () => {
               <div className="col">
                 <h1 className="my-4">All analytical testing services</h1>
                 <p className="about-info">
-                  ✅ Our complete suite of cannabis related analytical testing services are fully compliant to regulations and is accredited to the highest relating industry standards<br />
-                  ✅ We manage and employ your testing business processes, data management, data analytics, logistics and global complex cannabis legal regulations while streamlining your testing workflow by increasing business credibility, increasing productivity and maximizing profitability no matter the volume  <br />
-                  ✅ Our robust ePlatform features a secure in-house cloud hosted portal automated to accerate your lab testing schema implementations providing digital solutions to all your testing administrative needs with 24/7 support by our team of expert scientists and engineers  <br />
-                  ✅ We verify your busniness and products offering a competetive edge in quality assurance and brand protection, keeping you ahead of the competition
+                  ✅ Welcome to our all-in-one suite of cannabis testing & certification services - from seed to soil/water to pre-harvest testing to full GMP cannabis mandatory release testing certification <br />
+                  ✅ All our facilities & services are accedited by a recognized acceditation agency in comformity with all government bodies & international regulatatory agencies <br />
+                  ✅ Our web services are hosted in GovCloud(US) forfilling US government compliance and regulatory requirements in technology & security practices for FedRAMP, ITAR, SRG Levels 2 and 4, CJIS Security Policy, and/or HIPAA.  <br />
+                  ✅ We certify cannabis busninesses & cannabis products, delivering our clients a competetive edge in quality assurance and brand protection, "keeping you ahead of the competition"
                 </p>
               </div>
             </div>
