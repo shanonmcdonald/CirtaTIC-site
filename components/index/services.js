@@ -20,25 +20,25 @@ const services = [
         description:"",
         icon: 'pesticide'
     }, {
-        title: 'GMP',
+        title: 'GMP certification testing',
         link: '/gmp-mandatory-testing',
         //description: 'Test for compliance DL=< 0.3%',
         description:"",
         icon: 'hemp-flowery-test'
     }, {
-        title: 'Aflatoxin',
+        title: 'Aflatoxin screening',
         link: '/gmp-mandatory-testing#aflatoxin',
         //description: 'B1, B2, G1, G2',
         description:"",
         icon: 'aflatoxin'
     }, {
-        title: 'Preharvest',
+        title: 'Pre-harvest compliance testing',
         link: '/preharvest-and-compliance-testing',
         //description: 'Total THC potency test DL =< 4ppm',
         description:"",
         icon: 'hemp-product-test'
     }, {
-        title: 'Total cannabinoid profile',
+        title: 'Total cannabinoid profiling',
         link: '/gmp-mandatory-testing#total-cannabis-cannabinoid-profile',
         //description: 'THC (delta 8, 9) OH-THC,CBD, CBL, CBC, CBCA, CBDV, CBDVA, CBG, CBGA, CBN, CBNA, THCA-A, THCV, THCVA',
         description:"",

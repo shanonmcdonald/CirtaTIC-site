@@ -52,23 +52,23 @@ export default function Focus () {
                                     <div className="row mt-4">
                                         <div className="col">
                                             <div className="mb-3">
-                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                                <img src="/service-research.svg" class="" alt="Alt text" />
                                             </div>
-                                            <h5>column 1</h5>
+                                            <h5>Regulations</h5>
                                             <p>description 1</p>
                                         </div>
                                         <div className="col">
                                             <div className="mb-3">
-                                                <img src="/service-design.svg" class="img-fluid" alt="Alt text" />
+                                                <img src="/service-strategy.svg" class="img-fluid" alt="Alt text" />
                                             </div>
-                                            <h5>column 1</h5>
+                                            <h5>Strategy</h5>
                                             <p>description 1</p>
                                         </div>
                                         <div className="col">
                                             <div className="mb-3">
-                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                                <img src="/service-development.svg" class="" alt="Alt text" />
                                             </div>
-                                            <h5>column 1</h5>
+                                            <h5>Development</h5>
                                             <p>description 1</p>
                                         </div>
                                         <div className="col">
