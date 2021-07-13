@@ -42,9 +42,9 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            Our mission- facilitating the legitimacy of the rapidly growing cannabis industry in conformity with scientific global societies in testing inspection certification and verification
+                                            We are dedicated to legitimizing the cannabis industry by bringing testing, certification, quality assurance, safety and sustainability to life in conformity with global scientific testing & regulating societies
                                             <br /><br />
-                                            We employ & develop the best analytical testing technologies while simultaneously utilizing the industries highest global & domestic certifications tailored to our clients unique cannabis testing needs all housed & delivered on our automated cloud platform. We believe in superior testing services as the key driving forces for cannabis innovation and market segment growth
+                                             We strive to exceed customer expectations by offering a superior testing service and believe this to be the key driving force for cannabis innovation and industry growth
                                             </p>
                                         </div>
                                     </div>
@@ -55,29 +55,23 @@ export default function Focus () {
                                                 <img src="/service-research.svg" class="" alt="Alt text" />
                                             </div>
                                             <h5>Regulations</h5>
-                                            <p>description 1</p>
+                                            <p>Specializing in government regulation processes, guaranteeing organizational compliance to regulations in all aspects of the cannabis industry. Rest assured that products reaching consumers meet the required standards  </p>
                                         </div>
                                         <div className="col">
                                             <div className="mb-3">
                                                 <img src="/service-strategy.svg" class="img-fluid" alt="Alt text" />
                                             </div>
                                             <h5>Strategy</h5>
-                                            <p>description 1</p>
-                                        </div>
-                                        <div className="col">
-                                            <div className="mb-3">
-                                                <img src="/service-development.svg" class="" alt="Alt text" />
-                                            </div>
-                                            <h5>Development</h5>
-                                            <p>description 1</p>
+                                            <p>Leveraging an extensive network of global and local accredited labs in a seemless approach to manage your entire cannabis supply chain from seed to sale, the most comprehensive spectrum of cannabis services developed in industry </p>
                                         </div>
                                         <div className="col">
                                             <div className="mb-3">
                                                 <img src="/service-design.svg" class="" alt="Alt text" />
                                             </div>
-                                            <h5>column 1</h5>
-                                            <p>description 1</p>
+                                            <h5>SaaS</h5>
+                                            <p>All services implemented and managed by cloud native portal hosted on highly secure AWS GOVCLOUD(US). Offering the-all-in-one digital cannabis platform for testing & certification all-in-one platform </p>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>

@@ -85,8 +85,8 @@ export default function Services () {
                     <div className="row">
                         <div className="col col-md-8 offset-md-2">
                             <div className="service-info">
-                                <p>Our state of the art pharmaceutical testing facilities are accredited by global & domestic regulating bodies ensuring every step is executed to the highest level of analytical processes in accordance with industry's 🌟gold standard🌟 certifications</p>
-                                <p>In the accredited testing industry, at Cirta, "tested or certified once - accepted everywhere"</p>
+                                <p>State-of-the-art pharmaceutical laboratories accredited by local and global mandated regulating bodies ensuring every step is in conformity with industry's leading certifications & standards</p>
+                                <p>At Cirta, 🌟tested or certified once - accepted everywhere🌟</p>
                             </div>
                         </div>
                     </div>
