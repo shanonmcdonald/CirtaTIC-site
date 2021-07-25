@@ -26,11 +26,14 @@ export default function Choose () {
                     <img src="/collab-relationship.png" alt="Collaborative Relationship Icon"/>
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4>Collaborative Relationship</h4>
+                    <h4>An industry of trust</h4>
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We strive to build a trusting, collaborative and efficient relationship with our clients creating innovative testing solutions for every phase of your cannabis production cycle while maintaining the most cost & time effective methods </p>
+                  <p>✅ Beyond your typical compliance <br />
+                  ✅ Trusting, collaborative and efficient testing solutions for every phase of the cannabis supply chain.
+                  <br />✅ Fully certified by the appropriate authorities and corresponding with GMP, GDP, GACP guidelines
+                  </p>
                 </div>
               </div>
             </div>
@@ -41,11 +44,14 @@ export default function Choose () {
                     <img src="/world-standards.png" alt="World Class Standards Icon" />
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4>World class standards</h4>
+                    <h4>World class certification</h4>
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We act in accordance to industries highest regulatory standards and certifications. Utilizing cGMP methodologies used in established industries suchlike pharmaceuticals, food, agriculture and nutraceuticals while delivering a superior end-to-end cannabis workflow</p>
+                  <p>✅ Utilizing cGMP and best practices used in established global markets
+                   <br /> ✅ Safeguarding consumer health and providing cannabis testing certification under good practices
+                   <br /> ✅
+                  </p>
                 </div>
               </div>
             </div>
@@ -61,7 +67,9 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>We offer an unrivaled testing service. Combining the latest analytical technologies, eMethods, automation and cloud computing technologies to optimize the most leverage from our services for you to thrive in the competitive global cannabis marketplace </p>
+                  <p> ✅ Prioritizing innovation, technology, IT and logistics ensuring high standards.
+                  < br/>✅ Automation in the cloud to optimizate services for a competitive edge in the global cannabis marketplace
+                  < br/> ✅ Laboratories that provide GMP level certification for cannabis</p>
                 </div>
               </div>
             </div>
