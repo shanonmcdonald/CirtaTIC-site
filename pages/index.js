@@ -8,6 +8,7 @@ import Services from '../components/index/services'
 import Choose from '../components/index/choose'
 import Footer from '../components/footer'
 import Scripts from '../components/headScripts'
+import NewArticles from '../components/index/newArticles'
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
             <Services />
             <Focus />
             <Choose />
+            <NewArticles />
           </section>
         </main>
 

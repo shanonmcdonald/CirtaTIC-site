@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriver } from '@fortawesome/free-solid-svg-icons';
-import { faReceipt } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faScrewdriver } from '@fortawesome/free-solid-svg-icons';
+// import { faReceipt } from '@fortawesome/free-solid-svg-icons'
 // import RelationshipImg from '../../public/collab-relationship.png'
 
 export default function Choose () {
@@ -26,7 +26,7 @@ export default function Choose () {
                     <img src="/collab-relationship.png" alt="Collaborative Relationship Icon"/>
                   </div>
                   <div className="client-say-content align-self-center">
-                    <h4>An industry of trust</h4>
+                    <h4>Industry of trust</h4>
                   </div>
                 </div>
                 <div className="test-text">
