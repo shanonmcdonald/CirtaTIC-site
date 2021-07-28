@@ -30,9 +30,9 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>✅ Beyond your typical compliance <br />
-                  ✅ Trusting, collaborative and efficient testing solutions for every phase of the cannabis supply chain.
-                  <br />✅ Fully certified by the appropriate authorities and corresponding with GMP, GDP, GACP guidelines
+                  <p>✅ Tested and certified once - accepted everywhere <br />
+                  ✅ Solutions for every phase of the cannabis supply chain
+                  <br />✅ Processes in conformity with industry's leading certifications & standards
                   </p>
                 </div>
               </div>
@@ -48,9 +48,9 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p>✅ Utilizing cGMP and best practices used in established global markets
-                   <br /> ✅ Safeguarding consumer health and providing cannabis testing certification under good practices
-                   <br /> ✅
+                  <p>✅ Best practices used in established global markets
+                   <br /> ✅ Safeguarding consumer health and cannabis markets
+                   <br /> ✅ Accredited by the International Laboratory Accreditation Cooperation
                   </p>
                 </div>
               </div>
@@ -67,9 +67,9 @@ export default function Choose () {
                   </div>
                 </div>
                 <div className="test-text">
-                  <p> ✅ Prioritizing innovation, technology, IT and logistics ensuring high standards.
-                  < br/>✅ Automation in the cloud to optimizate services for a competitive edge in the global cannabis marketplace
-                  < br/> ✅ Laboratories that provide GMP level certification for cannabis</p>
+                  <p> ✅ Prioritizing innovation, technology, IT and logistics
+                  < br/>✅ Automatied optimizate services for a competitive edge
+                  < br/> ✅ Laboratories accredited by local and global mandated regulating bodies</p>
                 </div>
               </div>
             </div>

@@ -24,10 +24,8 @@ const Services = () => {
               <div className="col">
                 <h1 className="my-5">All analytical testing services</h1>
                 <p className="about-info">
-                  ✅ Welcome to our all-in-one suite of cannabis testing & certification services - from seed to soil/water to pre-harvest testing to full GMP cannabis mandatory release testing certification <br />
-                  ✅ All our facilities & services are accedited by a recognized acceditation agency in comformity with all government bodies & international regulatatory agencies <br />
-                  ✅ Our web services are hosted in GovCloud(US) forfilling US government compliance and regulatory requirements in technology & security practices for FedRAMP, ITAR, SRG Levels 2 and 4, CJIS Security Policy, and/or HIPAA.  <br />
-                  ✅ We certify cannabis busninesses & cannabis products, delivering our clients a competetive edge in quality assurance and brand protection, "keeping you ahead of the competition"
+                  🌱Welcome to our all-in-one suite of cannabis testing & certification services - from seed to soil/water to pre-harvest testing to full GMP cannabis mandatory release testing certification 🌱<br />
+
                 </p>
               </div>
             </div>
@@ -36,7 +34,7 @@ const Services = () => {
               <div className="col">
                 <h3 className="my-5">
                   <Link href="/preharvest-and-compliance-testing">
-                    <a className="c-btn service__title">Preharvest & Compliance Testing</a>
+                    <a className="c-btn service__title">Pre-harvest & Compliance Testing</a>
                   </Link>
                 </h3>
 

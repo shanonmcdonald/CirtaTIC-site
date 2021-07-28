@@ -84,9 +84,9 @@ export default function Services () {
                     </div>
                     <div className="row">
                         <div className="col col-md-8 offset-md-2">
-                            <div className="service-info">
-                                <p>State-of-the-art pharmaceutical laboratories accredited by local and global mandated regulating bodies ensuring every step is in conformity with industry's leading certifications & standards</p>
-                                <p>At Cirta, 🌟tested or certified once - accepted everywhere🌟</p>
+                            <div className="service-info " >
+                                <p></p>
+
                             </div>
                         </div>
                     </div>

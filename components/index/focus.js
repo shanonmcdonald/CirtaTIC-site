@@ -44,7 +44,7 @@ export default function Focus () {
                                             <p className="about-info"><span className="border-left-1"></span>
                                             We are dedicated to legitimizing the cannabis industry by bringing testing, certification, quality assurance, safety and sustainability to life in conformity with global scientific testing & regulating societies
                                             <br /><br />
-                                             We strive to exceed customer expectations by offering a superior testing service and believe this to be the key driving force for cannabis innovation and industry growth
+                                            { /* We strive to exceed customer expectations by offering a superior testing service and believe this to be the key driving force for cannabis innovation and industry growth */ }
                                             </p>
                                         </div>
                                     </div>
@@ -52,24 +52,24 @@ export default function Focus () {
                                     <div className="row mt-4">
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-research.svg" class="" alt="Alt text" />
+                                                <img src="/service-research.svg" className="" alt="Alt text" />
                                             </div>
                                             <h5>Regulations</h5>
-                                            <p>Specializing in government regulation processes, guaranteeing organizational compliance to regulations in all aspects of the cannabis industry. Rest assured that products reaching consumers meet the required standards  </p>
+                                            <p>Guaranteeing organizational compliance in all aspects of the cannabis industry. Rest assured that products reaching consumers meet the required standards  </p>
                                         </div>
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-strategy.svg" class="img-fluid" alt="Alt text" />
+                                                <img src="/service-strategy.svg" className="img-fluid" alt="Alt text" />
                                             </div>
                                             <h5>Strategy</h5>
-                                            <p>Leveraging an extensive network of global and local accredited labs in a seemless approach to manage your entire cannabis supply chain from seed to sale, the most comprehensive spectrum of cannabis services developed in industry </p>
+                                            <p>Leveraging an extensive network of global and local accredited labs in a seemless approach to manage your entire cannabis supply chain from seed to sale </p>
                                         </div>
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-design.svg" class="" alt="Alt text" />
+                                                <img src="/service-design.svg" className="" alt="Alt text" />
                                             </div>
                                             <h5>SaaS</h5>
-                                            <p>All services implemented and managed by cloud native portal hosted on highly secure AWS GOVCLOUD(US). Offering the-all-in-one digital cannabis platform for testing & certification all-in-one platform </p>
+                                            <p>Offering the-all-in-one digital cannabis platform for testing & certification all-in-one place </p>
                                         </div>
 
                                     </div>

@@ -1,5 +1,8 @@
 .hero-slider-caption {
     // border: 1px solid $theme-color;
+    @media #{$xs} {
+      margin-bottom: 15px;
+    }
 
     h1 {
         font-size: 70px;
@@ -24,6 +27,24 @@
     span {
         text-shadow: 2px 2px 2px #000;
         font-weight: bold;
+        width: 0;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid #333;
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .12em;
+        animation:
+          typing 5.5s 1s normal forwards,
+          blink-caret .75s step-end infinite;
+
+        @media #{$xs} {
+            white-space: normal;
+            animation: none;
+            width: auto;
+            overflow: visible;
+            border-right: none;
+            margin: auto;
+        }
     }
 }
 
@@ -245,4 +266,21 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.logo-size {
+  height: 5px;
+  width: auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to {
+    width: 100%;
+    border-right: none;
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #333; }
 }
