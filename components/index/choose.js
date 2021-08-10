@@ -23,7 +23,7 @@ export default function Choose () {
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
-                    <img src="/collab-relationship.png" alt="Collaborative Relationship Icon"/>
+                    <img src="/testing_collab-relationship.svg" alt="Collaborative Relationship Icon"/>
                   </div>
                   <div className="client-say-content align-self-center">
                     <h4>Industry of trust</h4>
@@ -41,7 +41,7 @@ export default function Choose () {
               <div className="test-wrapper">
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
-                    <img src="/world-standards.png" alt="World Class Standards Icon" />
+                    <img src="/cannabis-world-standards.svg" alt="World Class Standards Icon" />
                   </div>
                   <div className="client-say-content align-self-center">
                     <h4>World class certification</h4>
@@ -60,7 +60,7 @@ export default function Choose () {
                 <div className="clientsay-name d-flex">
                   <div className="client-say-icon">
                     { /* <i><FontAwesomeIcon icon={faReceipt}/></i> */ }
-                    <img src="/tech-lab.png" alt="Technologies and Laboratories Icon" />
+                    <img src="/testing-tech-lab.svg" alt="Technologies and Laboratories Icon" />
                   </div>
                   <div className="client-say-content align-self-center">
                     <h4>Technologies and laboratories</h4>
@@ -80,68 +80,68 @@ export default function Choose () {
             <div id="marquee">
               <div className="photobanner">
                 <div className="img-wrapper">
-                  <img src="/ctpat_logo.png" alt="" />
+                  <img src="/ctpat_logo.svg" alt="Cannabis related certification" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/usp_logo.png" alt="" />
+                  <img src="/usp_certification.svg" alt="Cannabis related certification" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/who_logo.png" alt="" />
+                  <img src="/who cannabis.svg" alt="Cannabis GMP mandated certification" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/iso9001_logo.png" alt="" />
+                  <img src="/iso9001-cannabis.svg" alt="ISO management systems cannabis" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/fda_logo.png" alt="" />
+                  <img src="/fda_hemp.svg" alt="FDA regulates hemp and cannabis" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/aoac_logo.png" alt="" />
+                  <img src="/aoac_testing.svg" alt="AOAC International is a 501 non-profit scientific association" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/healthcanada_logo.png" alt="" />
+                  <img src="/healthcanada_cannabis.svg" alt="health canada cannabis act" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/ISO45001_logo.png" alt="" />
+                  <img src="/ISO45001_certification.svg" alt="iso 45001 cannabis hemp related certification" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/glp_logo.png" alt="" />
+                  <img src="/glp_cannabis-lab.svg" alt="good laboratory practices" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/fsa_logo.png" alt="" />
+                  <img src="/fsa_farming.svg" alt="farming service agency" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/dea_logo.png" alt="" />
+                  <img src="/dea_cannabis.svg" alt="Drug enforcement agency DEA compliance" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/ psci_logo.png" alt="" />
+                  <img src="/ psci_logo.svg" alt="" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/fsma_logo.png" alt="" />
+                  <img src="/fsma_safety.svg" alt="fda food safety modernization act" />
                 </div>
                 <div className="img-wrapper">
-                  <img src="/govcloud_logo.png" alt="" />
+                  <img src="/govcloud_automation.svg" alt="cloud hosted automated portal" />
                 </div>
                 <div className="img-wrapper">
-                <img src="/gmp_logo.png" alt="" />
+                <img src="/gmp_cannabis.svg" alt="gmp cannabis regulations for cannabis" />
               </div>
               <div className="img-wrapper">
-                <img src="/HACCP_logo.png" alt="" />
+                <img src="/HACCP_for_cannabis.svg" alt="" />
               </div>
               <div className="img-wrapper">
-                <img src="/globalgap_logo.png" alt="" />
+                <img src="/globalgap_agri.svg" alt="global agriculture practices" />
               </div>
 
               <div className="img-wrapper">
-                <img src="/gfsi_logo.png" alt="" />
+                <img src="/gfsi_logo.svg" alt="" />
               </div>
               <div className="img-wrapper">
-                <img src="/iso17025_logo.png" alt="" />
+                <img src="/iso17025_lab.svg" alt="lab requirements for testing" />
               </div>
               <div className="img-wrapper">
-                <img src="/iso28000_logo.png" alt="" />
+                <img src="/iso28000_logo.svg" alt="" />
               </div>
               <div className="img-wrapper">
-                <img src="/iso45001_logo.png" alt="" />
+                <img src="/SGS_testing.svg" alt="sgs leading testing inspection certification" />
               </div>
             </div>
             </div>

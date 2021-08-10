@@ -19,7 +19,7 @@ export default function NewArticles () {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="post-wrapper mb-30">
                                 <div className="post-image fix">
-                                    <a href="#"><img src="hemp_pod.png" /> </a>
+                                    <a href="https://open.spotify.com/episode/6M4G3RsfzDtQAnP8KtFDV6"><img src="hemp_podcast.svg" /> </a>
                                 </div>
                                 <div className="post-caption">
                                     <div className="post-meta mb-20">
@@ -40,7 +40,7 @@ export default function NewArticles () {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="post-wrapper mb-30">
                                 <div className="post-image fix">
-                                    <a href="https://www.astm.org/CERTIFICATION/DOCS/Cannabis-Infographic_Oct_2020.pdf"><img src="astm_cannabis.png" /> </a>
+                                    <a href="https://www.astm.org/CERTIFICATION/DOCS/Cannabis-Infographic_Oct_2020.pdf"><img src="astm_cannabis.svg" /> </a>
                                 </div>
                                 <div className="post-caption">
                                     <div className="post-meta mb-20">
@@ -61,7 +61,7 @@ export default function NewArticles () {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="post-wrapper mb-30">
                                 <div className="post-image fix">
-                                    <a href="https://www.gmpcollective.com/"><img src="gmp_collective.jpeg" /> </a>
+                                    <a href="https://www.gmpcollective.com/"><img src="gmp_collective.svg" /> </a>
                                 </div>
                                 <div className="post-caption">
                                     <div className="post-meta mb-20">
@@ -82,7 +82,7 @@ export default function NewArticles () {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="post-wrapper mb-30">
                                 <div className="post-image fix">
-                                    <a href="https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=&v=2.1&it=r&id=GALE%7CA422778294&sid=googleScholar&linkaccess=abs&userGroupName=anon%7Ea8f14ede"><img src="testing_qa.jpg" /> </a>
+                                    <a href="https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=&v=2.1&it=r&id=GALE%7CA422778294&sid=googleScholar&linkaccess=abs&userGroupName=anon%7Ea8f14ede"><img src="Gmp_newstandards.svg" /> </a>
                                 </div>
                                 <div className="post-caption">
                                     <div className="post-meta mb-20">
@@ -103,7 +103,7 @@ export default function NewArticles () {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="post-wrapper mb-30">
                                 <div className="post-image fix">
-                                    <a href="https://cannabisindustryjournal.com/feature_article/what-does-gmp-mean-and-how-is-this-different-from-eu-gmp/"><img src="gmp_what.jpeg" /> </a>
+                                    <a href="https://cannabisindustryjournal.com/feature_article/what-does-gmp-mean-and-how-is-this-different-from-eu-gmp/"><img src="gmp_what.svg" /> </a>
                                 </div>
                                 <div className="post-caption">
                                     <div className="post-meta mb-20">

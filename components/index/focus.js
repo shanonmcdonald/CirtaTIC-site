@@ -42,7 +42,7 @@ export default function Focus () {
                                     <div className="row">
                                         <div className="col">
                                             <p className="about-info"><span className="border-left-1"></span>
-                                            We are dedicated to legitimizing the cannabis industry by bringing testing, certification, quality assurance, safety and sustainability to life in conformity with global scientific testing & regulating societies
+                                            We are dedicated to legitimizing the cannabis industry by integrating accredited testing, certification, quality assurance, safety and sustainability
                                             <br /><br />
                                             { /* We strive to exceed customer expectations by offering a superior testing service and believe this to be the key driving force for cannabis innovation and industry growth */ }
                                             </p>
@@ -52,24 +52,24 @@ export default function Focus () {
                                     <div className="row mt-4">
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-research.svg" className="" alt="Alt text" />
+                                                <img src="/Cannabis_law_logo.svg" className="" alt="Alt text" width={70} height={90} />
                                             </div>
                                             <h5>Regulations</h5>
-                                            <p>Guaranteeing organizational compliance in all aspects of the cannabis industry. Rest assured that products reaching consumers meet the required standards  </p>
+                                            <p>Designed and driven to comply with best practices of global cannabis standards, assuring your products exceed market expectations  </p>
                                         </div>
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-strategy.svg" className="img-fluid" alt="Alt text" />
+                                                <img src="/strategy_logo.svg" className="img-fluid" alt="Alt text" width={90} height={90} />
                                             </div>
                                             <h5>Strategy</h5>
-                                            <p>Leveraging an extensive network of global and local accredited labs in a seemless approach to manage your entire cannabis supply chain from seed to sale </p>
+                                            <p>Leveraging a network of established accredited labs with higher levels of credibility, ensuring safer consumer products and customer brand protection </p>
                                         </div>
                                         <div className="col-12 col-md-4">
                                             <div className="mb-3">
-                                                <img src="/service-design.svg" className="" alt="Alt text" />
+                                                <img src="/cannabis_testing_store.svg" className="" alt="Alt text" width={90} height={90} />
                                             </div>
                                             <h5>SaaS</h5>
-                                            <p>Offering the-all-in-one digital cannabis platform for testing & certification all-in-one place </p>
+                                            <p>Cannabis testing & certification services automated on an intelligent cloud platform with the most comprehensive list of digital services</p>
                                         </div>
 
                                     </div>

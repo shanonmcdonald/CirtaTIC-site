@@ -10,7 +10,7 @@
         color: white;
         font-weight: bold;
         margin-top: 40px;
-        text-shadow: 2px 2px 2px #444;
+        text-shadow: 2px 2px 2px #000000;
         @media #{$lg}{
             font-size: 50px;
         }
@@ -76,7 +76,7 @@
         width:100%;
         height:1000%;
         //position:center;
-        background: url('../public/cirta_background_logo.png') ;
+        background: url('../public/cirta_background_logo.svg') ;
 
         background-size: 309px;
         //background-repeat: no-repeat;
@@ -88,7 +88,7 @@
     width:100%;
     height:1000%;
     //position:center;
-    background: url('../public/cirta_background_logo.png') ;
+    background: url('../public/cirta_background_logo.svg') ;
 
     background-size: 90px;
     //background-repeat: no-repeat;
@@ -170,27 +170,27 @@
 }
 
 .service-icon.service-icon--micro {
-    background-image: url('../public/lab-certified.png');
+    background-image: url('../public/lab-certified.svg');
 }
 
 .service-icon.service-icon--pesticide {
-    background-image: url('../public/herbicide.png');
+    background-image: url('../public/herbicide.svg');
 }
 
 .service-icon.service-icon--hemp-flowery-test {
-    background-image: url('../public/gmp_mando_logo.png');
+    background-image: url('../public/gmp_mandatory_certification.svg');
 }
 
 .service-icon.service-icon--aflatoxin {
-    background-image: url('../public/nano-amplified.png');
+    background-image: url('../public/nano-amplified.svg');
 }
 
 .service-icon.service-icon--hemp-product-test {
-    background-image: url('../public/ratio.png');
+    background-image: url('../public/thc-ratio.svg');
 }
 
 .service-icon.service-icon--profile {
-    background-image: url('../public/lab-report.png');
+    background-image: url('../public/lab-report.svg');
 }
 
 #marquee {

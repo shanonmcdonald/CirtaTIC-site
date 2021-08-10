@@ -21,9 +21,9 @@ export default function Header () {
                                         <Link href="/">
                                             <a>
                                                 <img
-                                                    src="Cirta-logo-final.png"
+                                                    src="Cirta-logo-final300.svg"
                                                     alt="Cirta_logo"
-                                                    width={65}
+                                                    width={70}
                                                     height={75}
                                                 />
                                             </a>
@@ -50,7 +50,7 @@ export default function Header () {
                                         <Link href="/">
                                             <a>
                                                 <img
-                                                    src="americanflag_logo.png"
+                                                    src="americanflag_logo.svg"
                                                     alt="Cirta_logo"
                                                     width={70}
                                                     height={45}

@@ -25,7 +25,7 @@ const testingServices = [
         `,
         //description:"",
         //icon: faBug,
-        bg: ['/goldseal_logo.png']
+        bg: ['/goldseal_soil-testing.svg']
     }, {
         title: 'Silver profile package for soil and water tests',
         link: 'silver-profile-package-for-soil-and-water-tests',
@@ -40,7 +40,7 @@ const testingServices = [
         ⦿ Magnesium
           `,
         //icon: faTimes,
-        bg: ['/silverseal_logo.png']
+        bg: ['/silverseal_lsoil-testing.svg']
     }, {
         title: 'Bronze profile package for soil and water tests',
         link: 'bronze-profile-package-for-soil-and-water-tests',
@@ -52,7 +52,7 @@ const testingServices = [
         ⦿ Potassium
         `,
         //icon: faCertificate,
-        bg: ['/bronzeseal_logo.png']
+        bg: ['/bronze_soil-testing.svg']
     },{
         title: 'Multi-elemental profile in (oils)',
         link: 'multi-elemental-profile-in-oils',
@@ -68,7 +68,7 @@ const testingServices = [
         ⦿ Zinc (Zn)
         `,
         //icon: faCertificate,
-        bg: ['/multielement_logo.png']
+        bg: ['/cannabis-tester.svg']
     },
      {
         title: 'Micro-nutrient composite tests',
@@ -85,7 +85,7 @@ const testingServices = [
       `,
 
       //icon: faExclamationTriangle,
-        bg: ['/micronutrient_logo.png']
+        bg: ['/micronutrient_cannabis.svg']
     }, {
         title: 'Gold package plant/soil pesticides testing',
         link:  'gold-package-plant-soil-pesticides-testing',
@@ -98,7 +98,7 @@ const testingServices = [
         spectrometry
         `,
         //icon: faPlusSquare,
-        bg: ['/goldpesticide_logo.png'] // TODO SHANON: put image name here
+        bg: ['/gold-pesticide_testing.svg'] // TODO SHANON: put image name here
     }, {
         title: 'Silver package plant/soil pesticide testing',
         link:  'silver-package-plant-soil-pesticide-testing',
@@ -111,7 +111,7 @@ const testingServices = [
         `,
 
         //icon: faFlask,
-        bg: ['/silverpesticide_logo.png'] // TODO SHANON: put image name here
+        bg: ['/silver-pesticide_testing.svg'] // TODO SHANON: put image name here
     },
     {
         title: 'Plant/soil heavy metal screening',
@@ -125,7 +125,7 @@ const testingServices = [
         Instrumentation: Inductively coupled plasma mass
         spectrometry
         `,
-        bg: ['/plasma_bg.jpg'] // TODO SHANON: put image name here
+        bg: ['/plasma-mass-spectrometry.svg'] // TODO SHANON: put image name here
         //icon: faFlask
     },
     {
@@ -144,7 +144,7 @@ const testingServices = [
         spectrometry
 
         `,
-       bg: ['/Quaternary2_logo.png','/Quaternary1_logo.png'] // TODO SHANON: put image name here
+       bg: ['/microscope-hemp.svg','/cannabis-sample.svg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     },
     {
@@ -156,7 +156,7 @@ const testingServices = [
         (International)
         Methodology: AOAC section 973.67
         Instrumentation: Gamma-ray spectroscopic`,
-       bg: ['/radiation_logo.png'] // TODO SHANON: put image name here
+       bg: ['/radiation_testing.svg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     },
     {
@@ -209,7 +209,7 @@ const testingServices = [
         ⦿ % solid
         ⦿ % water pH
         `,
-        bg: ['/speciality_logo.png'] // TODO SHANON: put image name here
+        bg: ['/speciality_testing.svg'] // TODO SHANON: put image name here
         //icon: faExclamationTriangle
     }
 
@@ -267,7 +267,7 @@ const Testing = () => {
                     <div className="container">
                             <div className="row">
                                 {<div className="offset-md-1 col-md-5">
-                                    <img src="/soilseedpage_logo.jpg" alt="Soil and Seed Testing" />
+                                    <img src="/soilseed_testing.svg" alt="Soil and Seed Testing" />
                                 </div>}
                                 <div className="col-md-5">
                                     <p>

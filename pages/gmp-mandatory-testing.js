@@ -23,7 +23,7 @@ const testingServices = [
         S. aureus = <USP> ch. 2022`,
         read: 'GMP monitors certain microbes such as E. coli and Salmonella to be dangerous pathogens in cannabis flower, extracts and in a variety of infused products. Our GMP lab facility utilizes a GMP guidlined micro suitability pour plate method to detect unique DNA sequences of the harmful pathogens ',
         icon: faBug,
-        bg: ['/microbiology_bg.jpg']
+        bg: ['/microbiology_testing.svg']
     }, {
         title: 'Pesticides Screening',
         link: 'pesticides-screening',
@@ -35,7 +35,7 @@ const testingServices = [
         cannabis mandatory release cannabis
         pesticides limits list`,
         icon: faTimes,
-        bg: ['/pesticide_bg.jpg'],
+        bg: ['/pesticide_testing.svg'],
         read: 'GMP internationally regulates the complex matrix of cannabis pesticides limits. We achieve this GMP standard by utilizing a certified dual platform method using a triple quadrupole mass spectrometry coupled to both liquid and gas chromatography ensuring cannabis products are compliant to GMP limits and are safe to public health and consumers.',
     }, {
         title: 'Aflatoxin',
@@ -50,7 +50,7 @@ const testingServices = [
         Mass
         spectrometry`,
         icon: faExclamationTriangle,
-        bg: ['/lc_bg.jpg', '/ms_logo.png'],
+        bg: ['/Liquid-Chromatography_cannabis.svg', '/Mass-spectrometry.svg'],
         read: 'Aflaxtoxins are a type of mycotoxins which acts as potent carcinogens and even a small doses of exposure can be life threatening. We detect aflatoxins using GMP methologies and limits utilizing a complex combination of liquid chromatography with mass spectrometry to accurately detect amounts down to the parts per billion ',
     }, {
         title: 'Total Cannabis Cannabinoid Profile',
@@ -79,7 +79,7 @@ const testingServices = [
         ‣ Instrumentation: Ultra-performance Liquid
         Chromatography
         `,
-        bg: ['/canna-anal_bg.jpg','/cannaresults_logo.png'],
+        bg: ['/cannabis-analytics.svg','/cannabis-results.svg'],
         read: 'There are more than 60 cannabinoids compounds unique to the cannabis plant. We use an in house SGS proprietary (UPLC) method to chemically seperate, identify and quantify each cannabinoid compenent with in the sample mixture ',
     },
     {
@@ -97,7 +97,7 @@ const testingServices = [
         ‣ Instrumentation: Inductively coupled plasma
         mass spectrometry
         `,
-        bg: ['/plasma_bg.jpg'],
+        bg: ['/plasma-mass-spectrometry.svg'],
         read: 'GMP guidlines dictate limits to exposure of harmful heavy metals including lead, arsenic, mercury and cadmium to pose a serious safety risk and require heavy metals screening prior to cannabis products reaching commercial markets ',
     },
     {
@@ -109,7 +109,7 @@ const testingServices = [
         Chemists (International)
         ‣ Methodology: AFVAN-SLMF-0013
         ‣ Instrumentation: Scientific air oven`,
-        bg: ['/airoven_bg.jpg'],
+        bg: ['/airoven_flower.svg'],
         read: 'GMP limits moisture content for cannabis flowers/buds. Using our scientific infrared air oven we can detect the smallest measurements of plant moisture content up-to 4-plate analytical readouts',
     }
 ]
@@ -180,7 +180,7 @@ const Testing = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-5">
-                                    <img src="/service_bg.jpg" />
+                                    <img src="/gmp-mandated-service.svg" />
                                 </div>
                                 <div className="col-md-5 offset-md-1">
                                     <p>

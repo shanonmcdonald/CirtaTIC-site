@@ -30,7 +30,7 @@ const Testing = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-5">
-                                <img src="/Legal_hemp.png" />
+                                <img src="/Legal_hemp.svg" />
                             </div>
                             <div className="col-md-5 offset-md-1">
                                 <p>
@@ -101,7 +101,7 @@ const testingServices = [
         link: 'preharvest-test',
         description:`Pre-harvest compliance testing must be done by a state accredited 17025 laboratory to ensure crop is less than 0.3% total thc levels. We work with in our network of pre-screened state accredited labs to ensure lab legitimacy to qualify your crop as hemp `,
         icon: faPlusSquare,
-        bg: ['/17025_badge.png'],
+        bg: ['/17025_badge.svg'],
         read: 'Our in network labs use gas chromatography to determine total thc plant levels',
     }, {
         title: 'Hemp flower compliance test',
@@ -114,7 +114,7 @@ const testingServices = [
         ‣ Methodology: AFVAN-SLMF-0029
         ‣ Instrumentation: Gas Chromatography (GC)`,
         icon: faCertificate,
-        bg: ['/gc_bg.jpg'],
+        bg: ['/Gas_Chromatography_eq.svg'],
         read: 'Utilizing the latest (GC) analytical tools we verify that your hemp flower/buds are below the GMP hemp technical manual required limit of less than 0.3% THC content ',
     }, {
         title: 'Hemp products compliance test',
@@ -128,7 +128,7 @@ const testingServices = [
         ‣ Instrumentation = Gas Chromatography + Mass
         spectrometry`,
         icon: faPlusSquare,
-        bg: ['/gc_bg.jpg', '/ms_logo.png'],
+        bg: ['/Gas_Chromatography_eq.svg', '/Mass-spectrometry.svg'],
         read: 'Utilizing the latest (GC) in tangent with (MS) analytical tools we verify that your hemp product is below the GMP hemp technical manual required limit of no more than 4ppm in THC content ',
     }
 ]
